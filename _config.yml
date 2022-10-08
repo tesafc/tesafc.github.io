@@ -1,0 +1,13 @@
+title: tesa fc
+description: tesa fc official website
+permalink: pretty
+timezone: Asia/Jakarta
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+author:
+  name: tesa fc
+  email: tesafc@hotmail.com
+version: 2.0.0
