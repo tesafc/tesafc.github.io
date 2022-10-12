@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="{{ 'assets/stylesheet.css' | relative_url }}">
   </head>
   <body>
-    <header class="navbar container-fluid d-flex mx-auto text-bg-dark">
+    <header class="navbar d-flex mx-auto text-bg-dark">
       <a class="navbar-brand" href="{{ site.baseurl }}">
         <img src="{{ '/assets/img/logo-1_v2.png' | relative_url }}" width="30" height="30">
-        {{ site.title }}
+        <span class="text-bg-dark text-uppercase">{{ site.title }}</span>
       </a>
       <nav class="nav nav-masthead">
         <a class="nav-link fw-bold py-1 px-0 active" href="#">News</a>
