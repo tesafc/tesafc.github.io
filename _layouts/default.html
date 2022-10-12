@@ -21,17 +21,18 @@
     <link rel="stylesheet" href="{{ 'assets/stylesheet.css' | relative_url }}">
   </head>
   <body>
-    <header class="navbar d-flex mx-auto text-bg-dark">
-      <a class="navbar-brand" href="{{ site.baseurl }}">
-        <img src="{{ '/assets/img/logo-1_v2.png' | relative_url }}" width="30" height="30">
-        <span class="text-bg-dark text-uppercase">{{ site.title }}</span>
-      </a>
-      <nav class="nav nav-masthead">
-        <a class="nav-link fw-bold py-1 px-0 active" href="#">News</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Teams</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Matches</a>
-      </nav>
-    </header>
+    <div class="container-fluid">
+      <header class="navbar d-flex mx-auto text-bg-dark">
+        <a class="navbar-brand" href="{{ site.baseurl }}">
+          <img src="{{ '/assets/img/logo-1_v2.png' | relative_url }}" width="30" height="30">
+        </a>
+        <nav class="nav nav-masthead">
+          <a class="nav-link fw-bold py-1 px-0 active" href="#">News</a>
+          <a class="nav-link fw-bold py-1 px-0" href="#">Teams</a>
+          <a class="nav-link fw-bold py-1 px-0" href="#">Matches</a>
+        </nav>
+      </header>
+    </div>
     <main>
       {{ content }}
     </main>
