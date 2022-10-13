@@ -5,11 +5,11 @@ title: news
 
 <div>
   <div class="container">
-    <h1 class="mb-0">{{ page.title }}</h1>
-    <div class="row row-cols-md-3 g-2">
+    <h1 class="mb-0 text-capitalize fw-bolder">{{ page.title }}</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-2">
       {% for post in site.posts %}
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 text-bg-dark bg-gradient">
           {% if post.img %}
           <div class="ratio ratio-1x1">
             <img src="{{ post.img }}" alt="{{ post.title }}" class="card-img">
