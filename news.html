@@ -11,10 +11,10 @@ title: news
       <div class="col">
         <div class="card h-100 text-bg-dark bg-gradient border-0 rounded-0 shadow">
           <div class="ratio ratio-16x9">
-            <img src="{% if post.img %}{{ post.img }}{% else %}{{ 'assets/img/logo-1_v2.png' | relative_url }}{% endif %}" alt="{{ post.title }}" class="card-img rounded-0">
+            <img src="{% if post.img %}{{ post.img }}{% else %}{{ 'assets/img/logo-1_v2.png' | relative_url }}{% endif %}" alt="{{ post.title }}" class="card-img img-fluid rounded-0">
           </div>
           <div class="card-body d-flex flex-column justify-content-end">
-            <h2 class="card-title fs-5 text-capitalize">{{ post.title }}</h2>
+            <h2 class="card-title fs-5 text-capitalize"><a href="{{ post.url }}" class="stretched-link link-white text-decoration-none">{{ post.title }}</a></h2>
             <small class="card-text">{{ post.date | date: '%b %d, %Y' }}</small>
           </div>
         </div>
