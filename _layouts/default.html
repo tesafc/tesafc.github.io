@@ -22,11 +22,11 @@
   </head>
   <body class="text-bg-dark">
     <div class="container-fluid text-bg-dark">
-      <header class="navbar mx-auto border-bottom">
+      <header class="navbar mx-auto border-bottom py-0">
         <a class="navbar-brand" href="{{ site.baseurl }}">
           <img src="{{ '/assets/img/logo-1_v2.png' | relative_url }}" width="35" height="35" class="shadow">
         </a>
-        <nav class="nav nav-masthead py-0">
+        <nav class="nav nav-masthead">
           {% assign currentPage = page.url %}
           <a class="nav-link fw-bold py-3 px-0 {% if currentPage == '/news/' %}active{% endif %}" href="{{ 'news' | relative_url }}">News</a>
           <a class="nav-link fw-bold py-3 px-0 {% if currentPage == '/teams/' %}active{% endif %}" href="{{ 'teams' | relative_url }}">Teams</a>
