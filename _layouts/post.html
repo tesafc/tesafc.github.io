@@ -1,3 +1,19 @@
 ---
 layout: default
 ---
+
+<div class="my-2">
+  <div class="container">
+    <header class="text-bg-dark">
+      <h1>{{ page.title }}</h1>
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        <small>{{ page.date | date: '%B %d, %Y' }}</small>
+      </time>
+    </header>
+    <div class="container">
+      <div class="text-bg-dark">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
