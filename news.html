@@ -3,20 +3,20 @@ layout: default
 title: news
 ---
 
-<div>
+<div class="my-2">
   <div class="container">
     <h1 class="mb-0 text-capitalize fw-bolder">{{ page.title }}</h1>
     <div class="row row-cols-1 row-cols-md-3 g-2">
       {% for post in site.posts %}
       <div class="col">
-        <div class="card h-100 text-bg-dark bg-gradient">
+        <div class="card h-100 text-bg-dark bg-gradient border-0 shadow">
           {% if post.img %}
           <div class="ratio ratio-1x1">
             <img src="{{ post.img }}" alt="{{ post.title }}" class="card-img">
           </div>
           {% endif %}
           <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
+            <h5 class="card-title text-capitalize">{{ post.title }}</h5>
             <p class="card-text">{{ post.date | date: '%b %d, %Y' }}</p>
           </div>
         </div>
