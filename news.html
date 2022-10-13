@@ -16,7 +16,7 @@ title: news
           </div>
           {% endif %}
           <div class="card-body d-flex flex-column justify-content-end">
-            <h2 class="card-title fs-5 text-capitalize"><a href="{{ post.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ post.title }}</a></h2>
+            <h2 class="card-title fs-4 text-capitalize mb-0"><a href="{{ post.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ post.title }}</a></h2>
             <small class="card-text">{{ post.date | date: '%b %d, %Y' }}</small>
           </div>
         </div>
