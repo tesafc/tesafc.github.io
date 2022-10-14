@@ -7,12 +7,12 @@ title: first team
   <div class="container">
     {% assign teams = site.data.squad-2022 | where: "team", first-team %}
     {% assign positions = teams | group_by: "position" %}
-    {% for position in positions %}
     <div class="row row-cols-2 row-cols-md-3 g-3">
+      {% for position in positions %}
       <h2 class="d-block text-uppercase">{{ position.name }}</h2>
       {% for player in position.items %}
       <div class="col">
-        <div class="card text-bg-dark">
+        <div class="card text-bg-dark border-light">
           <div style="min-height: 16rem;">
             <img src="{{ player.profile-picture }}" alt="" class="card-img">
           </div>
@@ -22,8 +22,8 @@ title: first team
           </div>
         </div>
       </div>
+      {% endfor %}
+      {% endfor %}
     </div>
-    {% endfor %}
-    {% endfor %}
   </div>
 </div>
