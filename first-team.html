@@ -4,24 +4,26 @@ title: first team
 ---
 
 <div class="my-5">
-  <div class="row row-cols-2 row-cols-md-3 g-3">
-    {% assign teams = site.data.squad-2022 | where: "team", first-team %}
-    {% assign positions = teams | group_by: "position" %}
-    {% for position in positions %}
-    <h2 class="d-block text-uppercase">{{ position.name }}</h2>
-    {% for player in position.items %}
-    <div class="col">
-      <div class="card text-bg-dark">
-        <div class="ratio ratio-1x1">
-          <img src="{{ player.profile-picture }}" alt="" class="card-img">
-        </div>
-        <div class="card-img-overlay d-flex flex-column justify-content-between">
-          <h3 class="card-title">{{ player.jersey-number }}</h3>
-          <h4 class="card-text">{{ player.jersey-name }}</h4>
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-3 g-3">
+      {% assign teams = site.data.squad-2022 | where: "team", first-team %}
+      {% assign positions = teams | group_by: "position" %}
+      {% for position in positions %}
+      <h2 class="d-block text-uppercase">{{ position.name }}</h2>
+      {% for player in position.items %}
+      <div class="col">
+        <div class="card text-bg-dark">
+          <div class="ratio ratio-1x1">
+            <img src="{{ player.profile-picture }}" alt="" class="card-img">
+          </div>
+          <div class="card-img-overlay d-flex flex-column justify-content-between">
+            <h3 class="card-title">{{ player.jersey-number }}</h3>
+            <h4 class="card-text">{{ player.jersey-name }}</h4>
+          </div>
         </div>
       </div>
+      {% endfor %}
+      {% endfor %}
     </div>
-    {% endfor %}
-    {% endfor %}
   </div>
 </div>
