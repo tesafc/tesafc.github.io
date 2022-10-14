@@ -12,15 +12,15 @@ teams:
 
 <div class="my-5">
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1 row-cols-md-2 g-3">
       {% for team in page.teams %}
       <div class="col">
-        <div class="card h-100 text-bg-dark bg-gradient border-secondary border-opacity-10" style="min-height: 10rem;">
+        <div class="card h-100 text-bg-dark bg-gradient border-secondary border-opacity-10" style="min-height: 8rem;">
           <div class="ratio ratio-21x9">
             <img src="{{ team.img }}" alt="{{ team.name }}" class="rounded-top" style="object-fit: cover;">
           </div>
           <div class="card-body">
-            <h1 class="fs-3"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
+            <h1 class="fs-3 text-uppercase"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
           </div>
         </div>
       </div>
