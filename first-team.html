@@ -5,15 +5,15 @@ title: first team
 
 <div class="my-5">
   <div class="container">
+    {% assign teams = site.data.squad-2022 | where: "team", first-team %}
+    {% assign positions = teams | group_by: "position" %}
+    {% for position in positions %}
     <div class="row row-cols-2 row-cols-md-3 g-3">
-      {% assign teams = site.data.squad-2022 | where: "team", first-team %}
-      {% assign positions = teams | group_by: "position" %}
-      {% for position in positions %}
       <h2 class="d-block text-uppercase">{{ position.name }}</h2>
       {% for player in position.items %}
       <div class="col">
         <div class="card text-bg-dark">
-          <div class="ratio ratio-1x1">
+          <div style="min-height: 16rem;">
             <img src="{{ player.profile-picture }}" alt="" class="card-img">
           </div>
           <div class="card-img-overlay d-flex flex-column justify-content-between">
@@ -22,8 +22,8 @@ title: first team
           </div>
         </div>
       </div>
-      {% endfor %}
-      {% endfor %}
     </div>
+    {% endfor %}
+    {% endfor %}
   </div>
 </div>
