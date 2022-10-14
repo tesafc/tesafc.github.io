@@ -3,7 +3,7 @@ layout: default
 title: first team
 ---
 
-<div class="my-5">
+<div class="mb-5">
   <div class="container">
     {% assign teams = site.data.squad-2022 | where: "team", first-team %}
     {% assign positions = teams | group_by: "position" %}
