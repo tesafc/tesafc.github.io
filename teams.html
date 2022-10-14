@@ -1,15 +1,30 @@
 ---
 layout: default
 title: teams
+teams:
+  - name: first team
+    img: 
+    url:
+  - name: tesa fc family
+    img: 
+    url:
 ---
 
-<div class="py-2">
+<div class="my-5">
   <div class="container">
-    <div class="card text-bg-dark bg-gradient border-0 rounded-0 shadow" style="width: 16rem; height: 9rem;">
-      <img src="" class="card-img" alt="">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h1 class="card-title text-capitalize">first team</h1>
+    <div class="row row-cols-1 row-cols-md-2">
+      {% for team in page.teams %}
+      <div class="col">
+        <div class="card h-100 text-bg-dark bg-gradient border-secondary border-opacity-10" style="min-height: 10rem;">
+          <div class="ratio ratio-21x9">
+            <img src="{{ team.img }}" alt="{{ team.name }}" class="rounded-top" style="object-fit: cover;">
+          </div>
+          <div class="card-body">
+            <h1 class="fs-3"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
+          </div>
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </div>
