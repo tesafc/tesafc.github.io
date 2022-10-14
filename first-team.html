@@ -9,16 +9,14 @@ title: first team
     {% assign positions = teams | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for position in positions %}
-      <h2 class="d-block w-100 text-uppercase">{{ position.name }}</h2>
+      <h2 class="d-block w-100 text-uppercase mb-0">{{ position.name }}</h2>
       {% for player in position.items %}
       <div class="col">
         <div class="card text-bg-dark border-light">
-          <img src="{{ player.profile-picture }}" alt="" class="card-img" style="min-height: 16rem;">
-          <div class="card-img-overlay">
-            <div class="d-flex flex-column justify-content-between">
-              <h3 class="card-title fw-bolder">{{ player.jersey-number }}</h3>
-              <h4 class="card-text text-uppercase">{{ player.jersey-name }}</h4>
-            </div>
+          <img src="{{ player.profile-picture }}" alt="" class="card-img" style="height: 16rem;">
+          <div class="card-img-overlay d-flex flex-column justify-content-between">
+            <h3 class="card-title fw-bolder">{{ player.jersey-number }}</h3>
+            <h4 class="card-text text-uppercase">{{ player.jersey-name }}</h4>
           </div>
         </div>
       </div>
