@@ -13,7 +13,7 @@ title: first team
       {% for player in position.items %}
       <div class="col">
         <div class="card text-bg-dark border-0">
-          <img src="{{ player.profile-picture }}" alt="" class="card-img" style="min-height: 16rem; object-fit: cover;">
+          <img src="{{ player.profile-picture }}" alt="" class="card-img" style="max-height: 16rem; object-fit: cover;">
           <div class="card-img-overlay bg-gradient-top-bottom d-flex flex-column justify-content-between">
             <h3 class="card-title fw-bolder">{{ player.jersey-number }}</h3>
             <h4 class="card-text text-uppercase">{{ player.jersey-name }}</h4>
