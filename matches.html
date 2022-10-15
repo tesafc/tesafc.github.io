@@ -6,7 +6,7 @@ title: matches
 <div class="my-5">
   <div class="container">
     {% assign schedules = site.matches | where: "status", "match schedule" %}
-    <h1>Match schedule</h1>
+    <h1 class="mb-0 text-uppercase">{{ schedules.name }}</h1>
     <div class="row row-cols-1 g-3">
       {% for match in schedules %}
       <div class="col">
@@ -21,7 +21,7 @@ title: matches
   </div>
   <div class="container">
     {% assign results = site.matches | where: "status", "match result" %}
-    <h1 class="mt-5">match results</h1>
+    <h1 class="mt-5 mb-0 text-uppercase">{{ results.name }}</h1>
     <div class="row row-cols-1 g-3">
       {% for match in results reversed %}
       <div class="col">
