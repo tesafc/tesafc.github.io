@@ -5,10 +5,25 @@ title: matches
 
 <div class="my-5">
   <div class="container">
-    {% assign match-schedule = site.matches | where: "status", "match schedule" %}
-    <h1>match schedule</h1>
+    {% assign schedules = site.matches | where: "status", match schedule %}
+    <h1>Match schedule</h1>
     <div class="row row-cols-1 g-3">
-      {% for match in match-schedule %}
+      {% for match in schedules %}
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            {{ match.title }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="container">
+    {% assign results = site.matches | where: "status", match result %}
+    <h1>Match results</h1>
+    <div class="row row-cols-1 g-3">
+      {% for match in results %}
       <div class="col">
         <div class="card">
           <div class="card-body">
