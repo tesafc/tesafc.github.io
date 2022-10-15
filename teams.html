@@ -5,7 +5,7 @@ teams:
   - name: first team
     img: https://source.unsplash.com/Q-Qd44h6DZU
     url: /first-team
-  - name: tesa fc family
+  - name: academy
     img: https://source.unsplash.com/UFNyj2V5Hjk
     url: 
 ---
@@ -17,9 +17,9 @@ teams:
       <div class="col">
         <div class="card h-100 text-bg-dark bg-gradient border-secondary border-opacity-10 shadow" style="min-height: 8rem;">
           <div class="ratio ratio-21x9">
-            <img src="{{ team.img }}" alt="{{ team.name }}" class="rounded-top" style="object-fit: cover;">
+            <img src="{{ team.img }}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
           </div>
-          <div class="card-body">
+          <div class="card-img-overlay">
             <h1 class="fs-3 text-uppercase"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
           </div>
         </div>
