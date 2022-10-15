@@ -4,9 +4,9 @@ title: matches
 ---
 
 <div class="my-5">
-  <div class="container">
+  <div class="container px-0">
     {% assign schedules = site.matches | where: "status", "match schedule" %}
-    <h1 class="text-uppercase">match schedule</h1>
+    <h1 class="text-uppercase px-2">match schedule</h1>
     <div class="row row-cols-1 g-0">
       {% for match in schedules %}
       <div class="col">
@@ -24,7 +24,7 @@ title: matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="badge text-center text-bg-light fs-3 fw-bolder p-1 mb-0">VS</p>
+                <p class="text-center fs-3 fw-bolder p-2 mb-0">VS</p>
               </div>
               <div class="col-2 d-flex justify-content-start align-items-center">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
@@ -64,7 +64,7 @@ title: matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="badge text-center text-bg-light fs-3 fw-bolder p-1 mb-0">{{ match.result.score }}</p>
+                <p class="badge text-center text-bg-light fs-3 fw-bolder p-2 mb-0">{{ match.result.score }}</p>
               </div>
               <div class="col-2 d-flex justify-content-start align-items-center">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
