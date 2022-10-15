@@ -31,7 +31,17 @@ title: matches
             <p class="card-text text-center text-capitalize mb-0">{{ match.competition }} • {{ match.matchday }}</p>
           </div>
           <div class="card-body">
-            {{ match.title }}
+            <div class="row g-0">
+              <div class="col-5">
+                <p class="card-text">{{ match.home-team.name }}</p>
+              </div>
+              <div class="col-2">
+                <div class="badge text-bg-light fs-1 fw-bolder">{{ match.result.score }}</div>
+              </div>
+              <div class="col-5">
+                <p class="card-text">{{ match.away-team.name }}</p>
+              </div>
+            </div>
           </div>
           <div class="card-footer bg-transparent border-0">
             <p class="card-text text-center text-uppercase fw-bolder mb-0">{{ match.kick-off }}</p>
