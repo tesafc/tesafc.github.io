@@ -19,9 +19,9 @@ title: matches
       {% endfor %}
     </div>
   </div>
-  <div class="container">
+  <div class="container px-0">
     {% assign results = site.matches | where: "status", "match result" %}
-    <h1 class="mt-5 text-uppercase">match results</h1>
+    <h1 class="mt-5 px-2 text-uppercase">match results</h1>
     <div class="row row-cols-1 g-0">
       {% for match in results reversed %}
       <div class="col">
