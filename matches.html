@@ -25,17 +25,17 @@ title: matches
     <div class="row row-cols-1 g-0">
       {% for match in results reversed %}
       <div class="col">
-        <div class="card text-bg-dark border-bottom rounded-0">
+        <div class="card text-bg-dark border-0 border-bottom rounded-0">
           <div class="card-header">
-            <p class="card-text text-center fw-bolder">{{ match.time }}</p>
-            <p class="card-text text-center">{{ match.competition }}•{{ match.matchday }}</p>
+            <p class="card-text text-center text-capitalize fw-bolder">{{ match.time }}</p>
+            <p class="card-text text-center text-capitalize">{{ match.competition }} • {{ match.matchday }}</p>
           </div>
           <div class="card-body">
             {{ match.title }}
           </div>
           <div class="card-footer">
-            <p class="card-text text-center fw-bolder">{{ match.kick-off }}</p>
-            <p class="card-text text-center">{{ match.stadium }}•{{ match.place }}</p>
+            <p class="card-text text-center text-uppercase fw-bolder">{{ match.kick-off }}</p>
+            <p class="card-text text-center text-capitalize">{{ match.stadium }} • {{ match.place }}</p>
           </div>
         </div>
       </div>
