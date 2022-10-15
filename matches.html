@@ -23,7 +23,7 @@ title: matches
     {% assign results = site.matches | where: "status", "match result" %}
     <h1 class="mt-5">match results</h1>
     <div class="row row-cols-1 g-3">
-      {% for match in results %}
+      {% for match in results reversed %}
       <div class="col">
         <div class="card text-bg-dark">
           <div class="card-body">
