@@ -2,6 +2,9 @@ title: tesa fc
 description: tesa fc official website
 permalink: pretty
 timezone: Asia/Jakarta
+collections:
+  matches:
+    output: true
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
