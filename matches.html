@@ -32,19 +32,19 @@ title: matches
           </div>
           <div class="card-body">
             <div class="row g-1">
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-end">
                 <p class="card-text text-end text-uppercase fw-bolder">{{ match.home-team.name }}</p>
               </div>
-              <div class="col-2">
+              <div class="col-2 d-flex justify-content-end">
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ assets/img/logo/logo-blank.png | relative_url }}{% endif %}" alt="" class="text-end" width="30" height="30">
               </div>
               <div class="col-2 d-flex justify-content-center">
-                <p class="badge text-center text-bg-light fs-4 fw-bolder p-1">{{ match.result.score }}</p>
+                <p class="badge text-center text-bg-light fs-3 fw-bolder p-2">{{ match.result.score }}</p>
               </div>
-              <div class="col-2">
+              <div class="col-2 d-flex justify-content-start">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ assets/img/logo/logo-blank.png | relative_url }}{% endif %}" alt="" class="text-start" width="30" height="30">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-start">
                 <p class="card-text text-start text-uppercase fw-bolder">{{ match.away-team.name }}</p>
               </div>
             </div>
