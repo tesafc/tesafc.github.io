@@ -44,7 +44,7 @@ title: matches
           <div class="card-footer bg-transparent border-0">
             <p class="card-text text-center text-capitalize mb-0"><small>{{ match.stadium }} • {{ match.place }}</small></p>
           </div>
-          {% unless match.status == empty %}
+          {% unless match.status == nil %}
           <div class="d-flex justify-content-center align-items-center">
             <p>no match schedule</p>
           </div>
