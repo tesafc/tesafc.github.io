@@ -45,12 +45,13 @@ title: matches
           <div class="card-footer bg-transparent border-0">
             <p class="card-text text-center text-capitalize mb-0"><small>{{ match.stadium }} • {{ match.place }}</small></p>
           </div>
+          {% assign match-count = match | size %}
+          {% if match-count == 0 %}
+            no match schedule
+          {% endif %}
         </div>
       </div>
       {% endfor %}
-          {% if match-count == 0 %}
-            no match
-          {% endif %}
     </div>
   </div>
   
