@@ -8,11 +8,11 @@ title: matches
     {% assign schedules = site.matches | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
     <h1 class="text-uppercase fw-bolder border-bottom border-secondary px-3 mb-0 pb-2">match schedule</h1>
-    <div class="row row-cols-1 g-1">
+    <div class="row row-cols-1 g-0">
       {% for match in schedules %}
       <div class="col">
         <div class="card text-bg-dark border-0 border-secondary border-bottom rounded-0 px-0">
-          <div class="row row-cols-3 g-1 card-header bg-transparent border-0 px-3">
+          <div class="row row-cols-3 g-0 card-header bg-transparent border-0 px-3">
             <div class="col">
               <p class="card-text text-start text-capitalize mb-0 lh-1"><small>{{ match.time }}</small></p>
               <p class="card-text text-start text-uppercase fw-bolder mb-0 lh-1"><small>{{ match.kick-off }}</small></p>
@@ -61,11 +61,11 @@ title: matches
   <div class="container px-0">
     {% assign results = site.matches | where: "status", "match result" %}
     <h1 class="mt-5 px-3 text-uppercase fw-bolder border-bottom border-secondary mb-0 pb-2">match results</h1>
-    <div class="row row-cols-1 g-1">
+    <div class="row row-cols-1 g-0">
       {% for match in results reversed %}
       <div class="col">
         <div class="card text-bg-dark border-0 border-secondary border-bottom rounded-0 px-0">
-          <div class="row row-cols-3 g-1 card-header d-flex justify-content-between bg-transparent border-0 px-3">
+          <div class="row row-cols-3 g-0 card-header d-flex justify-content-between bg-transparent border-0 px-3">
             <div class="col">
               <p class="card-text text-start text-capitalize mb-0 lh-1"><small>{{ match.time }}</small></p>
               <p class="card-text text-start text-uppercase fw-bolder mb-0 lh-1"><small>{{ match.kick-off }}</small></p>
