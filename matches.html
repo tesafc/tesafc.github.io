@@ -24,7 +24,7 @@ title: matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="text-center fs-3 fw-bolder p-2 mb-0">VS</p>
+                <p class="badge rounded-pill text-bg-dark text-center fs-3 fw-bolder p-2 mb-0">VS</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
