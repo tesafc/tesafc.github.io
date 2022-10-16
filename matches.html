@@ -10,7 +10,7 @@ title: matches
     <div class="row row-cols-1 g-0">
       {% for match in schedules %}
       <div class="col">
-        <div class="card text-bg-dark border-secondary rounded-0 px-0">
+        <div class="card text-bg-dark border-secondary border-bottom rounded-0 px-0">
           <div class="card-header bg-transparent border-0">
             <p class="card-text text-center text-capitalize fw-bolder mb-0 lh-1">{{ match.time }}</p>
             <p class="card-text text-center text-capitalize text-uppercase mb-0">{{ match.competition }} • {{ match.matchday }}</p>
@@ -47,10 +47,10 @@ title: matches
   <div class="container px-0">
     {% assign results = site.matches | where: "status", "match result" %}
     <h1 class="mt-5 px-2 text-uppercase fw-bolder">match results</h1>
-    <div class="row row-cols-1 g-1">
+    <div class="row row-cols-1 g-0">
       {% for match in results reversed %}
       <div class="col">
-        <div class="card text-bg-dark border-secondary rounded-0 px-0">
+        <div class="card text-bg-dark border-secondary border-bottom rounded-0 px-0">
           <div class="card-header bg-transparent border-0">
             <p class="card-text text-center text-capitalize fw-bolder mb-0 lh-1">{{ match.time }}</p>
             <p class="card-text text-center text-capitalize text-uppercase mb-0">{{ match.competition }} • {{ match.matchday }}</p>
