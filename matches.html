@@ -44,11 +44,11 @@ title: matches
           <div class="card-footer bg-transparent border-0">
             <p class="card-text text-center text-capitalize mb-0"><small>{{ match.stadium }} • {{ match.place }}</small></p>
           </div>
-          {% unless match.status == "no match" %}
+          {% if match.status == "no match" %}
           <div class="d-flex justify-content-center align-items-center">
             <p class="card-text mb-0">{{ match.title }}</p>
           </div>
-          {% endunless %}
+          {% endif %}
         </div>
       </div>
       {% endfor %}
