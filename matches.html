@@ -11,9 +11,10 @@ title: matches
       {% for match in schedules %}
       <div class="col">
         <div class="card text-bg-dark border-0 border-secondary border-bottom rounded-0 px-0">
-          <div class="card-header bg-transparent border-0">
-            <p class="card-text text-center text-capitalize fw-bolder mb-0 lh-1">{{ match.time }}</p>
-            <p class="card-text text-center text-uppercase mb-0"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
+          <div class="card-header d-flex justify-content-between bg-transparent border-0">
+            <p class="card-text text-start text-capitalize fw-bolder mb-0 lh-1">{{ match.time }}</p>
+            <p class="card-text text-start text-uppercase fs-5 fw-bolder mb-0 lh-1">{{ match.kick-off }}</p>
+            <p class="card-text text-end text-uppercase mb-0"><small>{{ match.competition }}<br>{{ match.matchday }}</small></p>
           </div>
           <div class="card-body py-1">
             <div class="row g-2">
@@ -35,7 +36,6 @@ title: matches
             </div>
           </div>
           <div class="card-footer bg-transparent border-0">
-            <p class="card-text text-center text-uppercase fs-5 fw-bolder mb-0 lh-1">{{ match.kick-off }}</p>
             <p class="card-text text-center text-capitalize mb-0">{{ match.stadium }} • {{ match.place }}</p>
           </div>
         </div>
