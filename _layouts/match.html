@@ -5,7 +5,7 @@ layout: default
 <div class="text-bg-dark mb-5">
   <div class="container-fluid px-0">
     <div class="ratio ratio-16x9">
-      <img src="{% if page.img %}{{ page.img }}{% else %}https://source.unsplash.com/HgwY_YQ1m0w{% endif %}" alt="" style="object-fit: cover;">
+      <img src="{% if page.img %}{{ page.img }}{% else %}https://source.unsplash.com/HgwY_YQ1m0w{% endif %}" alt="" class="bg-gradient-bottom" style="object-fit: cover;">
     </div>
   </div>
   <div class="container px-0">
@@ -30,7 +30,7 @@ layout: default
             <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
           <div class="col-2 d-flex justify-content-center align-items-center">
-            <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ page.result.score }}</p>
+            <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0 mx-1 mx-md-0">{{ page.result.score }}</p>
           </div>
           <div class="col-1 d-flex justify-content-start align-items-center">
             <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
