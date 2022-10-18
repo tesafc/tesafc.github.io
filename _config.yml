@@ -10,6 +10,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+dfaults:
+  - scope:
+      path: ""
+      type: "matches"
+    values:
+      layout: "match" 
 author:
   name: tesa fc
   email: tesafc@hotmail.com
