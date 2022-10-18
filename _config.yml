@@ -10,7 +10,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-dfaults:
+defaults:
   - scope:
       path: ""
       type: "matches"
