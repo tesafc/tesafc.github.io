@@ -27,13 +27,13 @@ layout: default
             <p class="card-text text-end text-uppercase fw-bolder lh-1 mb-0 pe-3 pe-md-0">{{ page.home-team.name }}</p>
           </div>
           <div class="col-1 d-flex justify-content-end align-items-center">
-            <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="40" height="40">
+            <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
           <div class="col-2 d-flex justify-content-center align-items-center">
             <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ page.result.score }}</p>
           </div>
           <div class="col-1 d-flex justify-content-start align-items-center">
-            <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="40" height="40">
+            <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
           <div class="col-4 d-flex justify-content-start align-items-center">
             <p class="card-text text-start text-uppercase fw-bolder lh-1 mb-0 ps-3 ps-md-0">{{ page.away-team.name }}</p>
