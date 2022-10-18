@@ -13,13 +13,35 @@ layout: default
       <div class="row row-cols-3 g-0 card-header">
         <div class="col">
           <p class="card-text text-start text-capitalize lh-1 mb-0"><small>{{ page.time }}</small></p>
-          <p class="card-text text-start text-capitalize fw-bolder lh-1 mb-0"><small>{{ page.kick-off }}</small></p>
+          <p class="card-text text-start text-uppercase fw-bolder lh-1 mb-0"><small>{{ page.kick-off }}</small></p>
         </div>
         <div class="col d-flex justify-content-center align-items-start"><small class="badge rounded-pill text-bg-dark text-uppercase border">{{ page.team }}</small></div>
         <div class="col">
           <p class="card-text text-end text-capitalize lh-1 mb-0"><small>{{ page.competition }}</small></p>
           <p class="card-text text-end text-capitalize fw-bolder lh-1 mb-0"><small>{{ page.matchday }}</small></p>
         </div>
+      </div>
+      <div class="card-body">
+        <div class="row g-0">
+          <div class="col-4 justify-content-end align-items-center">
+            <p class="card-text text-end text-uppercase fw-bolder lh-1 mb-0">{{ page.home-team.name }}</p>
+          </div>
+          <div class="col-1 d-flex justify-content-end align-items-center">
+            <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
+          </div>
+          <div class="col-2 d-flex justify-content-center align-items-center">
+            <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ page.result.score }}</p>
+          </div>
+          <div class="col-1 d-flex justify-content-start align-items-center">
+            <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
+          </div>
+          <div class="col-4 justify-content-start align-items-center">
+            <p class="card-text text-end text-uppercase fw-bolder lh-1 mb-0">{{ page.away-team.name }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer border-0">
+        <p class="card-text text-center text-capitalize mb-0">{{ page.stadium }} • {{ page.place }}</p>
       </div>
     </div>
   </div>
