@@ -44,10 +44,11 @@ layout: default
           <div class="row g-1">
             {% if page.result.goal.home-team %}
             <div class="col-5">
+              <ul class="list-group">
               {% for goal in page.result.goal.home-team %}
-              <p class="text-end text-uppercase">{{ goal.name }}</p>
-              <p class="text-end text-uppercase fw-bolder">{{ goal.time }}</p>
+                <li class="list-group-item"><span>{{ goal.name }}</span>{{ goal.time }}</li>
               {% endfor %}
+              </ul>
             </div>
             {% endif %}
             <p class="col-2">GOAL</p>
