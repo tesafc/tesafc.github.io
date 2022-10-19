@@ -21,8 +21,8 @@ layout: default
           <p class="card-text text-end text-capitalize fw-bolder lh-1 mb-0"><small>{{ page.matchday }}</small></p>
         </div>
       </div>
-      <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary">{{ page.result.status }}</small></span>
-      <div class="card-body py-0">
+      <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder">{{ page.result.status }}</small></span>
+      <div class="card-body py-1">
         <div class="row g-1">
           <div class="col-4 d-flex justify-content-end align-items-center">
             <p class="card-text text-end text-uppercase fw-bolder lh-1 mb-0 pe-3 pe-md-0">{{ page.home-team.name }}</p>
@@ -41,7 +41,7 @@ layout: default
           </div>
         </div>
       </div>
-      <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary">{{ page.result.score.half-time }}</small></span>
+      <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary">{{ (page.result.score.half-time) }}</small></span>
       <div class="card-footer bg-transparent border-0">
         <p class="card-text text-center text-capitalize mb-0"><small>{{ page.stadium }} • {{ page.place }}</small></p>
       </div>
