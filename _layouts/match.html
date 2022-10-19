@@ -10,7 +10,7 @@ layout: default
   </div>
   <div class="container px-0">
     <div class="card text-bg-dark rounded-0 border-0 pt-2">
-      <div class="row row-cols-2 g-1 card-header bg-transparent border-0">
+      <div class="row row-cols-2 g-0 card-header bg-transparent border-0">
         <div class="col">
           <p class="card-text text-start text-capitalize lh-1 mb-0"><small>{{ page.time }}</small></p>
           <p class="card-text text-start text-uppercase fw-bolder lh-1 mb-0"><small>{{ page.kick-off }}</small></p>
@@ -23,7 +23,7 @@ layout: default
       </div>
       <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder lh-1">{{ page.result.status }}</small></span>
       <div class="card-body py-1 px-0">
-        <div class="row g-1">
+        <div class="row g-0">
           <div class="col-4 d-flex justify-content-end align-items-center">
             <p class="card-text text-end text-uppercase fw-bolder lh-1 mb-0 pe-3 pe-md-0">{{ page.home-team.name }}</p>
           </div>
@@ -46,7 +46,7 @@ layout: default
             <div class="col-5">
               <ul class="list-group text-end rounded-0 border-0 p-0">
               {% for goal in page.result.goal.home-team %}
-                <li class="list-group-item p-0"><span>{{ goal.name }}</span>{{ goal.time }}</li>
+                <li class="list-group-item text-uppercase p-0"><small>{{ goal.name }}</small><small>{{ goal.time }}</small></li>
               {% endfor %}
               </ul>
             </div>
@@ -56,7 +56,7 @@ layout: default
             <div class="col-5">
               <ul class="list-group text-start rounded-0 border-0 p-0">
               {% for goal in page.result.goal.away-team %}
-                <li class="list-group-item p-0"><span>{{ goal.name }}</span>{{ goal.time }}</li>
+                <li class="list-group-item p-0"><small>{{ goal.name }}</small><small>{{ goal.time }}</small></li>
               {% endfor %}
               </ul>
             </div>
