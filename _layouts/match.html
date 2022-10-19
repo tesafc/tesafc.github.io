@@ -54,7 +54,7 @@ layout: default
             <p class="col-2 d-flex justify-content-center text-center">GOAL</p>
             {% if page.result.goal.away-team %}
             <div class="col-5">
-              <ul class="list-group text-end rounded-0">
+              <ul class="list-group text-start rounded-0">
               {% for goal in page.result.goal.away-team %}
                 <li class="list-group-item"><span>{{ goal.name }}</span>{{ goal.time }}</li>
               {% endfor %}
