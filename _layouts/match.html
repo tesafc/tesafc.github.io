@@ -29,6 +29,7 @@ layout: default
           <div class="col-1 d-flex justify-content-end align-items-center">
             <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
+          <p class="d-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary">{{ page.status }}</small></p>
           <div class="col-2 d-flex justify-content-center align-items-center">
             <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ page.result.score }}</p>
           </div>
