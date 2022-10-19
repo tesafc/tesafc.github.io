@@ -86,7 +86,7 @@ title: matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="badge text-center text-bg-light fs-3 fw-bolder p-2 mb-0">{{ match.result.score }}</p>
+                <p class="badge text-center text-bg-light fs-3 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
