@@ -41,7 +41,7 @@ layout: default
           </div>
         </div>
       </div>
-      <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary">{{ (page.result.score.half-time) }}</small></span>
+      <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary">{{ page.result.score.half-time | prepend: "ht " }}</small></span>
       <div class="card-footer bg-transparent border-0">
         <p class="card-text text-center text-capitalize mb-0"><small>{{ page.stadium }} • {{ page.place }}</small></p>
       </div>
