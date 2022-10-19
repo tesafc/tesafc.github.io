@@ -43,18 +43,17 @@ layout: default
           {% if page.result.status == "ft" %}
           <div class="row g-0">
             {% if page.result.goal.home-team %}
-            <div class="col-5">
-              <ul class="list-group text-end rounded-0 border-0 p-0">
+            <div class="col-6">
+              <ul class="list-group text-end rounded-0 border-0 p-0 pe-2">
               {% for goal in page.result.goal.home-team %}
                 <li class="list-group-item text-uppercase border-0 p-0">{% if goal.goal-type %}<small class="pe-1">{{ goal.goal-type }}</small>{% endif %}<small>{{ goal.time }}</small><small class="fw-bolder ps-2">{{ goal.name }}</small></li>
               {% endfor %}
               </ul>
             </div>
             {% endif %}
-            <p class="col-2 d-flex justify-content-center text-center">GOAL</p>
             {% if page.result.goal.away-team %}
-            <div class="col-5">
-              <ul class="list-group text-start rounded-0 border-0 p-0">
+            <div class="col-6">
+              <ul class="list-group text-start rounded-0 border-0 p-0 ps-2">
               {% for goal in page.result.goal.away-team %}
                 <li class="list-group-item text-uppercase border-0 p-0"><small class="fw-bolder pe-2">{{ goal.name }}</small><small>{{ goal.time }}</small>{% if goal.goal-type %}<small class="ps-1">{{ goal.goal-type }}</small>{% endif %}</li>
               {% endfor %}
