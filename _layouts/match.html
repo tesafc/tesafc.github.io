@@ -43,15 +43,15 @@ layout: default
           {% if page.result.status == "ft" %}
           <div class="row g-1">
             {% if page.result.goal.home-team %}
-            <div class="col d-flex justify-content-end">
+            <div class="col-5">
               {% for goal in page.result.goal.home-team %}
               <p class="text-end text-uppercase">{{ goal.name }}</p>
               <p class="text-end text-uppercase fw-bolder">{{ goal.time }}</p>
               {% endfor %}
             </div>
             {% endif %}
-            <p class="col-auto">GOAL</p>
-            <div class="col d-flex justify-content-start">
+            <p class="col-2">GOAL</p>
+            <div class="col-5 d-flex justify-content-start">
               <p class="text-end text-uppercase fw-bolder">{{ page.goal.away-team.time }}</p>
               <p class="text-end text-uppercase">{{ page.goal.home-team.name }}</p>
             </div>
