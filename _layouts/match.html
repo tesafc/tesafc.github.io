@@ -46,7 +46,7 @@ layout: default
             <div class="col-6">
               <ul class="list-group text-end rounded-0 border-0 p-0 pe-2">
               {% for goal in page.result.goal.home-team %}
-                <li class="list-group-item text-uppercase text-bg-dark border-0 p-0">{% if goal.goal-type %}<small class="pe-2">{{ goal.goal-type }}</small>{% endif %}<small>{{ goal.time }}</small><small class="fw-bolder ps-2">{{ goal.name }}</small></li>
+                <li class="list-group-item text-uppercase text-bg-dark border-0 p-0">{% if goal.goal-type %}<small class="pe-2">{{ goal.goal-type }}</small>{% endif %}<small>{{ goal.time }}</small><small class="fw-bolder px-2">{{ goal.name }}</small><i class="fa-light fa-futbol"></i></li>
               {% endfor %}
               </ul>
             </div>
@@ -55,7 +55,7 @@ layout: default
             <div class="col-6">
               <ul class="list-group text-start rounded-0 border-0 p-0 ps-2">
               {% for goal in page.result.goal.away-team %}
-                <li class="list-group-item text-uppercase text-bg-dark border-0 p-0"><small class="fw-bolder pe-2">{{ goal.name }}</small><small>{{ goal.time }}</small>{% if goal.goal-type %}<small class="ps-2">{{ goal.goal-type }}</small>{% endif %}</li>
+                <li class="list-group-item text-uppercase text-bg-dark border-0 p-0"><i class="fa-light fa-futbol"></i><small class="fw-bolder px-2">{{ goal.name }}</small><small>{{ goal.time }}</small>{% if goal.goal-type %}<small class="ps-2">{{ goal.goal-type }}</small>{% endif %}</li>
               {% endfor %}
               </ul>
             </div>
