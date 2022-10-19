@@ -7,7 +7,7 @@ title: matches
   <div class="container px-0">
     {% assign schedules = site.matches | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
-    <h1 class="text-uppercase fw-bolder border-bottom border-secondary px-3 mb-0 pb-3">match schedule</h1>
+    <h2 class="text-uppercase fw-bolder border-bottom border-secondary px-3 mb-0 pb-2">match schedule</h2>
     <div class="row row-cols-1 g-0">
       {% for match in schedules %}
       <div class="col">
@@ -61,7 +61,7 @@ title: matches
   
   <div class="container px-0">
     {% assign results = site.matches | where: "status", "match result" %}
-    <h1 class="mt-5 px-3 text-uppercase fw-bolder border-bottom border-secondary mb-0 pb-3">match results</h1>
+    <h2 class="mt-5 px-3 text-uppercase fw-bolder border-bottom border-secondary mb-0 pb-2">match results</h2>
     <div class="row row-cols-1 g-0">
       {% for match in results reversed %}
       <div class="col">
