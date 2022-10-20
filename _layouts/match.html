@@ -81,8 +81,8 @@ layout: default
         {% for player in page.lineup.home-team.lineup %}
         <li class="d-block row g-0 list-group-item text-bg-dark text-end border-0 p-0">
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
-          <span class="d-inline-block col-auto text-uppercase px-2">{{ player.name }}</span>
-          <span class="d-inline-block col-auto text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
+          <span class="d-inline-block col-auto text-uppercase ps-2">{{ player.name }}</span>
+          <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
         </li>
         {% endfor %}
       </ul>
