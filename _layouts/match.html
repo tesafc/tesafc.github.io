@@ -31,7 +31,7 @@ layout: default
             <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
           <div class="col-2 d-flex justify-content-center align-items-center">
-            <p class="badge text-bg-light text-center fs-2 fw-bolder p-1 mb-0">{{ page.result.score.full-time }}</p>
+            <p class="badge text-bg-light text-center fs-2 fw-bolder p-2 mb-0">{{ page.result.score.full-time }}</p>
           </div>
           <div class="col-1 d-flex justify-content-start align-items-center">
             <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
@@ -65,7 +65,7 @@ layout: default
         </div>
       </div>
       <div class="card-footer bg-transparent border-0">
-        <p class="card-text text-center text-capitalize mb-0 pt-1"><i class="fa-solid fa-location-pin text-secondary pe-2"></i>{{ page.stadium }} • {{ page.place }}</p>
+        <p class="card-text text-center text-capitalize mb-0 pt-1"><i class="fa-regular fa-location-pin text-secondary pe-2"></i>{{ page.stadium }} • {{ page.place }}</p>
       </div>
     </div>
   </div>
