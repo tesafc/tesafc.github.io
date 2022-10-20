@@ -76,7 +76,7 @@ layout: default
       {% if page.lineup.home-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-2">
         <li class="list-group-item text-bg-dark text-end border-0 p-0 pb-3">
-          <span class="text-end text-uppercase fs-3 fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
+          <span class="text-end text-uppercase fs-4 fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
         </li>
         {% for player in page.lineup.home-team.lineup %}
         <li class="list-group-item text-bg-dark text-end border-0 p-0">
@@ -90,12 +90,12 @@ layout: default
       {% if page.lineup.away-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-2">
         <li class="list-group-item text-bg-dark text-start border-0 p-0 pb-3">
-          <span class="text-end text-uppercase fa-3 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
+          <span class="text-end text-uppercase fs-4 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
         {% for player in page.lineup.away-team.lineup %}
         <li class="list-group-item text-bg-dark text-start border-0 p-0">
-          <span class="text-uppercase fw-bolder">{{ player.no-punggung }}</span>
-          <span class="text-uppercase text-secondary px-2">{{ player.name }}</span>
+          <span class="text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
+          <span class="text-uppercase px-2">{{ player.name }}</span>
           {% if player.role %}<small class="text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
         </li>
         {% endfor %}
