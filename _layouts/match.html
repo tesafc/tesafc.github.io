@@ -71,11 +71,11 @@ layout: default
   </div>
   {% if page.lineup %}
   <div class="container px-0 mt-5">
-    <h3 class="text-center text-uppercase text-bg-dark mb-3">lineup</h3>
+    <h3 class="text-center text-uppercase text-bg-dark fw-bolder mb-3">lineup</h3>
     <div class="row g-0">
       {% if page.lineup.home-team.lineup %}
-      <ul class="col-6 list-group border-0 rounded-0 p-0 pe-2 pb-3">
-        <li class="list-group-item text-end border-0 p-0">
+      <ul class="col-6 list-group text-bg-dark border-0 rounded-0 p-0 pe-2">
+        <li class="list-group-item text-bg-dark text-end border-0 p-0 pb-2">
           <span class="text-end text-uppercase fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
         </li>
         {% for player in page.lineup.home-team.lineup %}
@@ -88,8 +88,8 @@ layout: default
       </ul>
       {% endif %}
       {% if page.lineup.away-team.lineup %}
-      <ul class="col-6 list-group border-0 rounded-0 p-0 ps-2 pb-3">
-        <li class="list-group-item text-start border-0 p-0">
+      <ul class="col-6 list-group text-bg-dark border-0 rounded-0 p-0 ps-2">
+        <li class="list-group-item text-bg-dark text-start border-0 p-0 pb-2">
           <span class="text-end text-uppercase fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
         {% for player in page.lineup.away-team.lineup %}
