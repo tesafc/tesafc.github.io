@@ -22,7 +22,7 @@ layout: default
         </div>
       </div>
       <span class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder lh-1">{{ page.result.status }}</small></span>
-      <div class="card-body py-1 px-0">
+      <div class="card-body py-3 px-0">
         <div class="row g-0">
           <div class="col-4 d-flex justify-content-end align-items-center">
             <p class="card-text text-end text-uppercase fw-bolder lh-1 mb-0 pe-3 pe-md-0">{{ page.home-team.name }}</p>
@@ -90,12 +90,12 @@ layout: default
       {% if page.lineup.away-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-3">
         <li class="list-group-item text-bg-dark text-start border-0 p-0 pb-2">
-          <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
+          <span class="text-end text-capitalize fs-5 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
         {% for player in page.lineup.away-team.lineup %}
         <li class="d-block row g-0 list-group-item text-bg-dark text-start border-0 p-0 pb-1">
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
-          <span class="d-inline-block col-auto text-uppercase px-1">{{ player.name }}</span>
+          <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           {% if player.role %}<small class="d-inline-block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
         </li>
         {% endfor %}
