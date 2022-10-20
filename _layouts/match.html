@@ -71,16 +71,16 @@ layout: default
   </div>
   {% if page.lineup %}
   <div class="container px-0 mt-5">
-    <h3 class="text-center text-uppercase mb-3"></h3>
+    <h3 class="text-center text-uppercase text-bg-dark mb-3"></h3>
     <div class="row g-0">
       {% if page.lineup.home-team.lineup %}
-      <ul class="col-6 list-group border-0 rounded-0 p-0 pe-2 pb-2">
+      <ul class="col-6 list-group border-0 rounded-0 p-0 pe-2 pb-3">
         <li class="list-group-item text-end border-0 p-0">
           <span class="text-end text-uppercase fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
         </li>
         {% for player in page.lineup.home-team.lineup %}
         <li class="list-group-item text-end border-0 p-0">
-          {% if player.role %}<small class="text-uppercase text-secondary pe-2">{{ player.role }}</small>{% endif %}
+          {% if player.role %}<small class="text-uppercase fw-bolder text-secondary pe-2">{{ player.role }}</small>{% endif %}
           <span class="text-uppercase">{{ player.name }}</span>
           <span class="text-uppercase fw-bolder">{{ player.no-punggung }}</span>
         </li>
@@ -88,7 +88,7 @@ layout: default
       </ul>
       {% endif %}
       {% if page.lineup.away-team.lineup %}
-      <ul class="col-6 list-group border-0 rounded-0 p-0 ps-2 pb-2">
+      <ul class="col-6 list-group border-0 rounded-0 p-0 ps-2 pb-3">
         <li class="list-group-item text-start border-0 p-0">
           <span class="text-end text-uppercase fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
@@ -96,7 +96,7 @@ layout: default
         <li class="list-group-item text-start border-0 p-0">
           <span class="text-uppercase fw-bolder">{{ player.no-punggung }}</span>
           <span class="text-uppercase">{{ player.name }}</span>
-          {% if player.role %}<small class="text-uppercase text-secondary ps-2">{{ player.role }}</small>{% endif %}
+          {% if player.role %}<small class="text-uppercase fw-bolder text-secondary ps-2">{{ player.role }}</small>{% endif %}
         </li>
         {% endfor %}
       </ul>
