@@ -82,7 +82,7 @@ layout: default
         <li class="row g-0 list-group-item text-bg-dark text-end border-0 p-0">
           {% if player.role %}<small class="col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
           <span class="col-auto text-uppercase px-2">{{ player.name }}</span>
-          <span class="col-auto text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
+          <span class="col-2 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
         </li>
         {% endfor %}
       </ul>
@@ -94,7 +94,7 @@ layout: default
         </li>
         {% for player in page.lineup.away-team.lineup %}
         <li class="row g-0 list-group-item text-bg-dark text-start border-0 p-0">
-          <span class="col-auto text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
+          <span class="col-2 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
           <span class="col-auto text-uppercase px-2">{{ player.name }}</span>
           {% if player.role %}<small class="col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
         </li>
