@@ -80,9 +80,9 @@ layout: default
         </li>
         {% for player in page.lineup.home-team.lineup %}
         <li class="d-block row g-0 list-group-item text-bg-dark text-end border-0 p-0">
-          {% if player.role %}<small class="d-block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
-          <span class="d-block col-auto text-uppercase px-2">{{ player.name }}</span>
-          <span class="d-block col-2 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
+          {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
+          <span class="d-inline-block col-auto text-uppercase px-2">{{ player.name }}</span>
+          <span class="d-inline-block col-2 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
         </li>
         {% endfor %}
       </ul>
