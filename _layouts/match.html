@@ -107,7 +107,6 @@ layout: default
           {% if player.role %}<small class="d-inline-block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
         </li>
         {% endfor %}
-        <h4 class="text-center text-uppercase text-bg-dark fw-bolder mb-4">lineup</h4>
         {% for player in page.lineup.away-team.subs %}
         <li class="d-block row g-0 list-group-item text-bg-dark text-start border-0 p-0 pb-1">
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
