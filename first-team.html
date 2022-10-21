@@ -1,12 +1,12 @@
 ---
-layout: team
+layout: default
 team: first-team
 title: first team
 ---
-<!-- comment
+
 <div class="mb-5">
   <div class="container">
-    {% assign teams = site.data.squad-2022 | where: "team", first-team %}
+    {% assign teams = site.players | where: "team", first-team %}
     {% assign positions = teams | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for position in positions %}
@@ -26,4 +26,4 @@ title: first team
     </div>
   </div>
 </div>
--->
+
