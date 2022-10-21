@@ -16,7 +16,7 @@ layout: default
           <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img px-2" style="height: 16rem; object-fit: contain;">
           <div class="card-img-overlay bg-gradient-top-bottom d-flex flex-column justify-content-between">
             <h3 class="card-title fw-bolder">{{ player.jersey-number }}</h3>
-            <h4 class="card-text text-uppercase">{{ player.jersey-name }}</h4>
+            <h4 class="card-text text-uppercase"><a href="{{ player.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ player.jersey-name }}</a></h4>
           </div>
         </div>
       </div>
