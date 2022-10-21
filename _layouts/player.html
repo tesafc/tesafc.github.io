@@ -4,7 +4,7 @@ layout: default
 
 <div class="my-5 text-bg-dark">
   <div class="container">
-    <div class="card text-bg-dark rounded-0 border-0 mb-3">
+    <div class="card text-bg-dark rounded-0 border-0 mb-5">
       <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img pb-5 mb-5" style="object-fit: contain; max-height: 30rem;">
       <div class="card-img-overlay d-flex flex-column justify-content-between p-0">
         <div>
@@ -18,7 +18,7 @@ layout: default
     </div>
     <div class="row row-cols-1 row-cols-md-2">
       <div class="col">
-        <h1 class="text-uppercase fw-bolder mb-0 fs-3 pb-3">details</h1>
+        <h1 class="text-uppercase fw-bolder mb-0 fs-3 pb-3">profile</h1>
         <table class="table text-bg-dark border-secondary bg-transparent">
           <tbody>
             {% for item in page.details %}
