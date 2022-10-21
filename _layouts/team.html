@@ -5,7 +5,7 @@ layout: default
 <div class="mb-5">
   <div class="container">
     {% assign selected-team = page.team %}
-    {% assign teams = site.data.squad-2022 | where: "team", selected-team %}
+    {% assign teams = site.players | where: "team", selected-team %}
     {% assign positions = teams | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for position in positions %}
@@ -13,7 +13,7 @@ layout: default
       {% for player in position.items %}
       <div class="col">
         <div class="card h-100 text-bg-dark border-0">
-          <img src="{{ player.profile-picture }}" alt="" class="card-img" style="height: 16rem; object-fit: cover;">
+          <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img px-2" style="height: 16rem; object-fit: contain;">
           <div class="card-img-overlay bg-gradient-top-bottom d-flex flex-column justify-content-between">
             <h3 class="card-title fw-bolder">{{ player.jersey-number }}</h3>
             <h4 class="card-text text-uppercase">{{ player.jersey-name }}</h4>
