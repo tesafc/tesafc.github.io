@@ -10,7 +10,7 @@ layout: default
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for position in positions %}
       <h2 class="d-block w-100 text-uppercase mt-5 mb-0">{{ position.name }}</h2>
-      {% for player in position.items %}
+      {% for player in position.items | sort: "position-order" %}
       <div class="col">
         <div class="card h-100 text-bg-dark border-0">
           <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img px-2" style="height: 16rem; object-fit: contain;">
