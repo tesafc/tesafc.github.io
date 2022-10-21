@@ -1,7 +1,7 @@
 ---
-title: number 1
+title: number 96
 jersey-name: aldo
-jersey-number: 1
+jersey-number: 96
 position: goalkeeper
 team: first-team
 profile-picture:
