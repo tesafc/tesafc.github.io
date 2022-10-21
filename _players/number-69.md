@@ -3,6 +3,7 @@ title: number 69
 jersey-name: habiel
 jersey-number: 69
 position: attacker
+position-order: 4
 team: first-team
 profile-picture:
 details:
