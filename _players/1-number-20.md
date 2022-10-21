@@ -8,9 +8,9 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: "164"
+    value: "164 cm"
   - name: weight
-    value: "63"
+    value: "63 kg"
   - name: date of birth
     value: "10 oktober 2002"
   - name: place of birth
@@ -21,17 +21,17 @@ details:
     value: "right"
 stats:
   - name: match played
-    value: ""
+    value: "6"
   - name: lineup start
-    value: ""
+    value: "0"
   - name: lineup substitute
-    value: ""
+    value: "6"
   - name: cleansheet
-    value: ""
+    value: "-"
   - name: penalty saves
-    value: ""
+    value: "-"
   - name: yellow card
-    value: ""
+    value: "0"
   - name: red card
-    value: ""
+    value: "0"
 ---
