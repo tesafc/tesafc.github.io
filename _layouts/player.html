@@ -5,10 +5,10 @@ layout: default
 <div class="my-5 text-bg-dark">
   <div class="container">
     <div class="card text-bg-dark rounded-0 border-0">
-      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img p-5 pt-0" style="object-fit: contain; max-height: 20rem;">
+      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img" style="object-fit: contain; max-width: 20rem; max-height: 25rem;">
       <div class="card-img-overlay d-flex flex-column justify-content-between">
-        <h1 class="card-title fw-bolder mb-0">{{ page.jersey-number }}</h1>
-        <h2 class="card-title text-center text-capitalize fw-bolder mb-0 pt-2">{{ page.jersey-name }}</h2>
+        <h1 class="card-title text-uppercase fw-bolder mb-0" style="font-size: 5rem;">{{ page.jersey-number }}</h1>
+        <h2 class="card-title text-center text-capitalize fw-bolder mb-0" style="font-size: 3rem;">{{ page.jersey-name }}</h2>
       </div>
     </div>
   </div>
