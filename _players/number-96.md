@@ -3,6 +3,7 @@ title: number 96
 jersey-name: aldo
 jersey-number: 96
 position: goalkeeper
+position-order: 1
 team: first-team
 profile-picture:
 details:
