@@ -8,11 +8,11 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: ""
+    value: "-"
   - name: weight
-    value: ""
+    value: "-"
   - name: date of birth
-    value: ""
+    value: "-"
   - name: place of birth
     value: "kuningan"
   - name: shoe size
@@ -21,17 +21,17 @@ details:
     value: "right"
 stats:
   - name: match played
-    value: ""
+    value: "15"
   - name: lineup start
-    value: ""
+    value: "9"
   - name: lineup substitute
-    value: ""
+    value: "6"
   - name: cleansheet
-    value: ""
+    value: "-"
   - name: penalty saves
-    value: ""
+    value: "-"
   - name: yellow card
-    value: ""
+    value: "-"
   - name: red card
-    value: ""
+    value: "-"
 ---
