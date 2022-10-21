@@ -23,6 +23,7 @@ defaults:
       type: "players"
     values:
       layout: "player"
+      profile-picture: /assets/img/logo/blank-pp.png
 author:
   name: tesa fc
   email: tesafc@hotmail.com
