@@ -7,10 +7,11 @@ layout: default
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
     {% assign positions = teams | group_by: "position" %}
+    {% assign sorted-positions = positions | sort: "position-order" %}
     <div class="row row-cols-2 row-cols-md-3 g-3">
-      {% for position in positions %}
+      {% for position in sorted-positions %}
       <h2 class="d-block w-100 text-uppercase mt-5 mb-0">{{ position.name }}</h2>
-      {% for player in position.items | sort: position-order %}
+      {% for player in position.items %}
       <div class="col">
         <div class="card h-100 text-bg-dark border-0">
           <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img px-2" style="height: 16rem; object-fit: contain;">
