@@ -5,6 +5,8 @@ timezone: Asia/Jakarta
 collections:
   matches:
     output: true
+  players:
+    output: true
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -15,7 +17,12 @@ defaults:
       path: ""
       type: "matches"
     values:
-      layout: "match" 
+      layout: "match"
+   - scope:
+      path: ""
+      type: "players"
+    values:
+      layout: "player"
 author:
   name: tesa fc
   email: tesafc@hotmail.com
