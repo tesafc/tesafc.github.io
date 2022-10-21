@@ -3,6 +3,7 @@ title: number 20
 jersey-name: abang
 jersey-number: 20
 position: goalkeeper
+position-order: 1
 team: first-team
 profile-picture:
 details:
