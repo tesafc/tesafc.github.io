@@ -112,7 +112,7 @@ layout: default
       </ul>
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
         {% for player in page.lineup.away-team.subs %}
-        <li class="d-block row g-0 list-group-item text-bg-dark text-end border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-bg-dark tex-start border-0 p-0 pb-1">
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
