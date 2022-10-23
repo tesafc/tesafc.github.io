@@ -19,13 +19,11 @@ description: tesa fc official website
           <h6 class="card-title text-capitalize"><a href="{{ post.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ post.title }}</a></h6>
           <p class="card-text text-secondary"><small>{{ post.date | date: '%b %d, %Y' }}</small></p>
         </div>
-      </div>
-      {% endfor %}
-      <div class="card h-100 text-bg-dark border-secondary d-flex flex-column justify-content-center align-items-center" style="min-width: 15rem;">
-        <div class="card-body">
+        <div class="card-body d-flex flex-fill flex-column justify-content-center align-items-center" style="min-width: 15rem;">
           <p class="mb-0"><a href="{{ 'news' | relative_url }}" class="stretched-link">All news</a></p>
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </div>
