@@ -11,7 +11,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
       <div class="col">
         <div class="card h-100 text-bg-dark border-0 shadow" style="min-height: 8rem;">
           <div class="ratio ratio-21x9">
-            <img src="{% if team.img %}{{ team.img }}{% else %}{{ page.default.img }}{% endif %}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
+            <img src="{% if team.img %}{{ team.img }}{% else %}{{ page.default-img }}{% endif %}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
           </div>
           <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
             <h1 class="fs-3 text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
