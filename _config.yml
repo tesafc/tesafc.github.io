@@ -7,6 +7,8 @@ collections:
     output: true
   players:
     output: true
+  teams:
+    output: true
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
