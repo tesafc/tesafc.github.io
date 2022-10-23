@@ -1,5 +1,5 @@
 ---
 layout: team
-team: reserve-team
+name: reserve-team
 title: reserve team
 ---
