@@ -1,5 +1,5 @@
 ---
 layout: team
-team: first-team
+name: first-team
 title: first team
 ---
