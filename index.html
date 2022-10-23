@@ -8,7 +8,7 @@ description: tesa fc official website
   <div class="container-fluid">
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       {% for post in site.posts %}
-      <div class="card h-100 text-bg-dark">
+      <div class="card h-100 text-bg-dark" style="min-width: 18rem;">
         {% if post.img %}
         <div class="ratio ratio-16x9">
           <img src="{{ post.img }}" alt="" class="" style="object-fit: cover;">
