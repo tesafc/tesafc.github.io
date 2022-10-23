@@ -25,7 +25,7 @@ description: tesa fc official website
     <h1 class="mt-5">Teams</h1>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       {% for team in site.teams %}
-      <div class="card h-100 text-bg-dark border-0 me-2" style="min-width: 18rem; height: 10rem;">
+      <div class="card h-100 text-bg-dark border-0 me-2" style="min-width: 18rem; height: 12rem;">
         <div class="ratio ratio-21x9">
           <img src="{% if team.img %}{{ team.img }}{% else %}https://source.unsplash.com/IoJFOvbqF3c{% endif %}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
         </div>
