@@ -9,7 +9,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
     <div class="row row-cols-1 row-cols-md-2 g-3">
       {% for team in site.teams %}
       <div class="col">
-        <div class="card h-100 text-bg-dark bg-gradient border-0 shadow" style="min-height: 8rem;">
+        <div class="card h-100 text-bg-dark border-0 shadow" style="min-height: 8rem;">
           <div class="ratio ratio-21x9">
             <img src="{% if team.img %}{{ team.img }}{% else %}{{ page.default.img }}{% endif %}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
           </div>
