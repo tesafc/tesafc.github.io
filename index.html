@@ -70,10 +70,10 @@ description: tesa fc official website
           <small class="mb-0">{{ match.time }} • {{ match.kick-off }}</small>
         </div>
         <div class="card-body">
-          <div class="row g-0 d-flex flex-row justify-content-center align-items-center">
-            <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="col-2" style="width: auto; height: 45;">
-            <p class="col-2 badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
-            <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="col-2" style="width: auto; height: 45;">
+          <div class="d-flex flex-row justify-content-center align-items-center">
+            <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" style="width: auto; height: 45;">
+            <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
+            <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" style="width: auto; height: 45;">
           </div>
         </div>
         <div class="card-footer text-bg-dark text-center text-uppercase">
