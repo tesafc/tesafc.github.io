@@ -35,5 +35,30 @@ description: tesa fc official website
       </div>
       {% endfor %}
     </div>
+    <h1 class="mt-5">Matches</h1>
+    {% assign match-schedule = site.matches | where: "status", "match schedule" %}
+    {% assign match-count = match-schedule | size %}
+    <div class="d-flex flex-row flex-nowrap overflow-auto">
+      {% for match in match-schedule %}
+      <div class="card h-100 text-bg-dark rounded-0">
+        <div class="card-header text-center text-uppercase">
+          <small class="mb-0">{{ match.time }} • {{ match.kick-off }}</small>
+        </div>
+        <div class="">
+          
+        </div>
+        <div class="card-footer text-center text-uppercase">
+          <small class="mb-0">{{ match.time }} • {{ match.kick-off }}</small>
+        </div>
+      </div>
+      {% endfor %}
+      {% if match-count == 0 %}
+      <div class="card h-100 text-bg-dark rounded-0">
+        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+          <small>no match schedule</small>
+        </div>
+      </div>
+      {% endif %}
+    </div>
   </div>
 </div>
