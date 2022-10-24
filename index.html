@@ -72,9 +72,9 @@ description: tesa fc official website
         </div>
         <div class="card-body">
           <div class="d-flex flex-row justify-content-center align-items-center">
-            <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" style="max-width: 30; max-height: 30;">
+            <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="card-img" style="max-width: 10; max-height: 10;">
             <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
-            <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" style="max-width: 30; max-height: 30;">
+            <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="card-img" style="max-width: 10; max-height: 10;">
           </div>
         </div>
         <div class="card-footer text-bg-dark text-center text-uppercase">
