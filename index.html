@@ -70,8 +70,8 @@ description: tesa fc official website
           <small class="mb-0">{{ match.time }} • {{ match.kick-off }}</small>
           <small class="mb-0 px-0">{{ match.competition }} • {{ match.matchday }}</small>
         </div>
-        <div class="card-body d-flex flex-column justify-content-center">
-          <div class="d-flex flex-row justify-content-center align-items-center">
+        <div class="card-body d-flex flex-column justify-content-center align-items-start">
+          <div class="d-flex flex-row justify-content-center">
             <div>
               <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" width="auto" height="65">
               <small class="d-block text-uppercase">{{ match.home-team.name }}</small>
