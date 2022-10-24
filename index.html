@@ -65,16 +65,16 @@ description: tesa fc official website
     <h3 class="mt-5">Match results</h3>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       {% for match in match-result reversed %}
-      <div class="card h-100 text-bg-dark rounded-0 border-secondary me-2" style="min-width: 18rem; min-height: 20rem;">
+      <div class="card h-100 text-bg-dark rounded-0 border-secondary me-2" style="min-width: 18rem;">
         <div class="card-header text-bg-dark text-center text-uppercase">
           <small class="mb-0">{{ match.time }} • {{ match.kick-off }}</small>
           <small class="mb-0 px-0">{{ match.competition }} • {{ match.matchday }}</small>
         </div>
         <div class="card-body">
           <div class="d-flex flex-row justify-content-center align-items-center">
-            <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="card-img" width="30" height="30">
+            <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="card-img" width="auto" height="30">
             <p class="badge text-bg-light text-center fs-3 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
-            <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="card-img" width="30" height="30">
+            <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="card-img" width="auto" height="30">
           </div>
         </div>
         <div class="card-footer text-bg-dark text-center text-uppercase">
