@@ -61,7 +61,7 @@ description: tesa fc official website
       </div>
       {% endif %}
     </div>
-    {% assign match-reault = site.matches | where: "status", "match result" %}
+    {% assign match-result = site.matches | where: "status", "match result" %}
     <h3 class="mt-3">Match results</h3>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       {% for match in match-result | limit: 5 %}
