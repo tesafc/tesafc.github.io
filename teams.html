@@ -14,7 +14,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
             <img src="{% if team.img %}{{ team.img }}{% else %}{{ page.default-img }}{% endif %}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
           </div>
           <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
-            <h1 class="fs-3 text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
+            <h3 class="text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
           </div>
         </div>
       </div>
