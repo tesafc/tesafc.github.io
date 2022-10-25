@@ -88,8 +88,9 @@ description: tesa fc official website
             <div class="col-4 d-flex justify-content-start text-start text-uppercase lh-1">{{ match.away-team.name }}</div>
           </div>
         </div>
-        <div class="card-footer text-bg-dark text-center text-uppercase border-0">
-          <small class="mb-0">{{ match.stadium }}</small>
+        <div class="card-footer text-bg-dark text-center border-0">
+          <p class="card-text text-uppercase mb-0">{{ match.stadium }}</p>
+          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link"><small>Match report</small></a></p>
         </div>
       </div>
       {% endfor %}
