@@ -89,13 +89,13 @@ description: tesa fc official website
         <div class="card-body d-flex flex-column justify-content-center align-items-center p-0">
           <div class="row g-1 d-flex justify-content-between">
             <div class="col-4 d-flex justify-content-start">
-              <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" width="auto" height="55">
+              <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="55">
             </div>
             <div class="col-4 d-flex justify-content-center align-items-center">
               <p class="d-inline badge text-bg-light text-center fs-3 fw-bolder mb-0 p-2">{{ match.result.score.full-time }}</p>
             </div>
             <div class="col-4 d-flex justify-content-end">
-              <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="" width="auto" height="55">
+              <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="55">
             </div>
           </div>
           <div class="row g-1 mt-1">
