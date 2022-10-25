@@ -5,7 +5,7 @@ title: news
 
 <div class="my-5">
   <div class="container">
-    <h1 class="text-capitalize fw-bolder mb-3">{{ page.title }}</h1>
+    <h1 class="text-capitalize fw-bolder mb-2">{{ page.title }}</h1>
     <div class="row row-cols-1 row-cols-md-3 g-3">
       {% for post in site.posts %}
       <div class="col">
@@ -15,8 +15,8 @@ title: news
             <img src="{{ post.img }}" alt="{{ post.title }}" class="rounded-0" style="object-fit: cover;">
           </div>
           {% endif %}
-          <div class="card-body d-flex flex-column justify-content-end">
-            <h2 class="card-title fs-4 text-capitalize mb-0"><a href="{{ post.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ post.title }}</a></h2>
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h4 class="card-title text-capitalize mb-0"><a href="{{ post.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ post.title }}</a></h4>
             <small class="card-text">{{ post.date | date: '%b %d, %Y' }}</small>
           </div>
         </div>
