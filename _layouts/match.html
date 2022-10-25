@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="text-bg-dark mb-5">
+<div class="text-light mb-5">
   <div class="container-fluid px-0">
     <div class="ratio ratio-16x9">
       <img src="{% if page.img %}{{ page.img }}{% else %}https://live.staticflickr.com/65535/52439329038_2ee85d2149_h.jpg{% endif %}" alt="" style="object-fit: cover;">
     </div>
   </div>
   <div class="container px-0">
-    <div class="card text-bg-dark rounded-0 border-0 pt-2">
+    <div class="card text-light bg-transparent rounded-0 border-0 pt-2">
       <div class="row row-cols-2 g-0 card-header bg-transparent border-0">
         <div class="col">
           <p class="card-text text-start text-capitalize lh-1 mb-0"><small>{{ page.time }}</small></p>
@@ -71,15 +71,15 @@ layout: default
   </div>
   {% if page.lineup %}
   <div class="container px-0 mt-5">
-    <h1 class="text-center text-uppercase text-bg-dark fw-bolder mb-4">lineup</h1>
+    <h1 class="text-center text-uppercase text-light fw-bolder mb-4">lineup</h1>
     <div class="row g-0">
       {% if page.lineup.home-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
-        <li class="list-group-item text-bg-dark text-end border-0 p-0 pb-2">
+        <li class="list-group-item text-light text-end border-0 p-0 pb-2">
           <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
         </li>
         {% for player in page.lineup.home-team.lineup %}
-        <li class="d-block row g-0 list-group-item text-bg-dark text-end border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light text-end border-0 p-0 pb-1">
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
@@ -89,18 +89,18 @@ layout: default
       {% endif %}
       {% if page.lineup.away-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-3">
-        <li class="list-group-item text-bg-dark text-start border-0 p-0 pb-2">
+        <li class="list-group-item text-light text-start border-0 p-0 pb-2">
           <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
         {% for player in page.lineup.away-team.lineup %}
-        <li class="d-block row g-0 list-group-item text-bg-dark text-start border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light text-start border-0 p-0 pb-1">
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           {% if player.role %}<small class="d-inline-block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
         </li>
         {% endfor %}
       </ul>
-      <h3 class="d-block text-center text-uppercase text-bg-dark text-secondary fw-bolder mt-3 mb-2">subs</h3>
+      <h3 class="d-block text-center text-uppercase text-light fw-bolder mt-3 mb-2">subs</h3>
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
         {% for player in page.lineup.home-team.subs %}
         <li class="d-block row g-0 list-group-item text-bg-dark text-end border-0 p-0 pb-1">
@@ -112,7 +112,7 @@ layout: default
       </ul>
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-3">
         {% for player in page.lineup.away-team.subs %}
-        <li class="d-block row g-0 list-group-item text-bg-dark tex-start border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light tex-start border-0 p-0 pb-1">
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
