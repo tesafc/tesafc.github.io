@@ -46,7 +46,7 @@ layout: default
             <div class="col-6">
               <ul class="list-group text-end rounded-0 border-0 p-0 pt-2 pe-2">
               {% for goal in page.result.goal.home-team %}
-                <li class="list-group-item text-capitalize text-bg-dark border-0 p-0">{% if goal.goal-type %}<small class="pe-2 text-secondary">{{ goal.goal-type }}</small>{% endif %}<small class="text-secondary">{{ goal.time }}</small><small class="fw-bolder px-2">{{ goal.name }}</small><i class="fa-solid fa-futbol text-secondary"></i></li>
+                <li class="list-group-item text-capitalize text-light border-0 p-0">{% if goal.goal-type %}<small class="pe-2 text-secondary">{{ goal.goal-type }}</small>{% endif %}<small class="text-secondary">{{ goal.time }}</small><small class="fw-bolder px-2">{{ goal.name }}</small><i class="fa-solid fa-futbol text-secondary"></i></li>
               {% endfor %}
               </ul>
             </div>
@@ -55,7 +55,7 @@ layout: default
             <div class="col-6">
               <ul class="list-group text-start rounded-0 border-0 p-0 ps-2 pt-2">
               {% for goal in page.result.goal.away-team %}
-                <li class="list-group-item text-capitalize text-bg-dark border-0 p-0"><i class="fa-solid fa-futbol text-secondary "></i><small class="fw-bolder px-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time }}</small>{% if goal.goal-type %}<small class="ps-2 text-secondary">{{ goal.goal-type }}</small>{% endif %}</li>
+                <li class="list-group-item text-capitalize text-light border-0 p-0"><i class="fa-solid fa-futbol text-secondary "></i><small class="fw-bolder px-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time }}</small>{% if goal.goal-type %}<small class="ps-2 text-secondary">{{ goal.goal-type }}</small>{% endif %}</li>
               {% endfor %}
               </ul>
             </div>
@@ -75,11 +75,11 @@ layout: default
     <div class="row g-0">
       {% if page.lineup.home-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
-        <li class="list-group-item text-light text-end border-0 p-0 pb-2">
+        <li class="list-group-item text-light bg-transparent text-end border-0 p-0 pb-2">
           <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
         </li>
         {% for player in page.lineup.home-team.lineup %}
-        <li class="d-block row g-0 list-group-item text-light text-end border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light bg-transparent text-end border-0 p-0 pb-1">
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
@@ -89,21 +89,21 @@ layout: default
       {% endif %}
       {% if page.lineup.away-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-3">
-        <li class="list-group-item text-light text-start border-0 p-0 pb-2">
+        <li class="list-group-item text-light bg-transparent text-start border-0 p-0 pb-2">
           <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
         {% for player in page.lineup.away-team.lineup %}
-        <li class="d-block row g-0 list-group-item text-light text-start border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light bg-transparent text-start border-0 p-0 pb-1">
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           {% if player.role %}<small class="d-inline-block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
         </li>
         {% endfor %}
       </ul>
-      <h3 class="d-block text-center text-uppercase text-light fw-bolder mt-3 mb-2">subs</h3>
+      <h3 class="d-block text-center text-uppercase text-light bg-transparent fw-bolder mt-3 mb-2">subs</h3>
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
         {% for player in page.lineup.home-team.subs %}
-        <li class="d-block row g-0 list-group-item text-bg-dark text-end border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light bg-transparent text-end border-0 p-0 pb-1">
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
@@ -112,7 +112,7 @@ layout: default
       </ul>
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-3">
         {% for player in page.lineup.away-team.subs %}
-        <li class="d-block row g-0 list-group-item text-light tex-start border-0 p-0 pb-1">
+        <li class="d-block row g-0 list-group-item text-light bg-transparent tex-start border-0 p-0 pb-1">
           <span class="d-inline-block col-1 text-uppercase text-secondary fw-bolder">{{ player.no-punggung }}</span>
           <span class="d-inline-block col-auto text-capitalize px-1">{{ player.name }}</span>
           {% if player.role %}<small class="d-inline-block block col-auto text-uppercase fw-bolder text-secondary">{{ player.role }}</small>{% endif %}
