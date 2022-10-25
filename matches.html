@@ -11,7 +11,7 @@ title: matches
     <div class="row row-cols-1 g-0">
       {% for match in schedules %}
       <div class="col">
-        <div class="card text-bg-dark border-0 border-secondary border-bottom rounded-0 px-0">
+        <div class="card text-light border-0 border-secondary border-bottom rounded-0 px-0">
           <div class="row row-cols-2 g-0 card-header bg-transparent border-0 px-3">
             <div class="col">
               <p class="card-text text-start text-capitalize mb-0 lh-1"><small>{{ match.time }}</small></p>
@@ -50,7 +50,7 @@ title: matches
       </div>
       {% endfor %}
       {% if match-count == 0 %}
-      <div class="card text-bg-dark border-0 px-0">
+      <div class="card text-light border-0 px-0">
         <div class="card-body d-flex justify-content-center align-items-center">
           <p class="text-secondary">no match schedule</p>
         </div>
@@ -65,7 +65,7 @@ title: matches
     <div class="row row-cols-1 g-0">
       {% for match in results reversed %}
       <div class="col">
-        <div class="card text-bg-dark border-0 border-secondary border-bottom rounded-0 px-0">
+        <div class="card text-light border-0 border-secondary border-bottom rounded-0 px-0">
           <div class="row row-cols-2 g-0 card-header d-flex justify-content-between bg-transparent border-0 px-3">
             <div class="col">
               <p class="card-text text-start text-capitalize mb-0 lh-1"><small>{{ match.time }}</small></p>
