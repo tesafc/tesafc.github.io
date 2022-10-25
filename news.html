@@ -9,7 +9,7 @@ title: news
     <div class="row row-cols-1 row-cols-md-3 g-2">
       {% for post in site.posts %}
       <div class="col">
-        <div class="card h-100 text-bg-dark bg-gradient border-secondary border-opacity-10 rounded-0 shadow" style="min-height: 12rem;">
+        <div class="card h-100 text-bg-dark border-secondary" style="min-height: 12rem;">
           {% if post.img %}
           <div class="ratio ratio-16x9">
             <img src="{{ post.img }}" alt="{{ post.title }}" class="rounded-0" style="object-fit: cover;">
