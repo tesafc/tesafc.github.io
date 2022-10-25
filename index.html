@@ -9,7 +9,7 @@ description: tesa fc official website
     <h1>News</h1>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       {% for post in site.posts | limit: 5 %}
-      <div class="card h-100 text-bg-dark border-secondary me-2" style="min-width: 13rem; min-height: 15rem;">
+      <div class="card h-100 text-bg-dark border-secondary me-2" style="min-width: 16rem; min-height: 18rem;">
         {% if post.img %}
         <div class="ratio ratio-4x3">
           <img src="{{ post.img }}" alt="" class="rounded-top" style="object-fit: cover;">
