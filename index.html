@@ -33,7 +33,7 @@ description: tesa fc official website
           <h1 class="fs-3 text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.name }}</a></h1>
         </div>
       </div>
-      {% endfor %}
+      {% endfor %} 
     </div>
     {% assign match-schedule = site.matches | where: "status", "match schedule" %}
     {% assign match-count = match-schedule | size %}
