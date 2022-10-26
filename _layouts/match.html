@@ -40,7 +40,7 @@ layout: default
             <p class="card-text text-start text-uppercase fw-bolder lh-1 mb-0 ps-3 ps-md-0">{{ page.away-team.name }}</p>
           </div>
           <div class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder">{% if page.result.score.half-time %}{{ page.result.score.half-time | prepend: "ht " }}{% endif %}</small></div>
-          {% if page.result.status == "ft" %}
+          {% if page.result.status == "full-time" %}
           <div class="row g-0">
             {% if page.result.goal.home-team %}
             <div class="col-6">
