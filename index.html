@@ -7,9 +7,9 @@ description: tesa fc official website
 <div class="text-light my-5">
   <div class="container-fluid">
     <h1 class="mb-2">News</h1>
-    <div class="d-flex flex-row flex-nowrap overflow-auto">
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for post in site.posts | limit: 5 %}
-      <div class="card h-100 text-bg-dark gap-3" style="min-width: 16rem; min-height: 18rem;">
+      <div class="card h-100 text-bg-dark" style="min-width: 16rem; min-height: 18rem;">
         {% if post.img %}
         <div class="ratio ratio-4x3">
           <img src="{{ post.img }}" alt="" class="rounded-top" style="object-fit: cover;">
@@ -38,9 +38,9 @@ description: tesa fc official website
     {% assign match-schedule = site.matches | where: "status", "match schedule" %}
     {% assign match-count = match-schedule | size %}
     <h1 class="text-capitalize mt-5 mb-2">Match schedule</h1>
-    <div class="d-flex flex-row flex-nowrap overflow-auto">
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for match in match-schedule %}
-      <div class="card h-100 text-bg-dark gap-3" style="min-width: 17rem; min-height: 20rem;">
+      <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
         <div class="card-header text-light bg-transparent text-center border-0 pt-3">
           <p class="card-text text-uppercase fw-bolder mb-0"><small>{{ match.time }}</small></p>
           <p class="card-text text-capitalize mb-0"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
