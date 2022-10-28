@@ -6,9 +6,9 @@ layout: default
   <div class="container">
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
-    {% assign positions = teams | group_by: "position-order" %}
+    {% assign positions = teams | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-3 g-2">
-      {% for position in positions %}
+      {% for position in positions | sort: "position-order" %}
       <h3 class="d-block w-100 text-uppercase mt-5 mb-0">{{ position.name }}</h3>
       {% for player in position.items %}
       <div class="col">
