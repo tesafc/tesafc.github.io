@@ -1,5 +1,5 @@
 ---
-title: 7
+title: a. mansur
 jersey-name: a. mansur
 jersey-number: 7
 position: attacker
