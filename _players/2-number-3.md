@@ -22,9 +22,9 @@ details:
 stats:
   - name: match played
     value: "8"
-  - name: lineup start
+  - name: lineup
     value: "4"
-  - name: lineup substitute
+  - name: substitute
     value: "4"
   - name: goal
     value: "0"
