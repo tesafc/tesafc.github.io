@@ -1,7 +1,7 @@
 ---
-title: number 96
+title: number 1
 jersey-name: aldo
-jersey-number: 96
+jersey-number: 1
 position: goalkeeper
 position-order: 1
 team: first-team
@@ -22,9 +22,9 @@ details:
 stats:
   - name: match played
     value: "15"
-  - name: lineup start
+  - name: lineup
     value: "9"
-  - name: lineup substitute
+  - name: substitute
     value: "6"
   - name: cleansheet
     value: "-"
