@@ -6,12 +6,13 @@ layout: default
   <div class="container">
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
-    {% assign positions = teams | group_by: "position" | sort:"position-order" %}
-    {% assign sorted-position = positions | sort:"position-order" %}
+    {% assign positions = teams | group_by: "position %}
+    {% assign sorted-position = positions %}
     <div class="row row-cols-2 row-cols-md-3 g-2">
-      {% for position in sorted-position %}
+      {% for position in positions %}
       <h3 class="d-block w-100 text-uppercase mt-5 mb-0">{{ position.name }}</h3>
-      {% for player in position.items %}
+      {% assign sorted-players = position.items | sort:"position-order" %}
+      {% for player in sorted-players %}
       <div class="col">
         <div class="card h-100 text-light bg-transparent border-secondary">
           <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img p-2" style="height: 16rem; object-fit: contain;">
