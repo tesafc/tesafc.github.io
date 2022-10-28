@@ -1,7 +1,7 @@
 ---
-title: number 20
-jersey-name: abang
-jersey-number: 20
+title: number 78
+jersey-name: bizmamy
+jersey-number: 78
 position: goalkeeper
 position-order: 1
 team: first-team
@@ -22,9 +22,9 @@ details:
 stats:
   - name: match played
     value: "6"
-  - name: lineup start
+  - name: lineup
     value: "0"
-  - name: lineup substitute
+  - name: substitute
     value: "6"
   - name: cleansheet
     value: "-"
