@@ -1,7 +1,7 @@
 ---
-title: number 69
+title: number 11
 jersey-name: habiel
-jersey-number: 69
+jersey-number: 11
 position: attacker
 position-order: 4
 team: first-team
@@ -22,9 +22,9 @@ details:
 stats:
   - name: match played
     value: "14"
-  - name: lineup start
+  - name: lineup
     value: "13"
-  - name: lineup substitute
+  - name: substitute
     value: "1"
   - name: goal
     value: "11"
