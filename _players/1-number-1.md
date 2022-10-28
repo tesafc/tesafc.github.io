@@ -1,5 +1,5 @@
 ---
-title: 1
+title: aldo
 jersey-name: aldo
 jersey-number: 1
 position: goalkeeper
