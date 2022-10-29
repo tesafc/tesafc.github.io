@@ -1,9 +1,8 @@
 ---
-title: 78
+title: bizmamy
 jersey-name: bizmamy
 jersey-number: 78
 position: goalkeeper
-position-order: 1
 team: first-team
 profile-picture:
 details:
@@ -34,4 +33,5 @@ stats:
     value: "0"
   - name: red card
     value: "0"
+last-update:
 ---
