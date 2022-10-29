@@ -8,6 +8,7 @@ collections:
     output: true
   players:
     output: true
+    permalink: /:collection/:title
   teams:
     output: true
 plugins:
@@ -24,7 +25,6 @@ defaults:
   - scope:
       path: ""
       type: "players"
-      permalink: /:collection/:title
     values:
       layout: "player"
       profile-picture: /assets/img/logo/blank-pp.png
