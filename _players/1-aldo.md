@@ -4,7 +4,6 @@ title: aldo
 jersey-name: aldo
 jersey-number: 1
 position: goalkeeper
-position-order: 1
 team: first-team
 profile-picture:
 details:
@@ -35,4 +34,5 @@ stats:
     value: "-"
   - name: red card
     value: "-"
+last-update:
 ---
