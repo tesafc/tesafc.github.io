@@ -1,9 +1,8 @@
 ---
-title: 11
+title: habiel
 jersey-name: habiel
 jersey-number: 11
 position: attacker
-position-order: 4
 team: first-team
 profile-picture:
 details:
@@ -34,4 +33,5 @@ stats:
     value: "0"
   - name: red card
     value: "0"
+last-update:
 ---
