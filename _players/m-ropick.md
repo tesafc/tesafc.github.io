@@ -1,9 +1,8 @@
 ---
-title: 7
+title: m. ropick
 jersey-name: m. ropick
 jersey-number: 7
 position: midfielder
-position-order: 3
 team: first-team
 profile-picture:
 details:
@@ -34,4 +33,5 @@ stats:
     value: "0"
   - name: red card
     value: "0"
+last-update:
 ---
