@@ -8,7 +8,6 @@ collections:
     output: true
   players:
     output: true
-    permalink: /:collection/:title
   teams:
     output: true
 plugins:
