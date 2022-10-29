@@ -1,4 +1,5 @@
 ---
+permalink: /players/aldo
 title: aldo
 jersey-name: aldo
 jersey-number: 1
