@@ -1,4 +1,5 @@
 ---
+permalink: /players/fahri-husaini
 title: fahri husaini
 jersey-name: fahri husaini
 jersey-number: 3
