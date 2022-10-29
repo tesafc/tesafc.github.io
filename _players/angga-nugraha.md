@@ -1,9 +1,8 @@
 ---
-title: 13
+title: angga nugraha
 jersey-name: angga nugraha
 jersey-number: 13
 position: defender
-position-order: 2
 team: first-team
 profile-picture:
 details:
@@ -14,7 +13,7 @@ details:
   - name: date of birth
     value: "-"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "-"
   - name: preferred foot
@@ -34,4 +33,5 @@ stats:
     value: "-"
   - name: red card
     value: "-"
+last-update:
 ---
