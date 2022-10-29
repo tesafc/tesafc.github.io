@@ -4,7 +4,7 @@ layout: default
 
 <div class="text-light">
   <div class="container">
-    <h1 class="mb-0 pt-3 text-capitalize fw-bolder">{{ page.title }}</h1>
+    <h1 class="mb-0 pt-5 text-capitalize fw-bolder">{{ page.title }}</h1>
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
     {% assign positions = teams | group_by: "position" %}
