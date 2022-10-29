@@ -1,4 +1,5 @@
 ---
+permalink: /players/irfan-oktavian
 title: irfan oktavian
 jersey-name: irfan oktavian
 jersey-number: 6
