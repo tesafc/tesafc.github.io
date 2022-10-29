@@ -4,7 +4,6 @@ title: fahri husaini
 jersey-name: fahri husaini
 jersey-number: 3
 position: defender
-position-order: 2
 team: first-team
 profile-picture:
 details:
@@ -35,4 +34,5 @@ stats:
     value: "0"
   - name: red card
     value: "0"
+last-update:
 ---
