@@ -4,7 +4,6 @@ title: a. mansur
 jersey-name: a. mansur
 jersey-number: 7
 position: attacker
-position-order: 4
 team: first-team
 profile-picture:
 details:
@@ -15,7 +14,7 @@ details:
   - name: date of birth
     value: "-"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "-"
   - name: preferred foot
@@ -35,4 +34,5 @@ stats:
     value: "-"
   - name: red card
     value: "-"
+last-update:
 ---
