@@ -1,9 +1,8 @@
 ---
-title: 5
+title: gibran
 jersey-name: gibran
 jersey-number: 5
 position: defender
-position-order: 2
 team: first-team
 profile-picture:
 details:
@@ -34,4 +33,5 @@ stats:
     value: "-"
   - name: red card
     value: "-"
+last-update:
 ---
