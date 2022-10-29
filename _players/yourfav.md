@@ -3,7 +3,6 @@ title: yourfav
 jersey-name: yourfav
 jersey-number: 23
 position: midfielder
-position-order: 3
 team: first-team
 profile-picture:
 details:
