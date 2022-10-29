@@ -1,4 +1,5 @@
 ---
+permalink: /players/a-mansur
 title: a. mansur
 jersey-name: a. mansur
 jersey-number: 7
