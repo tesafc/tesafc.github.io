@@ -1,9 +1,8 @@
 ---
-title: 10
+title: hagialfahri
 jersey-name: hagialfahri
 jersey-number: 10
 position: midfielder
-position-order: 3
 team: first-team
 profile-picture:
 details:
@@ -34,4 +33,5 @@ stats:
     value: "-"
   - name: red card
     value: "-"
+last-update:
 ---
