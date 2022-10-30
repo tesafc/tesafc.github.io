@@ -77,10 +77,10 @@ description: tesa fc official website
       </div>
       {% endif %}
     </div>
-    {% assign match-result = site.matches | where: "status", "match result" %}
+    {% assign match-result = site.matches | where: "status", "match result" | reverse %}
     <h1 class="text-capitalize pt-5 mb-2">Match result</h1>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
-      {% for match in match-result reversed | limit: 5 %}
+      {% for match in match-result limit: 5 %}
       <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
         <div class="card-header text-bg-dark bg-transparent text-center border-0 pt-3">
           <p class="card-text text-uppercase fw-bolder mb-0"><small>{{ match.time }}</small></p>
