@@ -50,6 +50,8 @@ layout: default
               {% endfor %}
               </ul>
             </div>
+            {% else %}
+            <div class="col"></div>
             {% endif %}
             {% if page.result.goal.away-team %}
             <div class="col">
@@ -59,6 +61,8 @@ layout: default
               {% endfor %}
               </ul>
             </div>
+            {% else %}
+            <div class="col"></div>
             {% endif %}
           </div>
           {% endif %}
