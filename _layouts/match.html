@@ -41,9 +41,9 @@ layout: default
           </div>
           <div class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder">{% if page.result.score.half-time %}{{ page.result.score.half-time | prepend: "ht " }}{% endif %}</small></div>
           {% if page.result.status == "full-time" %}
-          <div class="row g-0">
+          <div class="row g-0 w-100">
             {% if page.result.goal.home-team %}
-            <div class="col-6">
+            <div class="col-6 w-50">
               <ul class="list-group text-end rounded-0 border-0 p-0 pt-2 pe-2">
               {% for goal in page.result.goal.home-team %}
                 <li class="list-group-item text-capitalize text-light bg-transparent border-0 p-0">{% if goal.goal-type %}<small class="pe-2 text-secondary">{{ goal.goal-type }}</small>{% endif %}<small class="text-secondary">{{ goal.time }}</small><small class="fw-bolder px-2">{{ goal.name }}</small><i class="fa-solid fa-futbol text-secondary"></i></li>
@@ -52,7 +52,7 @@ layout: default
             </div>
             {% endif %}
             {% if page.result.goal.away-team %}
-            <div class="col-6">
+            <div class="col-6 w-50">
               <ul class="list-group text-start rounded-0 border-0 p-0 ps-2 pt-2">
               {% for goal in page.result.goal.away-team %}
                 <li class="list-group-item text-capitalize text-light bg-transparent border-0 p-0"><i class="fa-solid fa-futbol text-secondary "></i><small class="fw-bolder px-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time }}</small>{% if goal.goal-type %}<small class="ps-2 text-secondary">{{ goal.goal-type }}</small>{% endif %}</li>
