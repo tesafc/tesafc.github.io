@@ -41,7 +41,7 @@ layout: default
           </div>
           <div class="d-inline-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder">{% if page.result.score.half-time %}{{ page.result.score.half-time | prepend: "ht " }}{% endif %}</small></div>
           {% if page.result.status == "full-time" %}
-          <div class="row g-0 justify-content-between">
+          <div class="row g-1 justify-content-center">
             {% if page.result.goal.home-team %}
             <div class="col-6">
               <ul class="list-group text-end rounded-0 border-0 p-0 pt-2 pe-2">
