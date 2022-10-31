@@ -5,7 +5,7 @@ title: matches
 
 <div class="pt-5">
   <div class="container px-0">
-    <h1 class="mb-0 px-3 text-capitalize">matchplan season 2022</h1>
+    <h1 class="mb-0 px-3 text-capitalize">season 2022</h1>
     {% assign schedules = site.matches | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
     <h4 class="text-uppercase fw-bolder border-bottom border-secondary px-3 mb-0 pt-5 pb-2">match schedule</h4>
@@ -15,12 +15,12 @@ title: matches
         <div class="card text-light bg-transparent border-0 border-secondary border-bottom rounded-0 px-0">
           <div class="row row-cols-2 g-0 card-header bg-transparent border-0 px-3">
             <div class="col d-flex flex-column flex-md-row justify-content-start">
-              <p class="card-text text-start text-capitalize mb-0 lh-1"><small>{{ match.time }}</small></p>
+              <p class="card-text text-start text-capitalize mb-0 lh-1 pe-md-2"><small>{{ match.time }}</small></p>
               <p class="card-text text-start text-uppercase fw-bolder mb-0 lh-1"><small>{{ match.kick-off }}</small></p>
             </div>
             <!--disabled<div class="col d-flex justify-content-center align-items-start"><small class="badge rounded-pill text-bg-dark border text-uppercase">{{ match.team }}</small></div>-->
             <div class="col d-flex flex-column flex-md-row justify-content-end">
-              <p class="card-text text-end text-capitalize mb-0 lh-1"><small>{{ match.competition }}</small></p>
+              <p class="card-text text-end text-capitalize mb-0 lh-1 pe-md-2"><small>{{ match.competition }}</small></p>
               <p class="card-text text-end text-capitalize fw-bolder mb-0 lh-1"><small>{{ match.matchday }}</small></p>
             </div>
           </div>
@@ -45,7 +45,7 @@ title: matches
           </div>
           <div class="card-footer bg-transparent border-0">
             <p class="card-text text-center text-capitalize mb-0"><small>{{ match.stadium }} • {{ match.place }}</small></p>
-            <a href="{{ match.url | relative_url }}" class="d-block card-text text-center text-capitalize mb-0"><small class="stretched-link text-decoration-none">Match Report</small></a>
+            <a href="{{ match.url | relative_url }}" class="d-block card-text text-center text-capitalize stretched-link text-decoration-none mb-0"><small>Match Report</small></a>
           </div>
         </div>
       </div>
