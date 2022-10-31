@@ -31,7 +31,7 @@ layout: default
             <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
           <div class="col-2 d-flex justify-content-center align-items-center py-2">
-            <p class="badge text-bg-light text-center fs-3 fw-bolder p-1 mb-0">{% if page.result.score.full-time %}{{ page.result.score.full-time }}{% else %}{{ page.kick-off }}{% endif %}</p>
+            <p class="badge text-bg-light text-center fs-3 fw-bolder p-1 mb-0">{% if page.result.score.full-time %}{{ page.result.score.full-time }}{% else %}VS{% endif %}</p>
           </div>
           <div class="col-1 d-flex justify-content-start align-items-center">
             <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
