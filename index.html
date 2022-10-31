@@ -37,7 +37,7 @@ description: tesa fc official website
     </div>
     {% assign match-schedule = site.matches | where: "status", "match schedule" %}
     {% assign match-count = match-schedule | size %}
-    <h1 class="text-capitalize pt-5 mb-2">Match schedule</h1>
+    <h1 class="text-capitalize pt-5 mb-2">Next Match</h1>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for match in match-schedule %}
       <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
@@ -78,7 +78,7 @@ description: tesa fc official website
       {% endif %}
     </div>
     {% assign match-result = site.matches | where: "status", "match result" | reverse %}
-    <h1 class="text-capitalize pt-5 mb-2">Match result</h1>
+    <h1 class="text-capitalize pt-5 mb-2">Last Match</h1>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for match in match-result limit: 5 %}
       <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
