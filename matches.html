@@ -3,8 +3,9 @@ layout: default
 title: matches
 ---
 
-<div class="my-5">
+<div class="pt-5">
   <div class="container px-0">
+    <h1 class="mb-0 text-capitalize">matchplan season 2022</h1>
     {% assign schedules = site.matches | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
     <h3 class="text-uppercase fw-bolder border-bottom border-secondary px-3 mb-0 pb-2">match schedule</h3>
