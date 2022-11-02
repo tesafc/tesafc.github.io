@@ -29,5 +29,6 @@ defaults:
       profile-picture: /assets/img/logo/blank-pp.png
 author:
   name: tesa fc
+  phone: +6285162957422
   email: tesafc@hotmail.com
 version: 2.0.0
