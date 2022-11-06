@@ -8,17 +8,17 @@ team: reserve-team
 profile-picture:
 details:
   - name: height
-    value: "-"
+    value: "178"
   - name: weight
     value: "-"
   - name: date of birth
-    value: "-"
+    value: "17 agustus 1996"
   - name: place of birth
     value: "-"
   - name: shoe size
-    value: "-"
+    value: "41"
   - name: preferred foot
-    value: "-"
+    value: "left"
 stats:
   - name: match played
     value: "-"
@@ -26,9 +26,9 @@ stats:
     value: "-"
   - name: substitute
     value: "-"
-  - name: cleansheet
+  - name: goal
     value: "-"
-  - name: penalty saves
+  - name: assist
     value: "-"
   - name: yellow card
     value: "-"
