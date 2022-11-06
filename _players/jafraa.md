@@ -11,11 +11,11 @@ details:
   - name: weight
     value: "-"
   - name: date of birth
-    value: "-"
+    value: "21 oktober 2001"
   - name: place of birth
     value: "-"
   - name: shoe size
-    value: "-"
+    value: "39"
   - name: preferred foot
     value: "-"
 stats:
