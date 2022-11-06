@@ -7,26 +7,26 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: "165 cm"
+    value: "165"
   - name: weight
-    value: "57 kg"
+    value: "57"
   - name: date of birth
     value: "11 agustus 2002"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
-    value: "43"
+    value: "42"
   - name: preferred foot
     value: "right"
 stats:
   - name: match played
-    value: "14"
+    value: "-"
   - name: lineup
-    value: "13"
+    value: "-"
   - name: substitute
-    value: "1"
+    value: "-"
   - name: goal
-    value: "11"
+    value: "-"
   - name: assist
     value: "-"
   - name: yellow card
