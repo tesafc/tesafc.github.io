@@ -7,17 +7,17 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: "-"
+    value: "168"
   - name: weight
-    value: "-"
+    value: "66"
   - name: date of birth
-    value: "-"
+    value: "14 juni 1996"
   - name: place of birth
     value: "-"
   - name: shoe size
-    value: "-"
+    value: "41"
   - name: preferred foot
-    value: "-"
+    value: "right"
 stats:
   - name: match played
     value: "-"
