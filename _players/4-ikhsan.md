@@ -26,9 +26,9 @@ stats:
     value: "-"
   - name: substitute
     value: "-"
-  - name: cleansheet
+  - name: goal
     value: "-"
-  - name: penalty saves
+  - name: assist
     value: "-"
   - name: yellow card
     value: "-"
