@@ -13,7 +13,7 @@ details:
   - name: date of birth
     value: "10 desember 2001"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "41"
   - name: preferred foot
