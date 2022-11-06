@@ -14,25 +14,25 @@ details:
   - name: date of birth
     value: "-"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
-    value: "44"
+    value: "-"
   - name: preferred foot
     value: "right"
 stats:
   - name: match played
-    value: "8"
+    value: "-"
   - name: lineup
-    value: "4"
+    value: "-"
   - name: substitute
-    value: "4"
+    value: "-"
   - name: goal
-    value: "0"
+    value: "-"
   - name: assist
-    value: "0"
+    value: "-"
   - name: yellow card
-    value: "0"
+    value: "-"
   - name: red card
-    value: "0"
+    value: "-"
 last-update:
 ---
