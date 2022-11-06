@@ -30,8 +30,8 @@ stats:
   - name: assist
     value: "-"
   - name: yellow card
-    value: "0"
+    value: "-"
   - name: red card
-    value: "0"
+    value: "-"
 last-update:
 ---
