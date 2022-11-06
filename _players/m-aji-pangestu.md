@@ -7,17 +7,17 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: "-"
+    value: "165"
   - name: weight
-    value: "-"
+    value: "50"
   - name: date of birth
-    value: "-"
+    value: "18 oktober 2003"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
-    value: "-"
+    value: "40"
   - name: preferred foot
-    value: "-"
+    value: "right"
 stats:
   - name: match played
     value: "-"
