@@ -13,7 +13,7 @@ details:
   - name: date of birth
     value: "14 mei 2003"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "42"
   - name: preferred foot
