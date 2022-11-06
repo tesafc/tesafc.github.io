@@ -13,7 +13,7 @@ details:
   - name: date of birth
     value: "-"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "-"
   - name: preferred foot
@@ -29,7 +29,7 @@ stats:
     value: "-"
   - name: assist
     value: "-"
-  - name: yellow card
+  - name: yellow card 
     value: "-"
   - name: red card
     value: "-"
