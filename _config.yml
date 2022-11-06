@@ -10,6 +10,11 @@ collections:
     output: true
   teams:
     output: true
+    order:
+      - first-team.md
+      - u-17.md
+      - u-13.md
+      - reserve-team.md
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
