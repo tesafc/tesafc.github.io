@@ -8,15 +8,15 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: "-"
+    value: "169"
   - name: weight
-    value: "-"
+    value: "59"
   - name: date of birth
-    value: "-"
+    value: "31 juli 1999"
   - name: place of birth
-    value: "kuningan"
-  - name: shoe size
     value: "-"
+  - name: shoe size
+    value: "42"
   - name: preferred foot
     value: "right"
 stats:
