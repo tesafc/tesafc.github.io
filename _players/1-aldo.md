@@ -14,18 +14,18 @@ details:
   - name: date of birth
     value: "-"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "41"
   - name: preferred foot
     value: "right"
 stats:
   - name: match played
-    value: "15"
+    value: "-"
   - name: lineup
-    value: "9"
+    value: "-"
   - name: substitute
-    value: "6"
+    value: "-"
   - name: cleansheet
     value: "-"
   - name: penalty saves
