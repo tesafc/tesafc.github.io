@@ -17,7 +17,7 @@ details:
   - name: shoe size
     value: "39"
   - name: preferred foot
-    value: "-"
+    value: "right"
 stats:
   - name: match played
     value: "-"
