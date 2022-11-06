@@ -7,9 +7,9 @@ team: first-team
 profile-picture:
 details:
   - name: height
-    value: "173 cm"
+    value: "173"
   - name: weight
-    value: "53 kg"
+    value: "53"
   - name: date of birth
     value: "23 mei 2001"
   - name: place of birth
@@ -20,18 +20,18 @@ details:
     value: "right"
 stats:
   - name: match played
-    value: "16"
+    value: "-"
   - name: lineup
-    value: "14"
+    value: "-"
   - name: substitute
-    value: "2"
+    value: "-"
   - name: goal
-    value: "8"
+    value: "-"
   - name: assist
     value: "-"
   - name: yellow card
-    value: "0"
+    value: "-"
   - name: red card
-    value: "0"
+    value: "-"
 last-update:
 ---
