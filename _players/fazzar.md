@@ -13,7 +13,7 @@ details:
   - name: date of birth
     value: "-"
   - name: place of birth
-    value: "kuningan"
+    value: "-"
   - name: shoe size
     value: "-"
   - name: preferred foot
