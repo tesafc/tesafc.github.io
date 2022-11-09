@@ -26,7 +26,7 @@ defaults:
       type: "players"
     values:
       layout: "player"
-      profile-picture: /assets/img/logo/blank-pp.png
+      profile-picture: /assets/img/logo/blank-pp.jpg
 author:
   name: tesa fc
   phone: +6285162957422
