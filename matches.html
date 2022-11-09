@@ -30,13 +30,13 @@ title: matches
                 <p class="card-text text-end text-uppercase fw-bolder lh-1 pe-4 pe-md-0">{{ match.home-team.name }}</p>
               </div>
               <div class="col-1 d-flex justify-content-end align-items-center pe-2 pe-md-0">
-                <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
+                <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
                 <p class="badge text-bg-light text-center fs-4 fw-bolder p-1 mb-0">{{ match.kick-off }}</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center ps-2 ps-md-0">
-                <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
+                <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
               </div>
               <div class="col-4 d-flex justify-content-start align-items-center">
                 <p class="card-text text-start text-uppercase fw-bolder lh-1 ps-4 ps-md-0">{{ match.away-team.name }}</p>
@@ -84,13 +84,13 @@ title: matches
                 <p class="card-text text-end text-uppercase fw-bolder lh-1 pe-4 pe-md-0">{{ match.home-team.name }}</p>
               </div>
               <div class="col-1 d-flex justify-content-end align-items-center pe-2 pe-md-0">
-                <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
+                <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
                 <p class="badge text-center text-bg-light fs-3 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center ps-2 ps-md-0">
-                <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.png' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
+                <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-start" width="auto" height="40">
               </div>
               <div class="col-4 d-flex justify-content-start align-items-center ps-4 ps-md-0">
                 <p class="card-text text-start text-uppercase fw-bolder lh-1">{{ match.away-team.name }}</p>
