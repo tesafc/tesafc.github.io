@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div class="my-5">
+<div class="pt-5">
   <div class="container">
     <header class="text-light">
       <h1 class="mb-0 text-capitalize">{{ page.title }}</h1>
       <time datetime="{{ page.date | date_to_xmlschema }}">
-        <small>{{ page.date | date: '%B %d, %Y' }}</small>
+        <small class="text-secondary">{{ page.date | date: '%B %d, %Y' }}</small>
       </time>
     </header>
-    <div class="pt-3">
+    <div class="pt-4">
       <div class="text-light">
         {{ content }}
       </div>
