@@ -6,7 +6,10 @@ description: tesa fc official website
 
 <div class="text-light pt-5">
   <div class="container-fluid" style="max-width: 960px;">
-    <h1 class="mb-3">News</h1>
+    <div class="d-flex justify-content-between align-items-end fw-bolder">
+      <h1 class="mb-3">News</h1>
+      <a href="{{ 'news' | relative_url }}" alt="go to news page" class="link-primary text-decoration-none"><small>view all</a>
+    </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for post in site.posts | limit: 5 %}
       <div class="card h-100 text-bg-dark" style="min-width: 16rem; min-height: 18rem;">
@@ -22,7 +25,10 @@ description: tesa fc official website
       </div>
       {% endfor %}
     </div>
-    <h1 class="pt-5 mb-3">Teams</h1>
+    <div class="d-flex justify-content-between align-items-end fw-bolder">
+      <h1 class="mb-3">Teams</h1>
+      <a href="{{ 'teams' | relative_url }}" alt="go to news page" class="link-primary text-decoration-none"><small>view all</a>
+    </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       {% assign teams = site.teams | sort: "order" %}
       {% for team in teams %}
@@ -40,7 +46,10 @@ description: tesa fc official website
     </div>
     {% assign match-schedule = site.matches | where: "status", "match schedule" %}
     {% assign match-count = match-schedule | size %}
-    <h1 class="text-capitalize pt-5 mb-3">Next Match</h1>
+    <div class="d-flex justify-content-between align-items-end fw-bolder">
+      <h1 class="mb-3">Next match</h1>
+      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="link-primary text-decoration-none"><small>view all</a>
+    </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for match in match-schedule %}
       <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
@@ -81,6 +90,9 @@ description: tesa fc official website
       {% endif %}
     </div>
     {% assign match-result = site.matches | where: "status", "match result" | reverse %}
+      <h1 class="mb-3">News</h1>
+      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="link-primary text-decoration-none"><small>view all</a>
+    </div>
     <h1 class="text-capitalize pt-5 mb-3">Last Match</h1>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% for match in match-result limit: 5 %}
