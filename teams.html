@@ -4,10 +4,11 @@ title: teams
 default-img: https://source.unsplash.com/IoJFOvbqF3c
 ---
 
-<div class="my-5">
+<div class="py-5">
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 g-3">
-      {% for team in site.teams %}
+      {% assign teams = site.teams | sort: "order" %}
+      {% for team in teams %}
       <div class="col">
         <div class="card h-100 text-bg-dark border-0 shadow" style="min-height: 10rem;">
           {% if team.image %}
@@ -16,7 +17,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
           </div>
           {% endif %}
           <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
-            <h3 class="text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.title }}</a></h1>
+            <h3 class="text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.team }}</a></h1>
           </div>
         </div>
       </div>
