@@ -9,10 +9,10 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
     <div class="row row-cols-1 row-cols-md-2 g-3">
       {% for team in site.teams %}
       <div class="col">
-        <div class="card h-100 text-bg-dark border-0 shadow" style="min-height: 8rem;">
+        <div class="card h-100 text-bg-dark border-0 shadow" style="min-height: 10rem;">
           {% if team.image %}
           <div class="ratio ratio-21x9">
-            <img src="{{ team.img }}" alt="{{ team.name }}" class="card-img" style="object-fit: contain;">
+            <img src="{{ team.image }}" alt="{{ team.name }}" class="card-img" style="object-fit: contain;">
           </div>
           {% endif %}
           <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
