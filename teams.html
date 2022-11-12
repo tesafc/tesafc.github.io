@@ -11,7 +11,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
       {% assign teams = site.teams | sort: "order" %}
       {% for team in teams %}
       <div class="col">
-        <div class="card h-100 text-bg-dark border-secondary" style="min-height: 8rem;">
+        <div class="card h-100 text-bg-dark border-dark" style="min-height: 10rem;">
           {% if team.image %}
           <div class="ratio ratio-21x9">
             <img src="{{ team.image }}" alt="{{ team.name }}" class="card-img" style="object-fit: cover;">
