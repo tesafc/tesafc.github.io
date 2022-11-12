@@ -4,7 +4,7 @@ title: matches
 ---
 
 <div class="pt-5">
-  <div class="container px-0">
+  <div class="container-fluid px-0" style="max-width: 960px;">
     <h1 class="mb-0 px-3 text-capitalize fw-bolder">matchplan season 2022</h1>
     {% assign schedules = site.matches | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
