@@ -29,10 +29,10 @@ description: tesa fc official website
       <h1 class="mb-0">Teams</h1>
       <a href="{{ 'teams' | relative_url }}" alt="go to news page" class="link-primary text-decoration-none text-uppercase">View all</a>
     </div>
-    <div class="d-flex flex-row flex-nowrap overflow-auto">
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
       {% assign teams = site.teams | sort: "order" %}
       {% for team in teams %}
-      <div class="card h-100 text-bg-dark border-secondary me-3" style="min-width: 18rem; min-height: 10rem;">
+      <div class="card h-100 text-bg-dark border-dark" style="min-width: 18rem; min-height: 10rem;">
         {% if team.image %}
         <div class="ratio ratio-16x9">
           <img src="{{ team.image }}" alt="{{ team.title }}" class="card-img" style="object-fit: cover;">
