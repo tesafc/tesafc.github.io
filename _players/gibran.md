@@ -3,7 +3,7 @@ title: gibran
 jersey-name: gibran
 jersey-number: 5
 position: defender
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
