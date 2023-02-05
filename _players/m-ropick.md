@@ -3,7 +3,7 @@ title: m. ropick
 jersey-name: m. ropick
 jersey-number: 7
 position: midfielder
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
