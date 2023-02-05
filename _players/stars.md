@@ -2,7 +2,7 @@
 title: stars
 jersey-name: stars
 jersey-number: 50
-position: defender
+position: attacker
 team: first-team
 profile-picture:
 details:
