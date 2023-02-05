@@ -3,7 +3,7 @@ permalink: /players/rizky-syahputra
 title: rizky syahputra
 jersey-name: rizky syahputra
 jersey-number: 5
-position: midfielder
+position: defender
 team: u-13
 profile-picture:
 details:
