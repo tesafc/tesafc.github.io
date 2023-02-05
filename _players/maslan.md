@@ -3,7 +3,7 @@ title: maslan
 jersey-name: maslan
 jersey-number: 14
 position: attacker
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
