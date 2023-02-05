@@ -10,18 +10,18 @@ layout: default
   </div>
   <div class="container px-0">
     <div class="card text-light bg-transparent rounded-0 border-0 pt-2">
-      <div class="row row-cols-2 g-0 card-header text-secondary bg-transparent border-0">
+      <div class="row row-cols-3 g-0 card-header text-secondary bg-transparent border-0">
         <div class="col d-flex flex-column flex-md-row justify-content-start">
           <p class="card-text text-start text-capitalize lh-1 mb-0 pe-md-2"><small>{{ page.time }}</small></p>
           <p class="card-text text-start text-uppercase fw-bolder lh-1 mb-0"><small>{{ page.kick-off | append: " WIB" }}</small></p>
         </div>
-        <!--<div class="col d-flex justify-content-center align-items-start"><small class="badge rounded-pill text-bg-dark text-uppercase border">{{ page.team }}</small>-->
+        <div class="col d-flex justify-content-center align-items-start"><small class="badge rounded-pill text-bg-dark text-uppercase border">{{ page.team }}</small>
         <div class="col d-flex flex-column flex-md-row justify-content-end">
           <p class="card-text text-end text-capitalize lh-1 mb-0 pe-md-2"><small>{{ page.competition }}</small></p>
           <p class="card-text text-end text-capitalize fw-bolder lh-1 mb-0"><small>{{ page.matchday }}</small></p>
         </div>
       </div> 
-      <div class="card-body px-0 pb-4">
+      <div class="d-block card-body px-1 pb-4">
         <div class="d-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder lh-1">{{ page.result.status }}</small></div>
         <div class="row g-0">
           <div class="col-4 d-flex justify-content-end align-items-center">
