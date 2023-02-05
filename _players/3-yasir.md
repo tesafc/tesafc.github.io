@@ -3,7 +3,7 @@ permalink: /players/yasir
 title: yasir
 jersey-name: yasir
 jersey-number: 11
-position: midfielder
+position: defender
 team: u-17
 profile-picture:
 details:
