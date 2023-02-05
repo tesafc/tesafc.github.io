@@ -25,6 +25,11 @@ defaults:
       layout: "match"
   - scope:
       path: ""
+      type: "matches-2023"
+    values:
+      layout: "match"
+  - scope:
+      path: ""
       type: "players"
     values:
       layout: "player"
