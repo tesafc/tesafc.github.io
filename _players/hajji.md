@@ -3,7 +3,7 @@ title: hajji
 jersey-name: hajji
 jersey-number: 8
 position: attacker
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
