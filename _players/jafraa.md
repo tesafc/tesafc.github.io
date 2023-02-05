@@ -3,7 +3,7 @@ title: jafraa
 jersey-name: jafraa
 jersey-number: 27
 position: defender
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
