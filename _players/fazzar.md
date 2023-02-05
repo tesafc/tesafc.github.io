@@ -3,7 +3,7 @@ title: fazzar
 jersey-name: fazzar
 jersey-number: 15
 position: midfielder
-team: reserve-team
+team: first-team
 profile-picture:
 details:
   - name: height
