@@ -1,9 +1,8 @@
 ---
-published: false
 title: imam
 jersey-name: imam
 jersey-number: 39
-position: midfielder
+position: attacker
 team: u-17
 profile-picture:
 details:
