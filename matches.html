@@ -5,7 +5,8 @@ title: matches
 
 <div class="pt-5">
   <div class="container-fluid px-0" style="max-width: 960px;">
-    <h1 class="mb-0 px-3 text-capitalize fw-bolder">matchplan season 2022</h1>
+    <h1 class="mb-0 px-3 text-capitalize fw-bolder">matchplan season 2023</h1>
+    {% assign site.matches == site.matches-2023 %}
     {% assign schedules = site.matches | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
     <h3 class="text-capitalize fw-bolder border-bottom border-secondary px-3 mb-0 pt-5 pb-2">match schedule</h3>
@@ -61,6 +62,7 @@ title: matches
   </div>
   
   <div class="container-fluid px-0" style="max-width: 960px;">
+    {% assign site.matches == site.matches-2023 %}
     {% assign results = site.matches | where: "status", "match result" %}
     <h3 class="pt-5 px-3 text-capitalize fw-bolder border-bottom border-secondary mb-0 pb-2">match results</h3>
     <div class="row row-cols-1 g-0">
