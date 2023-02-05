@@ -6,6 +6,8 @@ timezone: Asia/Jakarta
 collections:
   matches:
     output: true
+  matches-2023:
+    output: true
   players:
     output: true
   teams:
