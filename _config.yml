@@ -8,6 +8,7 @@ collections:
     output: true
   matches-2023:
     output: true
+    permalink: /matches/:title
   players:
     output: true
   teams:
