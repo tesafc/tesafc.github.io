@@ -2,7 +2,7 @@
 title: prabu
 jersey-name: prabu
 jersey-number: 32
-position: defender
+position: midfielder
 team: u-13
 profile-picture:
 details:
