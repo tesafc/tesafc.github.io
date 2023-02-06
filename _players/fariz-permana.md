@@ -3,7 +3,7 @@ title: fariz permana
 jersey-name: fariz permana
 jersey-number: 12
 position: defender
-team: u-13
+team: academy
 profile-picture:
 details:
   - name: height
