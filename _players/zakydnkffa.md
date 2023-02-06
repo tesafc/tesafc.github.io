@@ -2,7 +2,7 @@
 title: zakydnkffa
 jersey-name: zakydnkffa
 jersey-number: 30
-position: midfielder
+position: attacker
 team: first-team
 profile-picture:
 details:
