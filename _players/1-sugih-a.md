@@ -4,7 +4,7 @@ title: sugih a.
 jersey-name: sugih a.
 jersey-number: 98
 position: goalkeeper
-team: u-13
+team: academy
 profile-picture:
 details:
   - name: height
