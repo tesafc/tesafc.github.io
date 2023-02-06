@@ -4,7 +4,7 @@ title: ikhsan
 jersey-name: ikhsan
 jersey-number: 4
 position: attacker
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
