@@ -4,7 +4,7 @@ title: rizky syahputra
 jersey-name: rizky syahputra
 jersey-number: 5
 position: defender
-team: u-13
+team: academy
 profile-picture:
 details:
   - name: height
