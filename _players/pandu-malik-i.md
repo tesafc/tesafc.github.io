@@ -3,7 +3,7 @@ title: pandu malik I.
 jersey-name: pandu malik I.
 jersey-number: 25
 position: attacker
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
