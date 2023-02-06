@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 3
 layout: team
 team: reserve-team
 title: reserve team squad
