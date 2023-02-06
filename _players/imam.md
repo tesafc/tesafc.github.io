@@ -3,7 +3,7 @@ title: imam
 jersey-name: imam
 jersey-number: 39
 position: attacker
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
