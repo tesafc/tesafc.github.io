@@ -3,7 +3,7 @@ title: ahmad
 jersey-name: ahmad
 jersey-number: 55
 position: attacker
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
