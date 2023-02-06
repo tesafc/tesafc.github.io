@@ -3,7 +3,7 @@ title: mhmdazrl
 jersey-name: mhmdazrl
 jersey-number: 59
 position: midfielder
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
