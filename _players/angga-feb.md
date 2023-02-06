@@ -3,7 +3,7 @@ title: angga feb.
 jersey-name: angga feb.
 jersey-number: 18
 position: attacker
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
