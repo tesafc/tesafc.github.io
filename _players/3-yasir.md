@@ -4,7 +4,7 @@ title: yasir
 jersey-name: yasir
 jersey-number: 11
 position: defender
-team: u-17
+team: academy
 profile-picture:
 details:
   - name: height
