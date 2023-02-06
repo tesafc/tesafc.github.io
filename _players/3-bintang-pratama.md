@@ -3,7 +3,7 @@ title: bintang pratama
 jersey-name: bintang pratama
 jersey-number: 9
 position: midfielder
-team: u-13
+team: academy
 profile-picture:
 details:
   - name: height
