@@ -3,7 +3,7 @@ title: el-fatih
 jersey-name: el-fatih
 jersey-number: 14
 position: attacker
-team: u-13
+team: academy
 profile-picture:
 details:
   - name: height
