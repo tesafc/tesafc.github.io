@@ -3,7 +3,7 @@ title: m. bagus
 jersey-name: m. bagus
 jersey-number: 37
 position: midfielder
-team: u-13
+team: academy
 profile-picture:
 details:
   - name: height
