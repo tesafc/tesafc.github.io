@@ -3,7 +3,7 @@ title: m. bilal
 jersey-name: m. bilal
 jersey-number: 31
 position: defender
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
