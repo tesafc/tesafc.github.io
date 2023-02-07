@@ -3,7 +3,7 @@ title: fahri a.r.
 jersey-name: fahri a.r.
 jersey-number: 30
 position: defender
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
