@@ -3,7 +3,7 @@ title: alby h.r.
 jersey-name: alby h.r.
 jersey-number: 7
 position: attacker
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
