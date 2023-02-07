@@ -3,7 +3,7 @@ title: pramono t.w.
 jersey-name: pramono t.w.
 jersey-number: 24
 position: defender
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
