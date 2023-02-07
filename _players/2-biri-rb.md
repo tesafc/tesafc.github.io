@@ -4,7 +4,7 @@ title: biri r.b.
 jersey-name: biri r.b.
 jersey-number: 8
 position: defender
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
