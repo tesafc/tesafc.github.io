@@ -3,7 +3,7 @@ title: yourfav
 jersey-name: yourfav
 jersey-number: 23
 position: attacker
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
