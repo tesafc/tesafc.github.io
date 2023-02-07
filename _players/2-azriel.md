@@ -4,7 +4,7 @@ title: azriel
 jersey-name: azriel
 jersey-number: 28
 position: defender
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
