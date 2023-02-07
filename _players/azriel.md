@@ -3,7 +3,7 @@ title: azriel
 jersey-name: azriel
 jersey-number: 24
 position: defender
-team: development-team
+team: first-team
 profile-picture:
 details:
   - name: height
