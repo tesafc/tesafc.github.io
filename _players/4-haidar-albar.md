@@ -4,7 +4,7 @@ title: haidar albar
 jersey-name: haidar albar
 jersey-number: 18
 position: attacker
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
