@@ -3,7 +3,7 @@ title: m. rayhan
 jersey-name: m. rayhan
 jersey-number: 22
 position: defender
-team: academy
+team: development-team
 profile-picture:
 details:
   - name: height
