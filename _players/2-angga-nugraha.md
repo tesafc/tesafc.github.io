@@ -1,4 +1,5 @@
 ---
+permalink: /players/angga-nugraha
 title: angga nugraha
 jersey-name: angga nugraha
 jersey-number: 13
