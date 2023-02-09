@@ -13,6 +13,8 @@ collections:
     output: true
   teams:
     output: true
+  achievement:
+    output: true
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
