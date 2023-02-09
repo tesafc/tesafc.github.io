@@ -127,5 +127,16 @@ description: tesa fc official website
       </div>
       {% endfor %}
     </div>
+    {% assign achievements = site.achievements %}
+    <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
+      <h1 class="mb-0 text-uppercase">achievements</h1>
+    </div>
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
+      {% for achievement in achievements %}
+      <div class="card h-100 text-bg-dark" style="min-width: 12rem; min-height: 18rem;">
+        
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
