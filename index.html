@@ -127,7 +127,7 @@ description: tesa fc official website
       </div>
       {% endfor %}
     </div>
-    {% assign achievements = site.achievements %}
+    {% assign achievements = site.achievements | reverse %}
     <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
       <h1 class="mb-0 text-uppercase">achievements</h1>
     </div>
