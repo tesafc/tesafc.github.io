@@ -138,6 +138,10 @@ description: tesa fc official website
           <p class="card-text text-uppercase fw-bolder mb-0"><small>{{ achievement.competition }}</small></p>
           <p class="mb-0"><small class="badge rounded-pill text-bg-secondary text-uppercase">{{ achievement.team }}</small></p>
         </div>
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h1 class="card-title text-capitalize mb-0">{{ achievement.result.place }}</h1>
+          <p class="card-text text-capitalize mb-0">{{ achievement.competition-name }}</p>
+        </div>
       </div>
       {% endfor %}
     </div>
