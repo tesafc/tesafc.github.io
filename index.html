@@ -136,11 +136,11 @@ description: tesa fc official website
       <div class="card h-100 text-bg-dark" style="min-width: 12rem; min-height: 18rem;">
         <div class="card-header text-bg-dark bg-transparent text-center border-0">
           <p class="card-text text-uppercase fw-bolder mb-0"><small>{{ achievement.competition }}</small></p>
-          <p class="mb-0"><small class="badge rounded-pill text-bg-secondary text-uppercase">{{ achievement.team }}</small></p>
+          <p class="mb-0"><small class="badge rounded-pill text-bg-dark text-uppercase">{{ achievement.team }}</small></p>
         </div>
         <div class="card-body d-flex flex-column justify-content-center">
-          <h1 class="card-title text-capitalize mb-0">{{ achievement.result.place }}</h1>
-          <p class="card-text text-capitalize mb-0">{{ achievement.competition-name }}</p>
+          <h1 class="card-title text-capitalize text-center mb-0">{{ achievement.result.place }}</h1>
+          <p class="card-text text-capitalize text-center text-secondary lh-1 mb-0">{{ achievement.competition-name }}</p>
         </div>
       </div>
       {% endfor %}
