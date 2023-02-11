@@ -3,7 +3,7 @@ title: zakydnkffa
 jersey-name: zakydnkffa
 jersey-number: 30
 position: attacker
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
