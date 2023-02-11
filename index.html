@@ -54,7 +54,10 @@ description: tesa fc official website
       {% for match in match-schedule %}
       <div class="card h-100 text-bg-dark" style="min-width: 17rem; max-width: 17rem; min-height: 20rem;">
         <div class="card-header text-light bg-transparent text-center border-0 pt-3">
-          <p class="mb-2"><small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal"><span>{{ match.team }}</span><span>{{ match.team-classification }}</span></small></p>
+          <p class="mb-2">
+            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team }}</small>
+            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team-classification }}</small>
+          </p>
           <p class="card-text text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
           <p class="card-text text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
         </div>
