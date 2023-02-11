@@ -69,7 +69,7 @@ description: tesa fc official website
               <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="" width="auto" height="45">
             </div>
           </div>
-          <div class="row g-0 pt-2 px-1">
+          <div class="row row-cols-3 g-0 pt-2 px-1">
             <div class="col-auto d-flex justify-content-center text-center text-uppercase fw-bolder lh-1"><small>{{ match.home-team.name }}</small></div>
             <div class="col-3 d-flex justify-content-center text-center text-uppercase text-secondary fw-bolder lh-1"></div>
             <div class="col-auto d-flex justify-content-center text-center text-uppercase fw-bolder lh-1"><small>{{ match.away-team.name }}</small></div>
