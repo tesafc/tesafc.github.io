@@ -13,7 +13,7 @@ title: matches
       {% for match in schedules %}
       <div class="col">
         <div class="card text-light bg-transparent border-0 border-secondary border-bottom rounded-0 px-0">
-          <div class="card-header text-light bg-transparent text-center border-0 pt-3">
+          <div class="card-header text-light bg-transparent text-center border-0 pt-2">
             <p class="mb-2">
               <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team }}</small>
               <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team-classification }}</small>
@@ -77,6 +77,15 @@ title: matches
       {% for match in results reversed %}
       <div class="col">
         <div class="card text-light bg-transparent border-0 border-secondary border-bottom rounded-0 px-0">
+          <div class="card-header text-light bg-transparent text-center border-0 pt-2">
+            <p class="mb-2">
+              <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team }}</small>
+              <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team-classification }}</small>
+            </p>
+            <p class="card-text text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
+            <p class="card-text text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
+          </div>
+          <!--
           <div class="row row-cols-2 g-0 card-header text-secondary d-flex justify-content-between bg-transparent border-0 px-3">
             <div class="col d-flex flex-column flex-md-row justify-content-start">
               <p class="card-text text-start text-capitalize mb-0 pe-md-2 lh-1"><small>{{ match.time }}</small></p>
@@ -88,6 +97,7 @@ title: matches
               <p class="card-text text-end text-capitalize fw-bolder mb-0 lh-1"><small>{{ match.matchday }}</small></p>
             </div>
           </div>
+          -->
           <div class="card-body py-2">
             <div class="row g-0">
               <div class="col-4 d-flex justify-content-end align-items-center">
