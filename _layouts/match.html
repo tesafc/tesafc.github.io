@@ -78,12 +78,12 @@ layout: default
   </div>
   {% if page.lineup %}
   <div class="container px-0 mt-5">
-    <h1 class="text-center text-uppercase text-light fw-bolder mb-4">lineup</h1>
+    <h4 class="text-center text-uppercase text-light fw-bolder mb-4">lineup</h4>
     <div class="row g-0">
       {% if page.lineup.home-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
         <li class="list-group-item text-light bg-transparent text-end border-0 p-0 pb-2">
-          <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
+          <span class="text-end text-uppercase fs-6 fw-bolder border-0 p-0">{{ page.home-team.name }}</span>
         </li>
         {% for player in page.lineup.home-team.lineup %}
         <li class="d-block row g-0 list-group-item text-light bg-transparent text-end border-0 p-0 pb-1">
@@ -97,7 +97,7 @@ layout: default
       {% if page.lineup.away-team.lineup %}
       <ul class="col-6 list-group border-0 rounded-0 p-0 ps-3">
         <li class="list-group-item text-light bg-transparent text-start border-0 p-0 pb-2">
-          <span class="text-end text-uppercase fs-5 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
+          <span class="text-end text-uppercase fs-6 fw-bolder border-0 p-0">{{ page.away-team.name }}</span>
         </li>
         {% for player in page.lineup.away-team.lineup %}
         <li class="d-block row g-0 list-group-item text-light bg-transparent text-start border-0 p-0 pb-1">
@@ -107,7 +107,7 @@ layout: default
         </li>
         {% endfor %}
       </ul>
-      <h3 class="d-block text-center text-uppercase text-light bg-transparent fw-bolder mt-3 mb-2">subs</h3>
+      <h5 class="d-block text-center text-uppercase text-light bg-transparent fw-bolder mt-3 mb-2">subs</h5>
       <ul class="col-6 list-group border-0 rounded-0 p-0 pe-3">
         {% for player in page.lineup.home-team.subs %}
         <li class="d-block row g-0 list-group-item text-light bg-transparent text-end border-0 p-0 pb-1">
