@@ -4,7 +4,7 @@ title: a. mansur
 jersey-name: a. mansur
 jersey-number: 7
 position: attacker
-team: first-team
+team: reserve-team
 profile-picture:
 details:
   - name: height
