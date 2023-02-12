@@ -1,3 +1,24 @@
+---
+partners:
+  - name: pt. cipta agung
+    img: /assets/img/logo/cipta-agung.png
+  - name: montel
+    img: /assets/img/logo/montel-forever.png
+  - name: mie ayam mekarwangi kuningan
+    img: /assets/img/logo/mie-mekarwangi.png
+  - name: rumah mawar kuningan
+    img: /assets/img/logo/rumah-mawar-kuningan.png
+  - name: ropita
+    img: /assets/img/logo/ropita.png
+  - name: apotek berkah maleber
+    img: /assets/img/logo/apotek-berkah.png
+  - name: pok
+    img: /assets/img/logo/POK.png
+  - name: yeni sembako
+    img: /assets/img/logo/yeni-sembako.png
+  - name: redline
+    img: /assets/img/logo/redline.png
+---
 <!doctype html>
 <html lang="en" style="background-color: #121212;">
   <head>
@@ -51,7 +72,20 @@
     </main>
     <div class="container-fluid text-light py-5" style="max-width: 960px;">
       <footer>
-        <!--<div class="d-block text-center text-uppercase fw-bolder pb-3">supported by</div>-->
+        <div>
+          <div class="row row-cols-2 row-cols-md-3 g-3">
+           {% for partner in page.partners %}
+            <div class="col">
+              <div class="card h-100 text-bg-dark">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <img src="{{ partner.img | relative_url }}" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+           {% endfor %}
+          </div>
+        </div>
+        <!--<div class="d-block text-center text-uppercase fw-bolder pb-3">supported by</div>
         <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 py-5 mx-auto" style="max-width: 720px;">
           <img src="{{ '/assets/img/logo/cipta-agung.png' | relative_url }}" alt="" class="" style="object-fit: contain;" width="100" height="45">
           <img src="{{ '/assets/img/logo/montel-forever.png' | relative_url }}" alt="" class="" style="object-fit: contain;" width="100" height="50">
@@ -63,6 +97,7 @@
           <img src="{{ '/assets/img/logo/yeni-sembako.png' | relative_url }}" alt="" class="" style="object-fit: contain;" width="100" height="30">
           <img src="{{ '/assets/img/logo/redline.png' | relative_url }}" alt="" class="" style="object-fit: contain;" width="100" height="25">
         </div>
+        -->
         <div class="pt-5">
           <div class="d-flex justify-content-start align-items-center">
             <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" alt="" class="" width="45" height="45">
