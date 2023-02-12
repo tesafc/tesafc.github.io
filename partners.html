@@ -27,9 +27,11 @@ partners:
   <div class="container">
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for partner in page.partners %}
-      <div class="card h-100 text-bg-dark">
-        <div class="card-body h-100 justify-content-center align-items-center">
-          <img src="{{ partner.img | relative_url }}" alt="" class="img-fluid">
+      <div class="col">
+        <div class="card h-100 text-bg-dark">
+          <div class="card-body justify-content-center align-items-center">
+            <img src="{{ partner.img | relative_url }}" alt="" class="img-fluid">
+          </div>
         </div>
       </div>
       {% endfor %}
