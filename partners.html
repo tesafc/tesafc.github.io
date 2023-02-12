@@ -2,31 +2,12 @@
 layout: page
 title: partners
 description:
-partners:
-  - name: pt. cipta agung
-    img: /assets/img/logo/cipta-agung.png
-  - name: montel
-    img: /assets/img/logo/montel-forever.png
-  - name: mie ayam mekarwangi kuningan
-    img: /assets/img/logo/mie-mekarwangi.png
-  - name: rumah mawar kuningan
-    img: /assets/img/logo/rumah-mawar-kuningan.png
-  - name: ropita
-    img: /assets/img/logo/ropita.png
-  - name: apotek berkah maleber
-    img: /assets/img/logo/apotek-berkah.png
-  - name: pok
-    img: /assets/img/logo/POK.png
-  - name: yeni sembako
-    img: /assets/img/logo/yeni-sembako.png
-  - name: redline
-    img: /assets/img/logo/redline.png
 ---
 
 <div>
   <div class="container px-0">
     <div class="row row-cols-2 row-cols-md-3 g-3">
-      {% for partner in page.partners %}
+      {% for partner in site.data.partners %}
       <div class="col">
         <div class="card h-100 text-bg-dark">
           <div class="card-body d-flex justify-content-center align-items-center">
