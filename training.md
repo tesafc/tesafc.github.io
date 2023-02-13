@@ -5,7 +5,7 @@ description: latihan sepakbola bersama
 ---
 
 ## Jadwal
-<table class="table table-dark table-striped table-striped-columns">
+<table class="table table-dark table-striped-columns">
   <thead>
     <tr class="py-2">
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
