@@ -15,7 +15,7 @@ description: latihan sepakbola bersama
       <th scope="col">u-13</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="table-group-divider">
     <tr>
       <th scope="row" class="text-center text-capitalize">senin</th>
       <td></td>
