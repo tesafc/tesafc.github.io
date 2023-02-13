@@ -6,8 +6,11 @@ layout: default
   <div class="container">
     <header class="text-light">
       <h1 class="mb-0 text-capitalize">{{ page.title }}</h1>
+      {% if page.description %}
+      <h3 class="mb-0 text-capitalize text-secondary">{{ page.description }}</h3>
+      {% endif %}
     </header>
-    <div class="pt-4">
+    <div class="pt-5">
       <div class="text-light">
         {{ content }}
       </div>
