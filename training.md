@@ -5,7 +5,7 @@ description: latihan sepakbola bersama
 ---
 
 ## jadwal
-<table class="table table-dark table-striped">
+<table class="table table-dark">
   <thead>
     <tr class="text-capitalize">
       <th scope="col"></th>
@@ -17,49 +17,49 @@ description: latihan sepakbola bersama
   </thead>
   <tbody>
     <tr>
-      <th scope="row" class="text-end text-capitalize">senin</th>
+      <th scope="row" class="text-center text-capitalize">senin</th>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row" class="text-end text-capitalize">selasa</th>
+      <th scope="row" class="text-center text-capitalize">selasa</th>
       <td>16:00</td>
       <td>16:00</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row" class="text-end text-capitalize">rabu</th>
+      <th scope="row" class="text-center text-capitalize">rabu</th>
       <td></td>
       <td></td>
       <td>16:00</td>
       <td>16:00</td>
     </tr>
     <tr>
-      <th scope="row" class="text-end text-capitalize">kamis</th>
+      <th scope="row" class="text-center text-capitalize">kamis</th>
       <td>16:00</td>
       <td>16:00</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row" class="text-end text-capitalize">jumat</th>
+      <th scope="row" class="text-center text-capitalize">jumat</th>
       <td></td>
       <td></td>
       <td>16:00</td>
       <td>16:00</td>
     </tr>
     <tr>
-      <th scope="row" class="text-end text-capitalize">sabtu</th>
+      <th scope="row" class="text-center text-capitalize">sabtu</th>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row" class="text-end text-capitalize">minggu</th>
+      <th scope="row" class="text-center text-capitalize">minggu</th>
       <td>16:00</td>
       <td>16:00</td>
       <td>08:00</td>
