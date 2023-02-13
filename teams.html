@@ -19,7 +19,9 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
           {% endif %}
           <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
             <h3 class="w-100 text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.team }}</a></h1>
-            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ team.sub-team }}</small>
+            {% for item in team.sub-team %}
+            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ item }}</small>
+            {% endfor %}
           </div>
         </div>
       </div>
