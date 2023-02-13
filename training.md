@@ -39,21 +39,31 @@ description: latihan sepakbola bersama
     </tr>
     <tr>
       <th scope="row">kamis</th>
+      <td>16:00</td>
+      <td>16:00</td>
+      <td>free</td>
+      <td>free</td>
     </tr>
     <tr>
       <th scope="row">jumat</th>
+      <td>free</td>
+      <td>free</td>
+      <td>16:00</td>
+      <td>16:00</td>
     </tr>
     <tr>
       <th scope="row">sabtu</th>
+      <td>free</td>
+      <td>free</td>
+      <td>free</td>
+      <td>free</td>
     </tr>
     <tr>
       <th scope="row">minggu</th>
+      <td>16:00</td>
+      <td>16:00</td>
+      <td>08:00</td>
+      <td>08:00</td>
     </tr>
   </tbody>
 </table>
-
-## lokasi
-
-## syarat & ketentuan
-
-## gallery
