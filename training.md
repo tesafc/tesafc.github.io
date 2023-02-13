@@ -7,7 +7,7 @@ description: latihan sepakbola bersama
 ## jadwal
 <table class="table table-dark table-striped table-bordered">
   <thead>
-    <tr>jadwal latihan tesa fc kutaraja 2023</tr>
+    <tr><th>jadwal latihan tesa fc kutaraja 2023</th></tr>
     <tr class="text-capitalize">
       <th scope="col"></th>
       <th scope="col">first-team</th>
