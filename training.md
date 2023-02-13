@@ -7,9 +7,9 @@ description: latihan sepakbola bersama
 ## Jadwal
 <table class="table table-dark table-striped-columns">
   <thead>
-    <!--<tr>
+    <tr>
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
-    </tr>-->
+    </tr>
     <tr class="text-uppercase">
       <th scope="col"></th>
       <th scope="col">first-team</th>
@@ -42,8 +42,8 @@ description: latihan sepakbola bersama
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">kamis</th>
-      <td>16:00</td>
-      <td>16:00</td>
+      <td>16:00 wib</td>
+      <td>16:00 wib</td>
       <td></td>
       <td></td>
     </tr>
@@ -63,10 +63,10 @@ description: latihan sepakbola bersama
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">minggu</th>
-      <td>16:00</td>
-      <td>16:00</td>
-      <td>08:00</td>
-      <td>08:00</td>
+      <td>16:00 wib</td>
+      <td>16:00 wib</td>
+      <td>08:00 wib</td>
+      <td>08:00 wib</td>
     </tr>
   </tbody>
   <!--<tfoot>
