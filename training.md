@@ -7,7 +7,7 @@ description: latihan sepakbola bersama
 ## jadwal
 <table class="table table-dark table-striped">
   <thead>
-    <tr>
+    <tr class="text-capitalize">
       <th scope="col"></th>
       <th scope="col">first-team</th>
       <th scope="col">u-18</th>
@@ -18,22 +18,22 @@ description: latihan sepakbola bersama
   <tbody>
     <tr>
       <th scope="row">senin</th>
-      <td>free</td>
-      <td>free</td>
-      <td>free</td>
-      <td>free</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">selasa</th>
       <td>16:00</td>
       <td>16:00</td>
-      <td>free</td>
-      <td>free</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">rabu</th>
-      <td>free</td>
-      <td>free</td>
+      <td></td>
+      <td></td>
       <td>16:00</td>
       <td>16:00</td>
     </tr>
@@ -41,22 +41,22 @@ description: latihan sepakbola bersama
       <th scope="row">kamis</th>
       <td>16:00</td>
       <td>16:00</td>
-      <td>free</td>
-      <td>free</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">jumat</th>
-      <td>free</td>
-      <td>free</td>
+      <td></td>
+      <td></td>
       <td>16:00</td>
       <td>16:00</td>
     </tr>
     <tr>
       <th scope="row">sabtu</th>
-      <td>free</td>
-      <td>free</td>
-      <td>free</td>
-      <td>free</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">minggu</th>
