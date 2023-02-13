@@ -7,18 +7,18 @@ description: latihan sepakbola bersama
 ## Jadwal
 <table class="table table-dark table-striped-columns">
   <thead>
-    <tr>
+    <!--<tr>
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
-    </tr>
-    <tr class="text-capitalize">
+    </tr>-->
+    <tr class="text-uppercase">
       <th scope="col"></th>
       <th scope="col">first-team</th>
-      <th scope="col">u-18</th>
-      <th scope="col">u-15</th>
-      <th scope="col">u-13</th>
+      <th scope="col">u-18 (sma)</th>
+      <th scope="col">u-15 (smp)</th>
+      <th scope="col">u-13 (sd)</th>
     </tr>
   </thead>
-  <tbody class="table-group-divider">
+  <tbody class="table-group-divider text-uppercase">
     <tr>
       <th scope="row" class="text-center text-capitalize">senin</th>
       <td></td>
@@ -28,8 +28,8 @@ description: latihan sepakbola bersama
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">selasa</th>
-      <td>16:00</td>
-      <td>16:00</td>
+      <td>16:00 wib</td>
+      <td>16:00 wib</td>
       <td></td>
       <td></td>
     </tr>
@@ -51,8 +51,8 @@ description: latihan sepakbola bersama
       <th scope="row" class="text-center text-capitalize">jumat</th>
       <td></td>
       <td></td>
-      <td>16:00</td>
-      <td>16:00</td>
+      <td>16:00 wib</td>
+      <td>16:00 wib</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">sabtu</th>
@@ -69,9 +69,9 @@ description: latihan sepakbola bersama
       <td>08:00</td>
     </tr>
   </tbody>
-  <tfoot>
+  <!--<tfoot>
     <tr>
       <td scope="row" colspan="5" class="text-center">Lapangan Sepakbola Kutaraja</td>
     </tr>
-  </tfoot>
+  </tfoot>-->
 </table>
