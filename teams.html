@@ -19,7 +19,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
           {% endif %}
           <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
             <h4 class="w-100 text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.team }}</a></h4>
-            <div class="d-flex column-gap-2">
+            <div class="d-flex column-gap-2 mt-1">
             {% for item in team.sub-team %}
               <small class="d-inline-flex badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ item }}</small>
             {% endfor %}
