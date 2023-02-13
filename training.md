@@ -5,10 +5,12 @@ description: latihan sepakbola bersama
 ---
 
 ## Jadwal
-<table class="table table-dark table-striped table-bordered">
+<table class="table table-dark table-striped">
   <thead>
-    <tr class="text-capitalize">
+    <tr>
       <th scope="col" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
+    </tr>
+    <tr class="text-capitalize">
       <th scope="col"></th>
       <th scope="col">first-team</th>
       <th scope="col">u-18</th>
