@@ -4,10 +4,10 @@ title: achievements
 description:
 ---
 
-<div class="row row-cols-3 g-3">
+<div class="row row-cols-2 row-cols-md-4 g-3">
   {% for achievement in site.achievements reversed %}
   <div class="col">
-    <div class="card h-100 d-flex justify-content-center align-items-center text-bg-dark">
+    <div class="card h-100 d-flex justify-content-center align-items-center text-bg-dark" style="min-height: 16rem;">
       <div class="card-header">
         <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ achievement.team }}</small>
       </div>
