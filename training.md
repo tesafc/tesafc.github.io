@@ -37,8 +37,8 @@ description: latihan sepakbola bersama
       <th scope="row" class="text-center text-capitalize">rabu</th>
       <td></td>
       <td></td>
-      <td>16:00</td>
-      <td>16:00</td>
+      <td>16:00 wib</td>
+      <td>16:00 wib</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">kamis</th>
@@ -75,3 +75,6 @@ description: latihan sepakbola bersama
     </tr>
   </tfoot>-->
 </table>
+
+<h2>Syarat & Ketentuan</h2>
+
