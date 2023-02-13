@@ -9,19 +9,33 @@ description: latihan sepakbola bersama
   <thead>
     <tr>
       <th scope="col"></th>
-      <th scope="col">16:00 wib</th>
-      <th scope="col">08:00 wib</th>
+      <th scope="col">first-team</th>
+      <th scope="col">u-18</th>
+      <th scope="col">u-15</th>
+      <th scope="col">u-13</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">senin</th>
+      <td>free</td>
+      <td>free</td>
+      <td>free</td>
+      <td>free</td>
     </tr>
     <tr>
       <th scope="row">selasa</th>
+      <td>16:00</td>
+      <td>16:00</td>
+      <td>free</td>
+      <td>free</td>
     </tr>
     <tr>
       <th scope="row">rabu</th>
+      <td>free</td>
+      <td>free</td>
+      <td>16:00</td>
+      <td>16:00</td>
     </tr>
     <tr>
       <th scope="row">kamis</th>
