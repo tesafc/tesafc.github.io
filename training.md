@@ -69,4 +69,9 @@ description: latihan sepakbola bersama
       <td>08:00</td>
     </tr>
   </tbody>
+  <tfoot>
+    <tr>
+      <td scope="row" colspan="5" class="text-center">Lapangan Sepakbola Kutaraja</td>
+    </tr>
+  </tfoot>
 </table>
