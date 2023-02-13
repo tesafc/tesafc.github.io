@@ -5,7 +5,7 @@ description: latihan sepakbola bersama
 ---
 
 ## jadwal
-<table>
+<table class="table">
   <thead>
     <tr>
       <th scope="col"></th>
