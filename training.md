@@ -17,49 +17,49 @@ description: latihan sepakbola bersama
   </thead>
   <tbody>
     <tr>
-      <th scope="row">senin</th>
+      <th scope="row" class="text-end text-capitalize">senin</th>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row">selasa</th>
+      <th scope="row" class="text-end text-capitalize">selasa</th>
       <td>16:00</td>
       <td>16:00</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row">rabu</th>
+      <th scope="row" class="text-end text-capitalize">rabu</th>
       <td></td>
       <td></td>
       <td>16:00</td>
       <td>16:00</td>
     </tr>
     <tr>
-      <th scope="row">kamis</th>
+      <th scope="row" class="text-end text-capitalize">kamis</th>
       <td>16:00</td>
       <td>16:00</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row">jumat</th>
+      <th scope="row" class="text-end text-capitalize">jumat</th>
       <td></td>
       <td></td>
       <td>16:00</td>
       <td>16:00</td>
     </tr>
     <tr>
-      <th scope="row">sabtu</th>
+      <th scope="row" class="text-end text-capitalize">sabtu</th>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row">minggu</th>
+      <th scope="row" class="text-end text-capitalize">minggu</th>
       <td>16:00</td>
       <td>16:00</td>
       <td>08:00</td>
