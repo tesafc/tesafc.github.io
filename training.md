@@ -8,7 +8,7 @@ description: latihan sepakbola bersama
 <table class="table table-dark table-striped">
   <thead>
     <tr>
-      <td scope="col" colspan="5" class="text-center py-2">Jadwal Latihan TESA FC Kutaraja 2023</td>
+      <th scope="row" colspan="5" class="text-center py-2">Jadwal Latihan TESA FC Kutaraja 2023</th>
     </tr>
     <tr class="text-capitalize">
       <th scope="col"></th>
