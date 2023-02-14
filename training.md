@@ -5,7 +5,7 @@ description:
 ---
 
 <table class="table table-dark table-striped-columns">
-  <caption>Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</caption>
+  <caption class="text-light">Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</caption>
   <thead>
     <!--<tr>
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
