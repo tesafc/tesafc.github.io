@@ -5,7 +5,7 @@ description:
 ---
 
 <table class="table table-dark table-striped-columns">
-  <caption class="caption-top text-secondary">Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</caption>
+  <caption class="caption-top text-secondary"><small>Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</small></caption>
   <thead>
     <!--<tr>
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
@@ -19,24 +19,24 @@ description:
     </tr>
   </thead>
   <tbody class="table-group-divider text-uppercase">
-    <tr class="text-secondary">
+    <tr>
       <th scope="row" class="text-center text-capitalize">senin</th>
-      <td>off</td>
-      <td>off</td>
-      <td>off</td>
-      <td>off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">selasa</th>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
-      <td>off</td>
-      <td>off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">rabu</th>
-      <td>off</td>
-      <td>off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
     </tr>
@@ -44,22 +44,22 @@ description:
       <th scope="row" class="text-center text-capitalize">kamis</th>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
-      <td>off</td>
-      <td>off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">jumat</th>
-      <td>off</td>
-      <td>off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">sabtu</th>
-      <td>off</td>
-      <td>off</td>
-      <td>off</td>
-      <td>off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
+      <td class="text-secondary">off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">minggu</th>
