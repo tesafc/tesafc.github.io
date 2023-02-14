@@ -5,10 +5,11 @@ description:
 ---
 
 <table class="table table-dark table-striped-columns">
+  <caption>Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</caption>
   <thead>
-    <tr>
+    <!--<tr>
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
-    </tr>
+    </tr>-->
     <tr class="text-uppercase">
       <th scope="col"></th>
       <th scope="col">first-team</th>
