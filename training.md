@@ -34,8 +34,8 @@ description:
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">rabu</th>
-      <td></td>
-      <td></td>
+      <td>off</td>
+      <td>off</td>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
     </tr>
@@ -43,22 +43,22 @@ description:
       <th scope="row" class="text-center text-capitalize">kamis</th>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
-      <td></td>
-      <td></td>
+      <td>off</td>
+      <td>off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">jumat</th>
-      <td></td>
-      <td></td>
+      <td>off</td>
+      <td>off</td>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">sabtu</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>off</td>
+      <td>off</td>
+      <td>off</td>
+      <td>off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">minggu</th>
