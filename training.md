@@ -19,7 +19,7 @@ description:
     </tr>
   </thead>
   <tbody class="table-group-divider text-uppercase">
-    <tr>
+    <tr class="text-secondary">
       <th scope="row" class="text-center text-capitalize">senin</th>
       <td>off</td>
       <td>off</td>
@@ -75,6 +75,4 @@ description:
     </tr>
   </tfoot>-->
 </table>
-
-<h2>Informasi</h2>
 
