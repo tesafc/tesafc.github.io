@@ -1,10 +1,9 @@
 ---
 layout: page
-title: training
-description: latihan sepakbola bersama
+title: training session
+description: 
 ---
 
-## Jadwal
 <table class="table table-dark table-striped-columns">
   <thead>
     <tr>
@@ -76,5 +75,5 @@ description: latihan sepakbola bersama
   </tfoot>-->
 </table>
 
-<h2>Syarat & Ketentuan</h2>
+<h2>Informasi</h2>
 
