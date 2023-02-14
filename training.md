@@ -20,17 +20,17 @@ description:
   <tbody class="table-group-divider text-uppercase">
     <tr>
       <th scope="row" class="text-center text-capitalize">senin</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>off</td>
+      <td>off</td>
+      <td>off</td>
+      <td>off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">selasa</th>
       <td>16:00 wib</td>
       <td>16:00 wib</td>
-      <td></td>
-      <td></td>
+      <td>off</td>
+      <td>off</td>
     </tr>
     <tr>
       <th scope="row" class="text-center text-capitalize">rabu</th>
