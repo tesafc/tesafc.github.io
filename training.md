@@ -1,7 +1,7 @@
 ---
 layout: page
 title: training session
-description: 
+description: Latihan Rutin Sepakbola TESA FC & Warga Desa Kutaraja
 ---
 
 <table class="table table-dark table-striped-columns">
