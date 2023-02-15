@@ -2,6 +2,34 @@
 layout: page
 title: support us
 description:
+support-us:
+  - type: sponsorships
+    name: jersey sponsor
+    description: 
+    img:
+    url:
+  - type: fundraising
+    name: training equipment
+    description: 
+    img:
+    url:
+  - type: fundraising
+    name: training facility
+    description: 
+    img:
+    url:
 ---
 
-
+<div>
+  <div class="row row-cols-1 row-cols-md-2 g-3">
+    {% for item in page.support-us %}
+    <div class="col">
+      <div class="card h-100 text-bg-dark border">
+        <div class="card-body">
+          <h3 class="card-title"></h3>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
