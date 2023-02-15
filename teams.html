@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 title: teams
 default-img: https://source.unsplash.com/IoJFOvbqF3c
 ---
 
-<div class="pt-5">
-  <div class="container">
-    <h1 class="mb-3 text-uppercase fw-bolder">teams</h1>
+<div>
     <div class="row row-cols-1 row-cols-md-2 g-3">
       {% assign teams = site.teams | sort: "order" %}
       {% for team in teams %}
@@ -29,5 +27,4 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
       </div>
       {% endfor %}
     </div>
-  </div>
 </div>
