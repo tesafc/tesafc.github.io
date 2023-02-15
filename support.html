@@ -23,9 +23,9 @@ support-us:
 <div>
   <div class="row row-cols-1 row-cols-md-2 g-3">
     {% assign support-type = page.support-us | group_by: "type" %}
-    {% for type in support-type %}
-    <h2 class="mb-0 text-capitalize">{{ type.type }}</h2>
-    {% for item in type.items %}
+    {% for types in support-type %}
+    <h2 class="mb-0 text-capitalize">{{ types.type }}</h2>
+    {% for item in types.items %}
     <div class="col">
       <div class="card h-100 text-bg-dark border">
         <div class="card-body">
