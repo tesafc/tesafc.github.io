@@ -35,9 +35,9 @@ offering:
       - name: Qty
         price: "25"
       - name: Cost/item
-        price: "135.000"
+        price: "Rp135.000"
       - name: Total cost
-        price: "3.375.000"
+        price: "Rp3.375.000"
     price-list:
       - name: Front chest
         price: "1.800.000"
@@ -65,7 +65,7 @@ offering:
         <ul class="list-group list-group-flush text-bg-dark">
           <li class="list-group-item fw-bolder text-bg-dark">Details</li>
           {% for i in item.details %}
-          <li class="list-group-item text-bg-dark border-secondary"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
+          <li class="list-group-item text-bg-dark border-secondary"><small>{{ i.name | append: ":" }} <strong class="text-end">{{ i.price }}</strong></small></li>
           {% endfor %}
         </ul>
         <ul class="list-group list-group-flush text-bg-dark pt-3">
