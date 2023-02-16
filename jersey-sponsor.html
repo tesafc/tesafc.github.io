@@ -73,7 +73,7 @@ offering:
         <ul class="list-group list-group-flush text-bg-dark pt-3">
           <li class="list-group-item fw-bolder text-bg-dark">Price list</li>
           {% for i in item.price-list %}
-          <li class="list-group-item text-bg-dark"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
+          <li class="list-group-item text-bg-dark border-secondary"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
         </ul>
       </div>
