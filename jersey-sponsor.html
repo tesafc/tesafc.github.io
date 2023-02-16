@@ -113,13 +113,13 @@ offering:
           <h5 class="card-title text-capitalize">{{ item.name }}</h5>
         <!--</div>-->
         <ul class="list-group list-group-flush  {{ item.custom-style }}">
-          <li class="list-group-item fw-bolder px-0 {{ item.custom-style }}">Details</li>
+          <li class="list-group-item fw-bolder border-opacity-75 px-0 {{ item.custom-style }}">Details</li>
           {% for i in item.details %}
           <li class="list-group-item border-opacity-50 px-0 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong class="text-end">{{ i.price }}</strong></small></li>
           {% endfor %}
         </ul>
         <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-          <li class="list-group-item fw-bolder px-0 {{ item.custom-style }}">Price list</li>
+          <li class="list-group-item fw-bolder border-opacity-75 px-0 {{ item.custom-style }}">Price list</li>
           {% for i in item.price-list %}
           <li class="list-group-item border-opacity-50 px-0 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
