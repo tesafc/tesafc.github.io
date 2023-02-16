@@ -6,8 +6,7 @@ offering:
   - type: jersey home
     team: first team
     name: first team jersey home, season 2023
-    qty: 25
-    cost: 3.750.000
+    custom-style: text-bg-light
     details:
       - name: Jersey type
         price: "First team, jersey home"
@@ -31,8 +30,7 @@ offering:
   - type: jersey home
     team: development team
     name: development team jersey home, season 2023
-    qty: 25
-    cost: 3.375.000
+    custom-style: text-bg-light
     details:
       - name: Jersey type
         price: "Development team, jersey home"
@@ -56,8 +54,7 @@ offering:
   - type: jersey away
     team: first team
     name: first team jersey away, season 2023
-    qty: 25
-    cost: 3.750.000
+    custom-style: text-bg-dark
     details:
       - name: Jersey type
         price: "First team, jersey away"
@@ -81,8 +78,7 @@ offering:
   - type: jersey away
     team: development team
     name: development team jersey away, season 2023
-    qty: 25
-    cost: 3.375.000
+    custom-style: text-bg-dark
     details:
       - name: Jersey type
         price: "Development team, jersey away"
@@ -112,7 +108,7 @@ offering:
     <h2 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h2>
     {% for item in type.items %}
     <div class="col">
-      <div class="card h-100 text-bg-dark border-0">
+      <div class="card h-100 border-0 {{ item.custom-style }}">
         <div class="card-body">
           <h5 class="card-title text-capitalize">{{ item.name }}</h5>
         <!--</div>-->
