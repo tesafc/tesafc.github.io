@@ -10,13 +10,13 @@ offering:
     cost: 3.750.000
     price-list:
       - name: front chest
-        price: 2.000.000
+        price: "2.000.000"
       - name: back above name
-        price: 750.000
+        price: "750.000"
       - name: back below number
-        price: 500.000
+        price: "500.000"
       - name: side left arm
-        price: 500.000
+        price: "500.000"
   - type: jersey home
     team: development team
     name: development team jersey home season 2023
@@ -24,13 +24,13 @@ offering:
     cost: 3.375.000
     price-list:
       - name: front chest
-        price: 1.800.000
+        price: "1.800.000"
       - name: back above name
-        price: 675.000
+        price: "675.000"
       - name: back below number
-        price: 450.000
+        price: "450.000"
       - name: side left arm
-        price: 450.000
+        price: "450.000"
 ---
 
 <div>
@@ -45,12 +45,12 @@ offering:
           <h5 class="card-title text-capitalize">{{ item.name }}</h5>
         </div>
         <div class="card-body">
-          <ul class="list-group list-group-flush">
-            {% for i in item.price-list %}
-            <li class="list-group-item">{{ i.name }} {{ i.price }}</li>
-            {% endfor %}
-          </ul>
         </div>
+        <ul class="list-group list-group-flush">
+          {% for i in item.price-list %}
+          <li class="list-group-item">{{ i.name | append: ":" }} {{ i.price | prepend: "Rp" }}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
     {% endfor %}
