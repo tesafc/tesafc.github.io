@@ -18,6 +18,8 @@ offering:
       - name: Total cost
         price: "Rp3.750.000"
     price-list:
+      - name: Front chest single sponsor
+        price: "3.750.000"
       - name: Front chest
         price: "2.000.000"
       - name: Back above name
@@ -26,8 +28,6 @@ offering:
         price: "500.000"
       - name: Side left arm
         price: "500.000"
-      - name: Front chest single sponsor
-        price: "3.750.000"
   - type: jersey home
     team: development team
     name: development team jersey home, season 2023
@@ -43,6 +43,8 @@ offering:
       - name: Total cost
         price: "Rp3.375.000"
     price-list:
+      - name: Front chest single sponsor
+        price: "3.375.000"
       - name: Front chest
         price: "1.800.000"
       - name: Back above name
@@ -51,8 +53,6 @@ offering:
         price: "450.000"
       - name: Side left arm
         price: "450.000"
-      - name: Front chest single sponsor
-        price: "3.375.000"
 ---
 
 <div>
@@ -73,7 +73,7 @@ offering:
           {% endfor %}
         </ul>
         <ul class="list-group list-group-flush text-bg-dark pt-3">
-          <li class="list-group-item fw-bolder text-bg-dark">Price list</li>
+          <li class="list-group-item fw-bolder text-bg-dark px-0">Price list</li>
           {% for i in item.price-list %}
           <li class="list-group-item text-bg-dark border-secondary"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
