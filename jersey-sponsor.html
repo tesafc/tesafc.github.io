@@ -9,6 +9,8 @@ offering:
     qty: 25
     cost: 3.750.000
     details:
+      - name: Jersey type
+        price: "First team, jersey home"
       - name: Qty
         price: "25"
       - name: Cost/item
@@ -32,6 +34,8 @@ offering:
     qty: 25
     cost: 3.375.000
     details:
+      - name: Jersey type
+        price: "Development team, jersey home"
       - name: Qty
         price: "25"
       - name: Cost/item
@@ -61,7 +65,7 @@ offering:
       <div class="card h-100 text-bg-dark border-0">
         <div class="card-body">
           <h5 class="card-title text-capitalize">{{ item.name }}</h5>
-        </div>
+        <!--</div>-->
         <ul class="list-group list-group-flush text-bg-dark">
           <li class="list-group-item fw-bolder text-bg-dark">Details</li>
           {% for i in item.details %}
@@ -74,6 +78,7 @@ offering:
           <li class="list-group-item text-bg-dark border-secondary"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
         </ul>
+        </div>
         <div class="card-footer">
           <a href="#" class="btn btn-success">Contact us</a>
         </div>
