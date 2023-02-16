@@ -5,7 +5,7 @@ description:
 offering:
   - type: jersey home
     team: first team
-    name: first team jersey home, season 2023
+    jersey-name: jersey home season 2023
     custom-style: text-bg-light border-dark
     details:
       - name: Jersey type
@@ -29,7 +29,7 @@ offering:
         price: "500.000"
   - type: jersey home
     team: development team
-    name: development team jersey home, season 2023
+    jersey-name: jersey home season 2023
     custom-style: text-bg-light border-dark
     details:
       - name: Jersey type
@@ -53,7 +53,7 @@ offering:
         price: "450.000"
   - type: jersey away
     team: first team
-    name: first team jersey away, season 2023
+    jersey-name: jersey away season 2023
     custom-style: text-bg-dark border-secondary
     details:
       - name: Jersey type
@@ -77,7 +77,7 @@ offering:
         price: "500.000"
   - type: jersey away
     team: development team
-    name: development team jersey away, season 2023
+    jersey-name: jersey away season 2023
     custom-style: text-bg-dark border-secondary
     details:
       - name: Jersey type
@@ -110,7 +110,7 @@ offering:
     <div class="col">
       <div class="card h-100 border-0 shadow-sm {{ item.custom-style }}">
         <div class="card-body">
-          <h5 class="card-title text-capitalize">{{ item.name }}</h5>
+          <h5 class="card-title text-capitalize">{{ item.team }}, <span class="text-secondary">{{ item.jersey }}</span></h5>
         <!--</div>-->
         <ul class="list-group list-group-flush pt-2 {{ item.custom-style }}">
           <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 {{ item.custom-style }}">Details</li>
