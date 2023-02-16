@@ -5,7 +5,7 @@ description:
 offering:
   - type: jersey home
     team: first team
-    name: first team jersey home
+    name: first team jersey home season 2023
     qty: 25
     cost: 3.750.000
     price-list:
@@ -19,7 +19,7 @@ offering:
         price: 500.000
   - type: jersey home
     team: development team
-    name: development team jersey home
+    name: development team jersey home season 2023
     qty: 25
     cost: 3.375.000
     price-list:
@@ -37,12 +37,14 @@ offering:
   {% assign jersey-type = page.offering | group_by: "type" %}
   <div class="row row-cols-1 row-cols-md-2 g-3">
     {% for type in jersey-type %}
-    <h2 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h2>
+    <h5 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h5>
     {% for item in type.items %}
     <div class="col">
-      <div class="card">
-        <div class="card-body">
+      <div class="card h-100 text-bg-dark border-0">
+        <div class="card-header">
           <h4 class="card-title text-capitalize">{{ item.name }}</h4>
+        </div>
+        <div class="card-body">
         </div>
       </div>
     </div>
