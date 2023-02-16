@@ -113,13 +113,13 @@ offering:
           <h5 class="card-title text-capitalize">{{ item.team }}, <span class="text-secondary">{{ item.jersey-name }}</span></h5>
         <!--</div>-->
         <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-          <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 {{ item.custom-style }}">Details</li>
+          <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 text-secondary {{ item.custom-style }}">Details</li>
           {% for i in item.details %}
           <li class="list-group-item border-opacity-25 px-0 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong class="text-end">{{ i.price }}</strong></small></li>
           {% endfor %}
         </ul>
         <ul class="list-group list-group-flush pt-4 {{ item.custom-style }}">
-          <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 {{ item.custom-style }}">Price list & logo placement</li>
+          <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 text-secondary {{ item.custom-style }}">Price list & logo placement</li>
           {% for i in item.price-list %}
           <li class="list-group-item border-opacity-25 px-0 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
