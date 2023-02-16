@@ -47,8 +47,9 @@ offering:
         <div class="card-body">
         </div>
         <ul class="list-group list-group-flush text-bg-dark">
+          <li class="list-group-item fw-bolder">Price list</li>
           {% for i in item.price-list %}
-          <li class="list-group-item text-bg-dark">{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></li>
+          <li class="list-group-item text-bg-dark"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
         </ul>
       </div>
