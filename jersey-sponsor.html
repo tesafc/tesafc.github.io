@@ -37,12 +37,12 @@ offering:
   {% assign jersey-type = page.offering | group_by: "type" %}
   <div class="row row-cols-1 row-cols-md-2 g-3">
     {% for type in jersey-type %}
-    <h5 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h5>
+    <h2 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h2>
     {% for item in type.items %}
     <div class="col">
       <div class="card h-100 text-bg-dark border-0">
         <div class="card-header">
-          <h4 class="card-title text-capitalize">{{ item.name }}</h4>
+          <h5 class="card-title text-capitalize">{{ item.name }}</h5>
         </div>
         <div class="card-body">
         </div>
