@@ -45,6 +45,11 @@ offering:
           <h5 class="card-title text-capitalize">{{ item.name }}</h5>
         </div>
         <div class="card-body">
+          <ul class="list-group list-group-flush">
+            {% for i in item.price-list %}
+            <li class="list-group-item">{{ i.name }} {{ i.price }}</li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
