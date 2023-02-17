@@ -130,7 +130,7 @@ offering:
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
             <li class="list-group-item fw-bolder px-0 {{ item.custom-style }}">Price list & logo placement</li>
             {% for i in item.price-list %}
-            <li class="list-group-item {{ item.custom-style }} {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
+            <li class="list-group-item {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
             {% endfor %}
           </ul>
         </div>
