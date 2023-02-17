@@ -21,6 +21,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.750.000"
+        style: text-bg-light
       - name: Front chest
         price: "2.000.000"
       - name: Back above name
@@ -47,6 +48,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.375.000"
+        style: text-bg-light
       - name: Front chest
         price: "1.800.000"
       - name: Back above name
@@ -129,7 +131,7 @@ offering:
         <ul class="list-group list-group-flush pt-4 {{ item.custom-style }}">
           <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 {{ item.custom-style }}">Price list & logo placement</li>
           {% for i in item.price-list %}
-          <li class="list-group-item border-opacity-25 px-0 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
+          <li class="list-group-item border-opacity-25 px-0 {{ item.custom-style }} {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
           {% endfor %}
         </ul>
         </div>
