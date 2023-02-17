@@ -118,10 +118,10 @@ offering:
 ---
 
 <div>
-  <div class="row row-cols-1 g-3 d-flex flex-nowrap overflow-auto">
+  <div class="d-flex flex-nowrap overflow-auto g-3">
     {% for item in page.offering %}
-    <div class="col">
-      <div class="card h-100 border-0 {{ item.custom-style }}" style="min-width: 18rem; max-width: 18rem;">
+    <div>
+      <div class="card h-100 border-0 {{ item.custom-style }}" style="min-width: 20rem;">
         <div class="card-body">
           <small class="badge rounded-pill mb-2 text-uppercase {{ item.team-style }}">{{ item.team }}</small>
           <h5 class="card-title text-capitalize">{{ item.team }}, {{ item.jersey-name }}</h5>
