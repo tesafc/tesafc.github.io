@@ -5,9 +5,8 @@ description: jersey sponsorship opportunities
 offering:
   - type: jersey home
     team: first team
-    team-style: text-bg-light border border-dark
     jersey-name: jersey home season 2023
-    custom-style: bg-light-subtle text-dark
+    custom-style: bg-light text-dark
     details:
       - name: Jersey type
         price: "Jersey home"
@@ -33,9 +32,8 @@ offering:
         price: "500.000"
   - type: jersey home
     team: development team
-    team-style: text-bg-dark border
     jersey-name: jersey home season 2023
-    custom-style: bg-light-subtle text-dark
+    custom-style: bg-light text-dark
     details:
       - name: Jersey type
         price: "Jersey home"
@@ -61,7 +59,6 @@ offering:
         price: "450.000"
   - type: jersey away
     team: first team
-    team-style: text-bg-light border border-dark
     jersey-name: jersey away season 2023
     custom-style: text-bg-dark border-secondary
     details:
@@ -89,7 +86,6 @@ offering:
         price: "500.000"
   - type: jersey away
     team: development team
-    team-style: text-bg-dark border
     jersey-name: jersey away season 2023
     custom-style: text-bg-dark border-secondary
     details:
@@ -128,7 +124,7 @@ offering:
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
             <li class="list-group-item fw-bolder px-0 {{ item.custom-style }}">Details</li>
             {% for i in item.details %}
-            <li class="list-group-item {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong class="text-end">{{ i.price }}</strong></small></li>
+            <li class="list-group-item {{ item.custom-style }} {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
             {% endfor %}
           </ul>
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
