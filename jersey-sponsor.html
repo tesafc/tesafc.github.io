@@ -5,7 +5,7 @@ description: jersey sponsorship opportunities
 offering:
   - type: jersey home
     team: first team
-    team-style: text-bg-light border
+    team-style: text-bg-light border border-dark
     jersey-name: jersey home season 2023
     custom-style: bg-light-subtle text-dark
     details:
@@ -61,7 +61,7 @@ offering:
         price: "450.000"
   - type: jersey away
     team: first team
-    team-style: text-bg-light border
+    team-style: text-bg-light border border-dark
     jersey-name: jersey away season 2023
     custom-style: text-bg-dark border-secondary
     details:
@@ -124,7 +124,7 @@ offering:
     <h2 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h2>
     {% for item in type.items %}
     <div class="col">
-      <div class="card h-100 border-0 shadow-sm {{ item.custom-style }}">
+      <div class="card h-100 border-0 {{ item.custom-style }}">
         <div class="card-body">
           <span class="badge rounded-pill mb-2 text-uppercase {{ item.team-style }}">{{ item.team }}</span>
           <h5 class="card-title text-capitalize">{{ item.team }}, {{ item.jersey-name }}</h5>
