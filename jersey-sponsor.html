@@ -21,7 +21,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.750.000"
-        style: text-bg-dark
+        style: text-light bg-dark
       - name: Front chest
         price: "2.000.000"
       - name: Back above name
@@ -48,7 +48,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.375.000"
-        style: text-bg-dark
+        style: text-light bg-dark
       - name: Front chest
         price: "1.800.000"
       - name: Back above name
@@ -60,7 +60,7 @@ offering:
   - type: jersey away
     team: first team
     jersey-name: jersey away season 2023
-    custom-style: text-bg-dark border-secondary
+    custom-style: text-light bg-dark
     details:
       - name: Jersey type
         price: "Jersey away"
@@ -87,7 +87,7 @@ offering:
   - type: jersey away
     team: development team
     jersey-name: jersey away season 2023
-    custom-style: text-bg-dark border-secondary
+    custom-style: text-light bg-dark
     details:
       - name: Jersey type
         price: "Jersey away"
@@ -121,20 +121,20 @@ offering:
       <div class="card h-100 border-0 {{ item.custom-style }}">
         <div class="card-body">
           <h5 class="card-title text-capitalize mb-0">{{ item.team }}, {{ item.jersey-name }}</h5>
-          <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-            <li class="list-group-item fw-bolder px-0 {{ item.custom-style }}">Details</li>
+          <ul class="list-group list-group-flush pt-3">
+            <li class="list-group-item fw-bolder px-0">Details</li>
             {% for i in item.details %}
-            <li class="list-group-item {{ item.custom-style }} {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
+            <li class="list-group-item {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
             {% endfor %}
           </ul>
-          <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-            <li class="list-group-item fw-bolder px-0 {{ item.custom-style }}">Price list & logo placement</li>
+          <ul class="list-group list-group-flush pt-3">
+            <li class="list-group-item fw-bolder px-0">Price list & logo placement</li>
             {% for i in item.price-list %}
-            <li class="list-group-item {{ item.custom-style }} {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
+            <li class="list-group-item {{ i.style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
             {% endfor %}
           </ul>
         </div>
-        <div class="card-footer border-0 {{ item.custom-style }}">
+        <div class="card-footer border-0">
           <a href="#" class="btn btn-success">Contact us</a>
         </div>
       </div>
