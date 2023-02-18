@@ -130,7 +130,7 @@ offering:
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
             <li class="list-group-item fw-bolder px-0 border-secondary border-opacity-75 {{ item.custom-style }}">Price list & logo placement</li>
             {% for i in item.price-list %}
-            <li class="list-group-item px-0 border-secondary border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small>{% if i.recommendation %}<small class="badge rounded-pill text-bg-warning ms-2"><i class="bi bi-patch-check-fill"></i> {{ i.recommendation }}</small>{% endif %}</li>
+            <li class="list-group-item px-0 border-secondary border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small>{% if i.recommendation %}<small class="badge rounded-pill text-bg-warning ms-2"><i class="fa-solid fa-badge-check"></i> {{ i.recommendation }}</small>{% endif %}</li>
             {% endfor %}
           </ul>
         </div>
