@@ -2,10 +2,40 @@
 layout: page
 title: training equipment
 description:
+equipment:
+  need:
+    - name: training ball
+      qty: 10
+      img:
+    - name: match ball
+      qty: 3
+      img:
+  own:
+    - name: training ball
+      qty: 8
+      img:
+    - name: cone
+      qty: 12
+      img:
 ---
 
 <div class="pt-5">
   <div class="container">
-    
+    {% assign equipment-cat = page.equipment %}
+    <div class="row row-cols-3 row-cols-md-4 g-3">
+      {% for equipment in equipment-cat %}
+      <h2 class="w-100 mb-3">{{ equipment.name }}</h2>
+      {% for equip in equipment.items %}
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-text mb-0">{{ equip.qty }}</h5>
+            <p class="card-text mb-0">{{ equip.name }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
