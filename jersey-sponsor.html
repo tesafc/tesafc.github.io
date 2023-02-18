@@ -21,7 +21,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.750.000"
-        style: text-light bg-dark
+        recommendation: "recommended"
       - name: Front chest
         price: "2.000.000"
       - name: Back above name
@@ -48,7 +48,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.375.000"
-        style: text-light bg-dark
+        recommendation: "recommended"
       - name: Front chest
         price: "1.800.000"
       - name: Back above name
@@ -75,7 +75,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.750.000"
-        style: text-dark bg-light
+        recommendation: "recommended"
       - name: Front chest
         price: "2.000.000"
       - name: Back above name
@@ -102,7 +102,7 @@ offering:
     price-list:
       - name: Front chest single sponsor
         price: "3.375.000"
-        style: text-dark bg-light
+        recommendation: "recommended"
       - name: Front chest
         price: "1.800.000"
       - name: Back above name
@@ -130,7 +130,7 @@ offering:
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
             <li class="list-group-item fw-bolder px-0 border-secondary border-opacity-75 {{ item.custom-style }}">Price list & logo placement</li>
             {% for i in item.price-list %}
-            <li class="list-group-item px-0 border-secondary border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
+            <li class="list-group-item px-0 border-secondary border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small>{% if i.recomendation %}<small class="badge rounded-pill text-bg-warning">{{ i.recomendation }}</small>{% endif %}</li>
             {% endfor %}
           </ul>
         </div>
@@ -141,38 +141,4 @@ offering:
     </div>
     {% endfor %}
   </div>
-  <!--
-  {% assign jersey-type = page.offering | group_by: "type" %}
-  <div class="row row-cols-1 row-cols-md-2 g-3">
-    {% for type in jersey-type %}
-    <h2 class="w-100 mb-0 text-capitalize pt-5">{{ type.name }}</h2>
-    {% for item in type.items %}
-    <div class="col">
-      <div class="card h-100 border-0 {{ item.custom-style }}">
-        <div class="card-body">
-          <small class="badge rounded-pill mb-2 text-uppercase {{ item.team-style }}">{{ item.team }}</small>
-          <h5 class="card-title text-capitalize">{{ item.team }}, {{ item.jersey-name }}</h5>
-        <!--</div>
-        <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-          <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 {{ item.custom-style }}">Details</li>
-          {% for i in item.details %}
-          <li class="list-group-item border-opacity-25 {{ item.custom-style }}">{{ i.name | append: ":" }} <strong class="text-end">{{ i.price }}</strong></li>
-          {% endfor %}
-        </ul>
-        <ul class="list-group list-group-flush pt-4 {{ item.custom-style }}">
-          <li class="list-group-item fw-bolder border-2 border-opacity-75 px-0 {{ item.custom-style }}">Price list & logo placement</li>
-          {% for i in item.price-list %}
-          <li class="list-group-item border-opacity-25 {{ item.custom-style }} {{ i.style }}">{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></li>
-          {% endfor %}
-        </ul>
-        </div>
-        <div class="card-footer border-0 {{ item.custom-style }}">
-          <a href="#" class="btn btn-success">Contact us</a>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-    {% endfor %}
-  </div>
-  -->
 </div>
