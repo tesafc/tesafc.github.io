@@ -124,13 +124,13 @@ offering:
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
             <li class="list-group-item fw-bolder px-0 border-secondary border-opacity-75 {{ item.custom-style }}">Details</li>
             {% for i in item.details %}
-            <li class="list-group-item px-0 border-secondary border-opacity-50 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
+            <li class="list-group-item px-0 border-secondary border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
             {% endfor %}
           </ul>
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
             <li class="list-group-item fw-bolder px-0 border-secondary border-opacity-75 {{ item.custom-style }}">Price list & logo placement</li>
             {% for i in item.price-list %}
-            <li class="list-group-item px-0 border-secondary border-opacity-50 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
+            <li class="list-group-item px-0 border-secondary border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small></li>
             {% endfor %}
           </ul>
         </div>
