@@ -25,12 +25,12 @@ equipment:
     img:
 ---
 
-<div class="pt-5">
+<div>
   <div class="container">
     {% assign equipment-cat = page.equipment | group_by: "type" %}
     <div class="row row-cols-3 row-cols-md-5 g-3">
       {% for equipment in equipment-cat %}
-      <h2 class="w-100 mb-0">{{ equipment.name }}</h2>
+      <h2 class="w-100 mb-0 pt-5">{{ equipment.name }}</h2>
       {% for equip in equipment.items %}
       <div class="col">
         <div class="card h-100 text-bg-dark">
