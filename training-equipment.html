@@ -55,6 +55,9 @@ equipment:
     name: Training ball
     qty: 8
     img:
+    details:
+      - name: Kondisi
+        value: 50%
   - type: owned
     name: High marker cones
     qty: 12
@@ -85,6 +88,13 @@ equipment:
           <div class="card-body">
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
             <p class="card-text mb-0 lh-sm"><small>{{ equip.name }}</small></p>
+            {% if equip.details %}
+            <ul class="list-group list-group-flush">
+              {% for e in equip.details %}
+              <li class="list-group-item"><small><strong class="d-inline-block">{{ e.name }}</strong>{{ e.value }}</small><li>
+              {% endfor %}
+            </ul>
+            {% endif %}
           </div>
         </div>
       </div>
