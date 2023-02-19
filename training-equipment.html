@@ -65,7 +65,7 @@ equipment:
   - type: owned
     name: "High marker cones"
     qty: "12"
-    img:
+    img: "https://via.placeholder.com/400"
     details:
       - name: "Kondisi"
         value: "95%"
@@ -109,6 +109,11 @@ equipment:
       {% for equip in equipment.items %}
       <div class="col">
         <div class="card h-100 text-bg-dark">
+          {% if equip.img %}
+          <div class="ratio ratio-4x3">
+            <img src="{{ equip.img }}" alt="" class="card-img-top">
+          </div>
+          {% endif %}
           <div class="card-body">
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
             <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
