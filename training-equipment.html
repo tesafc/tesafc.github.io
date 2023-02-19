@@ -32,13 +32,13 @@ equipment:
 <div>
   <div class="container">
     {% assign equipment-cat = page.equipment | group_by: "type" %}
-    <div class="row row-cols-3 row-cols-md-5 g-3">
+    <div class="row row-cols-2 row-cols-md-4 g-3">
       {% for equipment in equipment-cat %}
       <h2 class="w-100 mb-0 pt-5">{{ equipment.name }}</h2>
       {% for equip in equipment.items %}
       <div class="col">
         <div class="card h-100 text-bg-dark">
-          <div class="card-body p-1">
+          <div class="card-body">
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
             <p class="card-text mb-0 lh-sm"><small>{{ equip.name }}</small></p>
           </div>
