@@ -92,11 +92,11 @@ equipment:
             <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
           </div>
           {% if equip.details %}
+          {% for e in equip.details %}
           <ul class="list-group list-group-flush">
-            {% for e in equip.details %}
             <li class="list-group-item text-bg-dark"><small><strong>{{ e.name | append: ":" }}</strong><span>{{ e.value }}</span></small><li>
-            {% endfor %}
           </ul>
+          {% endfor %}
           {% endif %}
         </div>
       </div>
