@@ -90,7 +90,7 @@ equipment:
           <div class="card-body">
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
             <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
-            <div>
+            <div class="pt-1">
               {% for e in equip.details %}
               <p class="text-secondary my-0 py-0 lh-1"><small>{{ e.name | append: ":" }} {{ e.value }}</small></p>
               {% endfor %}
