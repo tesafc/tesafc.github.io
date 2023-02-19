@@ -87,15 +87,16 @@ equipment:
         <div class="card h-100 text-bg-dark">
           <div class="card-body">
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
-            <p class="card-text mb-0 lh-sm"><small>{{ equip.name }}</small></p>
-            {% if equip.details %}
-            <ul class="list-group list-group-flush text-bg-dark">
-              {% for e in equip.details %}
-              <li class="list-group-item"><small><strong class="d-block">{{ e.name | append: ":" }}</strong>{{ e.value }}</small><li>
-              {% endfor %}
-            </ul>
-            {% endif %}
+            <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
+            
           </div>
+          {% if equip.details %}
+          <ul class="list-group list-group-flush text-bg-dark">
+            {% for e in equip.details %}
+            <li class="list-group-item text-bg-dark"><small><strong class="d-block">{{ e.name | append: ":" }}</strong>{{ e.value }}</small><li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
