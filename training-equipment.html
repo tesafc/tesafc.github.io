@@ -58,7 +58,7 @@ equipment:
     details:
       - name: "Kondisi"
         value: "50%"
-      - name: "others"
+      - name: "Others"
         value: "30%"
   - type: owned
     name: "High marker cones"
@@ -92,7 +92,7 @@ equipment:
             <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
             <div>
               {% for e in equip.details %}
-              <p class="text-secondary mb-0 pb-0"><small>{{ e.name | append: ":" }} {{ e.value }}</small></p>
+              <p class="text-secondary my-0 py-0 lh-1"><small>{{ e.name | append: ":" }} {{ e.value }}</small></p>
               {% endfor %}
             </div>
           </div>
