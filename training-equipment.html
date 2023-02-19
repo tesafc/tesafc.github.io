@@ -7,6 +7,13 @@ equipment:
     name: Training ball
     qty: 10
     img:
+    cta:
+      - name: "Buy"
+        value: "#"
+        style: btn-primary
+      - name: "Contact us"
+        value: "#"
+        style: btn-success
   - type: needed
     name: "Match ball"
     qty: "3"
@@ -116,6 +123,13 @@ equipment:
             </div>
             {% endif %}
           </div>
+          {% if equip.cta %}
+          <div class="card-footer text-bg-dark">
+            {% for e in equip.cta %}
+            <a href="{{ e.value }}" class="btn btn-sm {{ e.style }}">{{ e.name }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
