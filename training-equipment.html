@@ -91,9 +91,9 @@ equipment:
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
             <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
           </div>
-          <ul class="list-group list-group-flush">
+          <ul class="list-group border-0">
             {% for e in equip.details %}
-            <li class="list-group-item text-bg-dark"><small>{{ e.name | append: ":" }} {{ e.value }}</small></li>
+            <li class="list-group-item text-bg-dark px-0"><small>{{ e.name | append: ":" }} {{ e.value }}</small></li>
             {% endfor %}
           </ul>
         </div>
