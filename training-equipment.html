@@ -13,7 +13,7 @@ equipment:
         style: btn-primary
       - name: "Contact us"
         value: "#"
-        style: btn-success
+        style: btn-success pt-1
   - type: needed
     name: "Match ball"
     qty: "3"
@@ -124,7 +124,7 @@ equipment:
             {% endif %}
           </div>
           {% if equip.cta %}
-          <div class="card-footer text-bg-dark">
+          <div class="card-footer text-bg-dark border-0">
             {% for e in equip.cta %}
             <a href="{{ e.value }}" class="btn btn-sm rounded-pill {{ e.style }}">{{ e.name }}</a>
             {% endfor %}
