@@ -125,9 +125,11 @@ equipment:
             </div>
             {% endif %}
             {% if equip.cta %}
-            {% for e in equip.cta %}
-            <a href="{{ e.value }}" role="button" class="btn btn-sm rounded-pill {{ e.style }}">{{ e.name }}</a>
-            {% endfor %}
+            <div class="d-grid gap-1">
+              {% for e in equip.cta %}
+              <a href="{{ e.value }}" role="button" class="btn btn-sm rounded-pill {{ e.style }}">{{ e.name }}</a>
+              {% endfor %}
+            </div>
             {% endif %}
           </div>
         </div>
