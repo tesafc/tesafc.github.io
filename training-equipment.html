@@ -176,7 +176,6 @@ equipment:
     <div class="row row-cols-2 row-cols-md-4 g-3">
       {% for equipment in equipment-cat %}
       <h2 class="w-100 mb-1 pt-5 text-capitalize">{{ equipment.name }}</h2>
-      <h4 class="mb-0 text-secondary">{{ equipment.type-description }}</h4>
       {% for equip in equipment.items %}
       <div class="col">
         <div class="card h-100 text-bg-dark">
