@@ -5,9 +5,12 @@ layout: default
 <div class="pt-5">
   <div>
     <header class="container text-light">
-      <h1 class="mb-1 text-capitalize">{{ page.title }}</h1>
+      <h1 class="mb-2">{{ page.title }}</h1>
       {% if page.description %}
-      <h4 class="mb-0 text-capitalize text-secondary lh-sm">{{ page.description }}</h4>
+      <h4 class="mb-0 text-secondary lh-sm">{{ page.description }}</h4>
+      {% endif %}
+      {% if page.updated %}
+      <small class="text-secondary pt-2">{{ page.updated }}</small>
       {% endif %}
     </header>
     <div>
