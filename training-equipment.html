@@ -114,7 +114,7 @@ equipment:
             <img src="{{ equip.img }}" alt="" class="card-img-top">
           </div>
           {% endif %}
-          <div class="card-body p-2">
+          <div class="card-body">
             <h5 class="card-text mb-0">{{ equip.qty }}</h5>
             <p class="card-text mb-0 lh-sm">{{ equip.name }}</p>
             {% if equip.details %}
@@ -126,7 +126,7 @@ equipment:
             {% endif %}
           </div>
           {% if equip.cta %}
-          <div class="card-footer text-bg-dark border-0 p-2">
+          <div class="card-footer text-bg-dark border-0">
             {% for e in equip.cta %}
             <a href="{{ e.value }}" role="button" class="btn btn-sm rounded-pill {{ e.style }}">{{ e.name }}</a>
             {% endfor %}
