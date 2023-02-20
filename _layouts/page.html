@@ -10,7 +10,7 @@ layout: default
       <h4 class="mb-0 text-secondary lh-sm">{{ page.description }}</h4>
       {% endif %}
       {% if page.updated %}
-      <small class="text-secondary pt-2">{{ page.updated }}</small>
+      <small class="text-secondary pt-3">{{ page.updated | prepend: "Last-update:" }}</small>
       {% endif %}
     </header>
     <div>
