@@ -175,7 +175,7 @@ equipment:
 <div>
   <div class="container">
     {% assign equipment-cat = page.equipment | group_by: "type" %}
-    <div class="row row-cols-2 row-cols-md-4 g-3">
+    <div class="row row-cols-2 row-cols-md-4 g-2">
       {% for equipment in equipment-cat %}
       <h2 class="w-100 mb-1 pt-5 text-capitalize">{{ equipment.name }}</h2>
       {% for equip in equipment.items %}
