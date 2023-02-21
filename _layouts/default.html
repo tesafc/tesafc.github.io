@@ -49,7 +49,7 @@
     <main>
       {{ content }}
     </main>
-    <div class="container-fluid text-bg-dark mt-5 pb-5">
+    <div class="container-fluid mt-5 pb-5">
       <footer>
         <div class="container pt-5 px-0">
           <h6 class="w-100 mb-2 text-center text-secondary">SPONSORS</h6>
@@ -57,7 +57,7 @@
            {% for partner in site.data.partners %}
             <div class="col">
               <div class="card h-100 bg-transparent border-0">
-                <div class="card-body d-flex justify-content-center align-items-center p-2">
+                <div class="card-body d-flex justify-content-center align-items-center p-3">
                   <img src="{{ partner.img | relative_url }}" alt="" class="img-fluid">
                 </div>
               </div>
@@ -68,7 +68,7 @@
         <div class="pt-5">
           <div class="d-flex justify-content-start align-items-center">
             <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" alt="logo TESA FC" class="border-0" width="45" height="45">
-            <h4 class="mb-0 text-secondary ps-2">TESA FOOTBALL CLUB</h4>
+            <h4 class="mb-0 text-light ps-2">TESA FOOTBALL CLUB</h4>
           </div>
           <p class="mb-0 pt-2 text-secondary" style="max-width: 380px;">
           <small>Desa Kutaraja, Kec. Maleber, Kab. Kuningan, Jawa Barat, Indonesia, 45574</small>
