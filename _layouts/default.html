@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       {% if page.name == "index.html" %}
-        {{ site.title }}{% if site.description %} &middot; {{ site.description }}{% endif %}
+        {{ site.title | upcase }}{% if site.description | capitalize %} &middot; {{ site.description }}{% endif %}
       {% else %}
-        {{ page.title }} &middot; {{ site.title }}
+        {{ page.title | capitalize }} &middot; {{ site.title | upcase }}
       {% endif %}
     </title>
     <meta name="description " content="{{ page.description }}">
