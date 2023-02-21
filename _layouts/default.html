@@ -49,15 +49,15 @@
     <main>
       {{ content }}
     </main>
-    <div class="container-fluid text-light py-5">
+    <div class="container-fluid text-bg-dark py-5">
       <footer>
-        <div class="container px-0">
+        <div class="container pt-5 px-0">
           <h6 class="w-100 mb-2 text-center text-secondary">SPONSORS</h6>
           <div class="row row-cols-3 row-cols-md-5 g-1 d-flex justify-content-center">
            {% for partner in site.data.partners %}
             <div class="col">
               <div class="card h-100 bg-transparent border-0">
-                <div class="card-body d-flex justify-content-center align-items-center">
+                <div class="card-body d-flex justify-content-center align-items-center p-1">
                   <img src="{{ partner.img | relative_url }}" alt="" class="img-fluid">
                 </div>
               </div>
