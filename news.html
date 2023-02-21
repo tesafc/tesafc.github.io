@@ -1,15 +1,15 @@
 ---
 layout: page
-title: news
+title: News
 ---
 
-<div>
+<div class="pt-5">
     <div class="row row-cols-1 row-cols-md-3 g-3">
       {% for post in site.posts %}
       <div class="col">
         <div class="card h-100 text-bg-dark" style="min-height: 15rem;">
           {% if post.img %}
-          <div class="ratio ratio-4x3">
+          <div class="ratio ratio-1x1">
             <img src="{{ post.img }}" alt="{{ post.title }}" class="rounded-top" style="object-fit: cover;">
           </div>
           {% endif %}
