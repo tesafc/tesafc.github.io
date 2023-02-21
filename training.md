@@ -1,9 +1,11 @@
 ---
 layout: page
-title: training session
-description: Latihan Rutin Sepakbola TESA FC & Warga Desa Kutaraja
+title: Training session
+description: Latihan rutin sepakbola TESA FC & warga desa Kutaraja
+updated: "22/02/2023"
 ---
 
+<div class="container pt-5">
 <table class="table table-dark table-striped-columns">
   <caption class="text-secondary"><small>Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</small></caption>
   <thead>
@@ -75,4 +77,4 @@ description: Latihan Rutin Sepakbola TESA FC & Warga Desa Kutaraja
     </tr>
   </tfoot>-->
 </table>
-
+</div>
