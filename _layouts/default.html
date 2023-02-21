@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" style="background-color: #121212;">
+<html lang="en" class="h-100" style="background-color: #121212;">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,11 +32,11 @@
     </script>
 
   </head>
-  <body class="text-light" style="background-color: #121212;">
-    <div class="container-fluid text-light pt-1" style="max-width: 960px;">
+  <body class="h-100 text-light" style="background-color: #121212;">
+    <div class="container-fluid text-light pt-1">
       <header class="navbar mx-auto">
         <a class="navbar-brand text-light" href="{{ site.url | relative_url }}">
-          <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" width="35" height="35" class="shadow">
+          <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" width="35" height="35" alt="logo TESA FC">
         </a>
         <nav class="nav nav-masthead">
           {% assign currentPage = page.url %}
@@ -49,9 +49,9 @@
     <main>
       {{ content }}
     </main>
-    <div class="container-fluid text-light py-5">
+    <div>
       <footer>
-        <div class="container">
+        <div class="container-fluid text-light py-5">
           <h6 class="w-100 mb-2 text-center text-secondary">SPONSORS</h6>
           <div class="row row-cols-3 row-cols-md-5 g-1 d-flex justify-content-center">
            {% for partner in site.data.partners %}
@@ -67,11 +67,11 @@
         </div>
         <div class="pt-5">
           <div class="d-flex justify-content-start align-items-center">
-            <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" alt="" class="" width="45" height="45">
-            <p class="mb-0 fs-5 fw-bolder text-secondary ps-2">TESA FOOTBALL CLUB</p>
+            <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" alt="logo TESA FC" class="border-0" width="45" height="45">
+            <p class="mb-0 fw-bolder text-secondary ps-2">TESA FOOTBALL CLUB</p>
           </div>
           <p class="mb-0 pt-2 text-secondary" style="max-width: 380px;">
-          <small>Desa Kutaraja Kec. Maleber Kab. Kuningan, Jawa Barat, Indonesia, 45574</small>
+          <small>Desa Kutaraja, Kec. Maleber, Kab. Kuningan, Jawa Barat, Indonesia, 45574</small>
           </p>
           <a href="https://wa.me/{{ site.author.phone | remove: "+" }}" class="d-block text-decoration-none link-primary"><small>+6285162957422</small></a>
           <a href="mailto:{{ site.author.email }}" class="d-block text-decoration-none link-primary"><small>tesafc@hotmail.com</small></a>
@@ -80,7 +80,7 @@
           <p class="text-secondary lh-1 pb-1 pb-md-0 mb-0"><small>© TESA Football Club. 2022-2023</small></p>
           <div class="d-flex">
             <a href="https://instagram.com/tesa.fc?igshid=YmMyMTA2M2Y=" alt="" class="fs-4 link-secondary"><i class="bi bi-instagram"></i></a>
-           <!-- <a href="https://www.facebook.com/tesafootballclub/" alt="" class="fs-4 link-secondary px-3"><i class="fa-brands fa-facebook"></i></a>
+            <!-- <a href="https://www.facebook.com/tesafootballclub/" alt="" class="fs-4 link-secondary px-3"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://twitter.com/tesa_fc" alt="" class="fs-4 link-secondary"><i class="fa-brands fa-twitter"></i></a>-->
             <a href="https://youtube.com/channel/UCIp790AQCWjY_wjIZj68m3w" alt="" class="fs-4 link-secondary px-3"><i class="bi bi-youtube"></i></a>
             <a href="https://tiktok.com/@tesafc" alt="" class="fs-4 link-secondary"><i class="bi bi-tiktok"></i></a>
