@@ -10,7 +10,7 @@ layout: default
   </div>
   <div class="container px-0">
     <div class="w-100 card bg-transparent rounded-0 border-0 pt-2 pb-0">
-      <div class="row row-cols-2 g-0 card-header text-body bg-transparent border-0">
+      <div class="row row-cols-2 g-0 card-header text-body bg-transparent border-0 pb-0">
         <div class="col d-flex flex-column flex-md-row justify-content-start">
           <p class="card-text text-start text-capitalize lh-1 mb-0 pe-md-2"><small>{{ page.time }}</small></p>
           <p class="card-text text-start text-uppercase fw-bolder lh-1 mb-0"><small>{{ page.kick-off | append: " WIB" }}</small></p>
@@ -34,7 +34,7 @@ layout: default
             <img src="{% if page.home-team.logo %}{{ page.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
           </div>
           <div class="col-2 d-flex justify-content-center align-items-center py-2">
-            <p class="badge text-bg-light text-center fs-3 fw-bolder p-1 mb-0">{% if page.result.score.full-time %}{{ page.result.score.full-time }}{% else %}{{ page.kick-off }}{% endif %}</p>
+            <p class="badge text-bg-secondary bg-gradient text-center fs-3 fw-bolder mb-0">{% if page.result.score.full-time %}{{ page.result.score.full-time }}{% else %}{{ page.kick-off }}{% endif %}</p>
           </div>
           <div class="col-1 d-flex justify-content-start align-items-center ps-1 ps-md-0">
             <img src="{% if page.away-team.logo %}{{ page.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end" width="auto" height="40">
