@@ -135,7 +135,7 @@ description: tesa fc official website
         </div>
         <div class="card-footer bg-transparent text-center border-0 pb-3">
           <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
-          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none link-primary"><small>Match report</small></a></p>
+          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
         </div>
       </div>
       {% endfor %}
@@ -149,7 +149,7 @@ description: tesa fc official website
       <div class="card h-100 bg-body-secondary text-body border-0" style="min-width: 13rem; min-height: 17rem;">
         <div class="card-header bg-transparent text-center border-0">
           <!--<p class="card-text text-uppercase fw-bolder mb-0 pt-2">{{ achievement.competition }}</p>-->
-          <p class="mb-0 pt-2"><small class="badge rounded-pill text-bg-secondary text-capitalize">{{ achievement.team }}</small></p>
+          <p class="mb-0 pt-2"><small class="badge rounded-pill bg-secondary-subtle text-secondary-emphasis text-capitalize">{{ achievement.team }}</small></p>
         </div>
         <div class="card-body d-flex flex-column justify-content-center">
           <h1 class="card-title text-capitalize text-center text-body-emphasis mb-0 pb-1">{{ achievement.result.place }}</h1>
