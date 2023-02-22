@@ -38,13 +38,13 @@ description: tesa fc official website
           <img src="{{ team.image }}" alt="{{ team.title }}" class="card-img border-0 object-fit-cover">
         </div>
         {% endif %}
-        <div class="card-img-overlay d-flex flex-column justify-content-end">
+        <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
           <div class="d-flex column-gap-2 mb-2">
           {% for item in team.sub-team %}
             <small class="d-inline-flex badge rounded-pill bg-secondary-subtle bg-gradient text-body-emphasis text-capitalize">{{ item }}</small>
           {% endfor %}
           </div>
-          <h4 class="text-capitalize mb-0"><a href="{{ team.url | relative_url }}" class="stretched-link text-decoration-none text-body-emphasis">{{ team.team }}</a></h4>
+          <h4 class="text-capitalize mb-0"><a href="{{ team.url | relative_url }}" class="stretched-link text-decoration-none text-light">{{ team.team }}</a></h4>
         </div>
       </div>
       {% endfor %} 
