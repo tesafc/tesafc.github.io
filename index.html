@@ -52,48 +52,48 @@ description: tesa fc official website
     {% assign match-schedule = site.matches-2023 | where: "status", "match schedule" %}
     {% assign match-count = match-schedule | size %}
     <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
-      <h1 class="mb-0 text-uppercase">Match schedule</h1>
-      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="link-light text-decoration-none text-uppercase">View all</a>
+      <h2 class="mb-0">Match schedule</h2>
+      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="text-decoration-none">View all</a>
     </div>
-    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% for match in match-schedule %}
-      <div class="card h-100 text-bg-dark" style="min-width: 17rem; max-width: 17rem; min-height: 20rem;">
-        <div class="card-header text-light bg-transparent text-center border-0 pt-3">
+      <div class="card h-100 bg-body-secondary border-0" style="min-width: 17rem; max-width: 17rem; min-height: 20rem;">
+        <div class="card-header bg-transparent text-center border-0 pt-3">
           <p class="mb-2">
-            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team }}</small>
-            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team-classification }}</small>
+            <small class="badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ match.team }}</small>
+            <small class="badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ match.team-classification }}</small>
           </p>
-          <p class="card-text text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
-          <p class="card-text text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
+          <p class="card-text text-body-emphasis text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
+          <p class="card-text text-body-emphasis text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
         </div>
         <div class="card-body d-flex flex-column justify-content-center">
           <div class="row g-1 d-flex flex-row justify-content-between">
             <div class="col-5 d-flex justify-content-center">
-              <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="" width="auto" height="50">
+              <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="border-0" width="auto" height="50">
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
               <p class="d-inline badge text-bg-light text-center fs-3 fw-bolder p-1 mb-0">{{ match.kick-off }}</p>
             </div>
             <div class="col-5 d-flex justify-content-center">
-              <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="" width="auto" height="50">
+              <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="border-0" width="auto" height="50">
             </div>
           </div>
           <div class="row g-1 pt-2">
-            <div class="col-5 d-flex justify-content-center text-center text-uppercase fw-bolder lh-1"><small>{{ match.home-team.name }}</small></div>
-            <div class="col-2 d-flex justify-content-center text-center text-uppercase text-secondary fw-bolder lh-1"></div>
-            <div class="col-5 d-flex justify-content-center text-center text-uppercase fw-bolder lh-1"><small>{{ match.away-team.name }}</small></div>
+            <div class="col-5 d-flex justify-content-center text-center text-uppercase text-body-emphasis fw-bolder lh-1"><small>{{ match.home-team.name }}</small></div>
+            <div class="col-2 d-flex justify-content-center text-center text-uppercase text-body fw-bolder lh-1"></div>
+            <div class="col-5 d-flex justify-content-center text-center text-uppercase text-body-emphasis fw-bolder lh-1"><small>{{ match.away-team.name }}</small></div>
           </div>
         </div>
-        <div class="card-footer text-secondary bg-transparent text-center border-0 pb-3">
-          <p class="card-text text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
+        <div class="card-footer bg-transparent text-center border-0 pb-3">
+          <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
           <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
         </div>
       </div>
       {% endfor %}
       {% if match-count == 0 %}
-      <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
+      <div class="card h-100 bg-body-secondary bg-gradient border-0" style="min-width: 17rem; min-height: 20rem;">
         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-          <small class="text-light">currently, no match schedule</small>
+          <small class="text-body-emphasis">currently, no match schedule</small>
         </div>
       </div>
       {% endif %}
@@ -111,8 +111,8 @@ description: tesa fc official website
             <small class="badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ match.team }}</small>
             <small class="badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ match.team-classification }}</small>
           </p>
-          <p class="card-text text-body text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
-          <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
+          <p class="card-text text-body-emphasis text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
+          <p class="card-text text-body-emphasis text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
         </div>
         <div class="card-body d-flex flex-column justify-content-center">
           <!--<div class="d-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder lh-1">{{ match.result.status }}</small></div>-->
