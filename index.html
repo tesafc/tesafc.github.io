@@ -100,16 +100,16 @@ description: tesa fc official website
     </div>
     {% assign match-result = site.matches-2023 | where: "status", "match result" | reverse %}
     <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
-      <h1 class="mb-0 text-uppercase">Match results</h1>
-      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="link-light text-decoration-none text-uppercase">View all</a>
+      <h2 class="mb-0">Match results</h2>
+      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="link-secondary text-decoration-none">View all</a>
     </div>
-    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% for match in match-result limit: 5 %}
-      <div class="card h-100 text-bg-dark" style="min-width: 17rem; min-height: 20rem;">
-        <div class="card-header text-bg-dark bg-transparent text-center border-0 pt-3">
+      <div class="card h-100 bg-body-secondary text-body" style="min-width: 17rem; min-height: 20rem;">
+        <div class="card-header bg-transparent text-center border-0 pt-3">
           <p class="mb-2">
-            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team }}</small>
-            <small class="badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ match.team-classification }}</small>
+            <small class="badge rounded-pill text-bg-secondary text-capitalize">{{ match.team }}</small>
+            <small class="badge rounded-pill text-bg-secondary text-capitalize">{{ match.team-classification }}</small>
           </p>
           <p class="card-text text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
           <p class="card-text text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
@@ -121,7 +121,7 @@ description: tesa fc official website
               <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
-              <p class="d-inline badge text-bg-light text-center fs-3 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
+              <p class="d-inline badge text-bg-secondary text-center fs-3 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
             </div>
             <div class="col-5 d-flex justify-content-center">
               <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
@@ -129,13 +129,13 @@ description: tesa fc official website
           </div>
           <div class="row g-1 pt-2">
             <div class="col-5 d-flex justify-content-center text-center text-uppercase fw-bolder lh-1"><small>{{ match.home-team.name }}</small></div>
-            <div class="col-2 d-flex justify-content-center text-center text-uppercase text-secondary fw-bolder lh-1"><small>{{ match.result.score.half-time }}</small></div>
+            <div class="col-2 d-flex justify-content-center text-center text-uppercase text-body fw-bolder lh-1"><small>{{ match.result.score.half-time }}</small></div>
             <div class="col-5 d-flex justify-content-center text-center text-uppercase fw-bolder lh-1"><small>{{ match.away-team.name }}</small></div>
           </div>
         </div>
-        <div class="card-footer text-secondary bg-transparent text-center border-0 pb-3">
+        <div class="card-footer text-body bg-transparent text-center border-0 pb-3">
           <p class="card-text text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
-          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
+          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none link-primary"><small>Match report</small></a></p>
         </div>
       </div>
       {% endfor %}
@@ -156,7 +156,7 @@ description: tesa fc official website
           <p class="card-text text-capitalize text-center text-body-emphasis lh-sm mb-0">{{ achievement.competition-name }}</p>
         </div>
         <div class="card-footer bg-transparent text-center border-0">
-          <p class="card-text text-center text-capitalize text-body-secondary mb-0 pb-2">{{ achievement.competition-date }}</p>
+          <p class="card-text text-center text-capitalize text-body mb-0 pb-2">{{ achievement.competition-date }}</p>
         </div>
       </div>
       {% endfor %}
