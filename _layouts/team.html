@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<div class="text-light">
+<div class="pt-5">
   <div class="container-fluid">
-    <h1 class="mb-0 pt-5 text-uppercase fw-bolder">{{ page.title }}</h1>
+    <h1 class="mb-0 text-capitalize fw-bolder text-body-emphasis">{{ page.title }}</h1>
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
     {% assign positions = teams | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-4 g-3">
       {% for position in positions %}
-      <h4 class="d-block w-100 text-uppercase pt-5 mb-0">{{ position.name }}</h4>
+      <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body">{{ position.name }}</h4>
       {% for player in position.items %}
       <div class="col">
-        <div class="card h-100 text-bg-dark">
-          <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img p-2" style="height: 16rem; object-fit: contain;">
-          <div class="card-img-overlay bg-gradient-top-bottom d-flex flex-column justify-content-between">
-            <h3 class="card-title fw-bolder mb-0">{{ player.jersey-number }}</h3>
-            <h5 class="card-text text-capitalize mb-0 lh-1"><a href="{{ player.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ player.jersey-name }}</a></h5>
+        <div class="card h-100 bg-body-secondary border-0">
+          <img src="{{ player.profile-picture | relative_url }}" alt="" class="card-img p-2 border-0 object-fit-cover" style="height: 16rem;">
+          <div class="card-img-overlay d-flex flex-column justify-content-between">
+            <h3 class="card-title fw-bolder text-body-emphasis mb-0">{{ player.jersey-number }}</h3>
+            <h5 class="card-text text-capitalize text-body-emphasis mb-0 lh-1"><a href="{{ player.url | relative_url }}" class="stretched-link link-light text-decoration-none">{{ player.jersey-name }}</a></h5>
           </div>
         </div>
       </div>
