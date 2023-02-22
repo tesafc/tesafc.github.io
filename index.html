@@ -149,14 +149,14 @@ description: tesa fc official website
       <div class="card h-100 bg-body-secondary text-body border-0" style="min-width: 13rem; min-height: 17rem;">
         <div class="card-header bg-transparent text-center border-0">
           <!--<p class="card-text text-uppercase fw-bolder mb-0 pt-2">{{ achievement.competition }}</p>-->
-          <p class="mb-0 pt-2"><small class="badge rounded-pill border border-secondary text-secondary text-capitalize">{{ achievement.team }}</small></p>
+          <p class="mb-0 pt-2"><small class="badge rounded-pill border bg-secondary text-body text-capitalize">{{ achievement.team }}</small></p>
         </div>
         <div class="card-body d-flex flex-column justify-content-center">
           <h1 class="card-title text-capitalize text-center text-body-emphasis mb-0 pb-1">{{ achievement.result.place }}</h1>
-          <p class="card-text text-capitalize text-center text-body lh-sm mb-0">{{ achievement.competition-name }}</p>
+          <p class="card-text text-capitalize text-center text-body-emphasis lh-sm mb-0">{{ achievement.competition-name }}</p>
         </div>
         <div class="card-footer bg-transparent text-center border-0">
-          <p class="card-text text-center text-capitalize text-body-secondary mb-0 pb-2">{{ achievement.competition-date }}</p>
+          <p class="card-text text-center text-capitalize text-body mb-0 pb-2">{{ achievement.competition-date }}</p>
         </div>
       </div>
       {% endfor %}
