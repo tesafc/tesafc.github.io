@@ -86,7 +86,7 @@ description: tesa fc official website
         </div>
         <div class="card-footer bg-transparent text-center border-0 pb-3">
           <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
-          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
+          <p class="mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
         </div>
       </div>
       {% endfor %}
@@ -121,7 +121,7 @@ description: tesa fc official website
               <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
-              <p class="d-inline badge bg-secondary-subtle bg-gradient text-body-emphasis text-center fs-3 fw-bolder mb-0">{{ match.result.score.full-time }}</p>
+              <p class="d-inline badge bg-secondary-subtle bg-gradient text-body-emphasis text-center fs-3 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
             </div>
             <div class="col-5 d-flex justify-content-center">
               <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
@@ -135,7 +135,7 @@ description: tesa fc official website
         </div>
         <div class="card-footer bg-transparent text-center border-0 pb-3">
           <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
-          <p class="text-capitalize mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
+          <p class="mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
         </div>
       </div>
       {% endfor %}
