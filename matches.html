@@ -107,7 +107,7 @@ title: Matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end border-0" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="badge text-center text-bg-secondary fs-2 fw-bolder mb-0 p-2">{{ match.result.score.full-time }}</p>
+                <p class="badge text-center text-bg-secondary fs-1 fw-bolder mb-0 p-1">{{ match.result.score.full-time }}</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center ps-2 ps-md-0">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-start border-0" width="auto" height="40">
