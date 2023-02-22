@@ -4,13 +4,13 @@ layout: default
 
 <div class="pt-5">
   <div>
-    <header class="container text-light">
+    <header class="container">
       {% if page.page-relation %}
-      <span class="d-inline-block text-secondary fw-bolder text-uppercase mb-2">{{ page.page-relation }}</span>
+      <span class="d-inline-block text-body-secondary fw-bolder text-uppercase mb-2">{{ page.page-relation }}</span>
       {% endif %}
-      <h1 class="mb-1">{{ page.title }}</h1>
+      <h1 class="mb-1 text-body-emphasis">{{ page.title }}</h1>
       {% if page.description %}
-      <h4 class="mb-0 text-secondary lh-sm">{{ page.description }}</h4>
+      <h4 class="mb-0 text-body lh-sm">{{ page.description }}</h4>
       {% endif %}
       {% if page.updated %}
       <small class="d-inline-block text-secondary mt-2">{{ page.updated | prepend: "Last-update: " }}</small>
