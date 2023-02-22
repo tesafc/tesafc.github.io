@@ -121,7 +121,7 @@ description: tesa fc official website
               <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
-              <p class="d-inline badge text-bg-secondary text-center fs-3 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
+              <p class="d-inline badge bg-secondary-subtle text-secondary-emphasis text-center fs-3 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
             </div>
             <div class="col-5 d-flex justify-content-center">
               <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
