@@ -101,7 +101,7 @@ description: tesa fc official website
     {% assign match-result = site.matches-2023 | where: "status", "match result" | reverse %}
     <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
       <h2 class="mb-0">Match results</h2>
-      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="link-secondary text-decoration-none">View all</a>
+      <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="text-decoration-none">View all</a>
     </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% for match in match-result limit: 5 %}
@@ -121,7 +121,7 @@ description: tesa fc official website
               <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
-              <p class="d-inline badge bg-secondary-subtle text-secondary-emphasis text-center fs-3 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
+              <p class="d-inline badge bg-secondary-subtle text-secondary-emphasis text-center fs-3 fw-bolder mb-0">{{ match.result.score.full-time }}</p>
             </div>
             <div class="col-5 d-flex justify-content-center">
               <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-center" width="auto" height="50">
