@@ -4,7 +4,7 @@ title: Matches
 ---
 
 <div class="pt-5">
-  <div class="container-fluid">
+  <div class="container">
     <h1 class="mb-0 text-capitalize fw-bolder text-body-emphasis">matches season 2023</h1>
     {% assign schedules = site.matches-2023 | where: "status", "match schedule" %}
     {% assign match-count = schedules | size %}
@@ -70,7 +70,7 @@ title: Matches
     </div>
   </div>
   
-  <div class="container-fluid">
+  <div class="container">
     {% assign results = site.matches-2023 | where: "status", "match result" %}
     <h3 class="pt-5 text-capitalize fw-bolder border-bottom mb-0 pb-2">match results</h3>
     <div class="row row-cols-1 g-0">
@@ -82,8 +82,8 @@ title: Matches
               <small class="badge rounded-pill text-bg-secondary bg-gradient text-capitalize">{{ match.team }}</small>
               <small class="badge rounded-pill text-bg-secondary bg-gradient text-capitalize">{{ match.team-classification }}</small>
             </p>
-            <p class="card-text text-body text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
-            <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
+            <p class="card-text text-body-emphasis text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
+            <p class="card-text text-body-emphasis text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
           </div>
           <!--
           <div class="row row-cols-2 g-0 card-header text-secondary d-flex justify-content-between bg-transparent border-0 px-3">
