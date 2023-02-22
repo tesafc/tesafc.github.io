@@ -2,24 +2,24 @@
 layout: default
 ---
 
-<div class="pt-5 text-light">
+<div class="pt-5">
   <div class="container">
-    <div class="card text-light bg-transparent rounded-0 border-0 mb-5">
-      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img pb-5 mb-5" style="object-fit: contain; max-height: 30rem;">
+    <div class="card bg-transparent rounded-0 border-0 mb-5">
+      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img pb-5 mb-5 object-fit-cover" style="max-height: 30rem;">
       <div class="card-img-overlay d-flex flex-column justify-content-between p-0">
         <div>
-          <h1 class="card-title text-start text-uppercase fw-bolder mb-0 ps-1 ps-md-5" style="font-size: 3rem;">{{ page.jersey-number }}</h1>
+          <h1 class="card-title text-start text-uppercase fw-bolder text-body-emphasis mb-0 ps-1 ps-md-5" style="font-size: 3rem;">{{ page.jersey-number }}</h1>
         </div>
         <div>
-          <p class="card-text text-center mb-1"><span class="badge rounded-pill text-uppercase text-bg-light lh-1">{{ page.position }}</span></p>
-          <h1 class="card-title text-center text-capitalize fw-bolder mb-0" style="font-size: 2.5rem;">{{ page.jersey-name }}</h1>
+          <p class="card-text text-center mb-1"><span class="badge rounded-pill text-uppercase bg-secondary-subtle bg-gradient text-body-emphasis lh-1">{{ page.position }}</span></p>
+          <h1 class="card-title text-center text-capitalize fw-bolder text-body-emphasis mb-0" style="font-size: 2.5rem;">{{ page.jersey-name }}</h1>
         </div>
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-2">
       <div class="col">
         <h3 class="text-uppercase fw-bolder mb-0 pb-3">profile</h3>
-        <table class="table text-light border-secondary bg-transparent">
+        <table class="table text-body bg-transparent">
           <tbody>
             {% for item in page.details %}
             <tr class="row g-2 px-1">
@@ -32,11 +32,11 @@ layout: default
       </div>
       {% comment %}
       {% if page.stats %}
-      <div class="col text-light bg-transparent">
+      <div class="col text-body-emphasis bg-transparent">
         <h3 class="text-uppercase fw-bolder mb-0 pt-5 pt-md-0 pb-3">statistics</h3>
         <div class="row row-cols-3 row-cols-md-3 g-0">
           {% for stat in page.stats %}
-          <div class="col border border-secondary">
+          <div class="col text-body border">
             <div class="text-center py-3 px-1">
               <p class="fs-6 text-capitalize lh-1 mb-0">{{ stat.name }}</p>
               <p class="fs-1 text-uppercase fw-bolder mb-0">{{ stat.value }}</p>
