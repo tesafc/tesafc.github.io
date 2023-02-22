@@ -5,13 +5,13 @@ layout: default
 <div class="pt-5">
   <div class="container">
     <div class="card bg-transparent rounded-0 border-0 mb-5">
-      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img rounded-0 pb-5 mb-5 object-fit-cover" style="max-height: 30rem;">
+      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img rounded-0 pb-5 mb-5 object-fit-cover">
       <div class="card-img-overlay d-flex flex-column justify-content-between p-0">
         <div>
           <h1 class="card-title text-start text-uppercase fw-bolder text-body-emphasis mb-0 ps-1 ps-md-5" style="font-size: 3rem;">{{ page.jersey-number }}</h1>
         </div>
         <div>
-          <p class="card-text text-center mb-1"><span class="badge rounded-pill text-uppercase bg-secondary bg-gradient text-secondary lh-1">{{ page.position }}</span></p>
+          <p class="card-text text-center mb-1"><span class="badge rounded-pill text-uppercase text-bg-secondary lh-1">{{ page.position }}</span></p>
           <h1 class="card-title text-center text-capitalize fw-bolder text-body-emphasis mb-0" style="font-size: 2.5rem;">{{ page.jersey-name }}</h1>
         </div>
       </div>
