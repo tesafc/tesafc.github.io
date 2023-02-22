@@ -22,7 +22,7 @@ layout: default
         <table class="table text-body-emphasis bg-transparent">
           <tbody>
             {% for item in page.details %}
-            <tr class="row g-2 px-1 border-secondary">
+            <tr class="row g-2 px-1">
               <td class="col-5 text-capitalize ps-0">{{ item.name }}</td>
               <td class="col-7 text-uppercase fw-bolder">{{ item.value }}</td>
             </tr>
@@ -36,7 +36,7 @@ layout: default
         <h3 class="text-uppercase fw-bolder mb-0 pt-5 pt-md-0 pb-3">statistics</h3>
         <div class="row row-cols-3 row-cols-md-3 g-0">
           {% for stat in page.stats %}
-          <div class="col text-body-emphasis border border-secondary">
+          <div class="col text-body-emphasis border">
             <div class="text-center py-3 px-1">
               <p class="fs-6 text-capitalize lh-1 mb-0">{{ stat.name }}</p>
               <p class="fs-1 text-uppercase fw-bolder mb-0">{{ stat.value }}</p>
