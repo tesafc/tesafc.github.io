@@ -26,25 +26,25 @@ description: tesa fc official website
       {% endfor %}
     </div>
     <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
-      <h1 class="mb-0 text-uppercase">Teams</h1>
-      <a href="{{ 'teams' | relative_url }}" alt="go to news page" class="link-light text-decoration-none text-uppercase">View all</a>
+      <h1 class="mb-0">Teams</h1>
+      <a href="{{ 'teams' | relative_url }}" alt="go to news page" class="text-decoration-none">View all</a>
     </div>
-    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3">
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% assign teams = site.teams | sort: "order" %}
       {% for team in teams %}
-      <div class="card h-100 text-bg-dark border-dark" style="min-width: 18rem; min-height: 10rem;">
+      <div class="card h-100 bg-body-secondary border-0" style="min-width: 18rem; min-height: 10rem;">
         {% if team.image %}
         <div class="ratio ratio-16x9">
-          <img src="{{ team.image }}" alt="{{ team.title }}" class="card-img" style="object-fit: cover;">
+          <img src="{{ team.image }}" alt="{{ team.title }}" class="card-img border-0 object-fit-cover">
         </div>
         {% endif %}
-        <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
           <div class="d-flex column-gap-2 mb-2">
           {% for item in team.sub-team %}
-            <small class="d-inline-flex badge rounded-pill text-bg-dark border border-secondary text-capitalize fw-normal">{{ item }}</small>
+            <small class="d-inline-flex badge rounded-pill bg-secondary-subtle bg-gradient text-body-emphasis text-capitalize fw-normal">{{ item }}</small>
           {% endfor %}
           </div>
-          <h4 class="text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="link-light stretched-link text-decoration-none">{{ team.team }}</a></h4>
+          <h4 class="text-uppercase mb-0"><a href="{{ team.url | relative_url }}" class="stretched-link text-decoration-none">{{ team.team }}</a></h4>
         </div>
       </div>
       {% endfor %} 
