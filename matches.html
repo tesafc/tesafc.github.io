@@ -43,7 +43,7 @@ title: Matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end border-0" width="auto" height="35">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="badge text-bg-secondary bg-gradient text-center fs-3 fw-bolder p-2 mb-0">{{ match.kick-off }}</p>
+                <p class="badge text-bg-secondary bg-gradient text-center fs-3 fw-bolder p-1 mb-0">{{ match.kick-off }}</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center ps-2 ps-md-0">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-start border-0" width="auto" height="35">
@@ -107,7 +107,7 @@ title: Matches
                 <img src="{% if match.home-team.logo %}{{ match.home-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-end border-0" width="auto" height="40">
               </div>
               <div class="col-2 d-flex justify-content-center align-items-center">
-                <p class="badge text-center text-bg-secondary fs-2 fw-bolder p-2 mb-0">{{ match.result.score.full-time }}</p>
+                <p class="badge text-center text-bg-secondary fs-2 fw-bolder p-1 mb-0">{{ match.result.score.full-time }}</p>
               </div>
               <div class="col-1 d-flex justify-content-start align-items-center ps-2 ps-md-0">
                 <img src="{% if match.away-team.logo %}{{ match.away-team.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.jpg' | relative_url }}{% endif %}" alt="" class="text-start border-0" width="auto" height="40">
