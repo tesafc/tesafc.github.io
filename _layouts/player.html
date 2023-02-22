@@ -5,7 +5,7 @@ layout: default
 <div class="pt-5">
   <div class="container">
     <div class="card bg-transparent rounded-0 border-0 mb-5">
-      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img pb-5 mb-5 object-fit-cover" style="max-height: 30rem;">
+      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img pb-5 mb-5 object-fit-contain" style="max-height: 30rem;">
       <div class="card-img-overlay d-flex flex-column justify-content-between p-0">
         <div>
           <h1 class="card-title text-start text-uppercase fw-bolder text-body-emphasis mb-0 ps-1 ps-md-5" style="font-size: 3rem;">{{ page.jersey-number }}</h1>
@@ -30,7 +30,7 @@ layout: default
           </tbody>
         </table>
       </div>
-      {% comment %}
+      
       {% if page.stats %}
       <div class="col text-body-emphasis bg-transparent">
         <h3 class="text-uppercase fw-bolder mb-0 pt-5 pt-md-0 pb-3">statistics</h3>
@@ -47,7 +47,7 @@ layout: default
        <!-- <p class="mb-0 pt-3"><small class="text-center text-secondary">* Last update: 21 Juni 2022</small></p>-->
       </div>
       {% endif %}
-      {% endcomment %}
+      
     </div>
   </div>
 </div>
