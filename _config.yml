@@ -31,12 +31,12 @@ defaults:
       type: "matches-2023"
     values:
       layout: "match"
-  #- scope:
-      #path: ""
-      #type: "players"
-    #values:
-      #layout: "player"
-      #profile-picture: /assets/img/logo/blank-pp.png
+  - scope:
+      path: ""
+      type: "players"
+    values:
+      layout: "player"
+      profile-picture: /assets/img/logo/blank-pp.png
 author:
   name: tesa fc
   phone: +6285162957422
