@@ -31,7 +31,7 @@
   img: /assets/img/logo/yeni-sembako.png
   type: Jersey sponsor
   style: "bg-dark-subtle bg-gradient"
-- name: redline
-  img: /assets/img/logo/redline.png
-  type: Apparel partner
-  style: "bg-danger-subtle bg-gradient"
+#- name: redline
+  #img: /assets/img/logo/redline.png
+  #type: Apparel partner
+  #style: "bg-danger-subtle bg-gradient"
