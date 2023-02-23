@@ -1,19 +1,28 @@
 # partner list
 - name: pt. cipta agung
   img: /assets/img/logo/cipta-agung.png
+  type: jersey-sponsor
 - name: montel
   img: /assets/img/logo/montel-forever.png
+  type: jersey-sponsor
 - name: mie ayam mekarwangi kuningan
   img: /assets/img/logo/mie-mekarwangi.png
+  type: jersey-sponsor
 - name: rumah mawar kuningan
   img: /assets/img/logo/rumah-mawar-kuningan.png
+  type: jersey-sponsor
 - name: ropita
   img: /assets/img/logo/ropita.png
+  type: jersey-sponsor
 - name: apotek berkah maleber
   img: /assets/img/logo/apotek-berkah.png
+  type: jersey-sponsor
 - name: pok
   img: /assets/img/logo/POK.png
+  type: jersey-sponsor
 - name: yeni sembako
   img: /assets/img/logo/yeni-sembako.png
+  type: jersey-sponsor
 - name: redline
   img: /assets/img/logo/redline.png
+  type: apparel-partner
