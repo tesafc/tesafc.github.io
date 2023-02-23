@@ -14,7 +14,7 @@
 - name: rumah mawar kuningan
   img: /assets/img/logo/rumah-mawar-kuningan.png
   type: Jersey sponsor
-  style: "bg-danger-subtle"
+  style: "bg-success-subtle"
 - name: ropita
   img: /assets/img/logo/ropita.png
   type: Jersey sponsor
