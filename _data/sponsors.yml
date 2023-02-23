@@ -26,11 +26,11 @@
 - name: pok
   img: /assets/img/logo/POK.png
   type: Jersey sponsor
-  style: "bg-black bg-gradient"
+  style: "bg-dark-subtle bg-gradient"
 - name: yeni sembako
   img: /assets/img/logo/yeni-sembako.png
   type: Jersey sponsor
-  style: "bg-black bg-gradient"
+  style: "bg-dark-subtle bg-gradient"
 - name: redline
   img: /assets/img/logo/redline.png
   type: Apparel partner
