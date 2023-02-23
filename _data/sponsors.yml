@@ -6,7 +6,7 @@
 - name: montel
   img: /assets/img/logo/montel-forever.png
   type: Jersey sponsor
-  style: "bg-secondary-subtle bg-gradient"
+  style: "bg-dark-subtle bg-gradient"
 - name: mie ayam mekarwangi kuningan
   img: /assets/img/logo/mie-mekarwangi.png
   type: Jersey sponsor
@@ -18,7 +18,7 @@
 - name: ropita
   img: /assets/img/logo/ropita.png
   type: Jersey sponsor
-  style: "bg-secondary-subtle bg-gradient"
+  style: "bg-dark-subtle bg-gradient"
 - name: apotek berkah maleber
   img: /assets/img/logo/apotek-berkah.png
   type: Jersey sponsor
@@ -26,11 +26,11 @@
 - name: pok
   img: /assets/img/logo/POK.png
   type: Jersey sponsor
-  style: "bg-dark-subtle bg-gradient"
+  style: "bg-light-subtle bg-gradient"
 - name: yeni sembako
   img: /assets/img/logo/yeni-sembako.png
   type: Jersey sponsor
-  style: "bg-dark-subtle bg-gradient"
+  style: "bg-light-subtle bg-gradient"
 - name: redline
   img: /assets/img/logo/redline.png
   type: Apparel partner
