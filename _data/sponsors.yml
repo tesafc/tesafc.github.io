@@ -22,7 +22,7 @@
 - name: apotek berkah maleber
   img: /assets/img/logo/apotek-berkah.png
   type: Jersey sponsor
-  style: "bg-primary bg-gradient"
+  style: "bg-info-subtle"
 - name: pok
   img: /assets/img/logo/POK.png
   type: Jersey sponsor
