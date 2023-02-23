@@ -12,7 +12,7 @@ description:
       <h2 class="w-100 text-body-emphasis mb-0 pt-5">{{ sponsor-type.name }}</h2>
       {% for sponsor in sponsor-type.items %}
       <div class="col">
-        <div class="card h-100 bg-transparent text-body border" style="min-height: 9rem;">
+        <div class="card h-100 bg-transparent text-body border {{ sponsor.style }}" style="min-height: 9rem;">
           <div class="card-body d-flex justify-content-center align-items-center">
             <img src="{{ sponsor.img | relative_url }}" alt="" class="img-fluid border-0">
           </div>
