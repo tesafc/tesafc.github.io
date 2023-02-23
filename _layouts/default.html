@@ -53,10 +53,10 @@
       <footer>
         <div class="container pt-5 px-1">
           <h6 class="w-100 mb-3 text-center text-body-secondary">SPONSORS</h6>
-          <div class="row row-cols-5 row-cols-md-5 g-1 d-flex justify-content-center pb-3">
+          <div class="row row-cols-4 row-cols-md-5 g-1 d-flex justify-content-center pb-3">
            {% for sponsor in site.data.sponsors %}
             <div class="col">
-              <div class="card h-100 text-bg-dark border" style="min-height: 3rem;">
+              <div class="card h-100 border-0 {{ sponsor.style }}" style="min-height: 3rem;">
                 <div class="card-body d-flex justify-content-center align-items-center p-2">
                   <img src="{{ sponsor.img | relative_url }}" alt="" class="img-fluid">
                 </div>
