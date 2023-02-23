@@ -12,7 +12,7 @@ description: tesa fc official website
     </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% for post in site.posts | limit: 5 %}
-      <div class="card h-100 bg-body-secondary border-0" style="min-width: 16rem; min-height: 18rem;">
+      <div class="card h-100 bg-body-secondary border-0" style="min-width: 16rem; min-height: 20rem;">
         {% if post.img %}
         <div class="ratio ratio-4x3">
           <img src="{{ post.img }}" alt="" class="rounded-top border-0 object-fit-cover">
@@ -108,8 +108,8 @@ description: tesa fc official website
       <div class="card h-100 bg-body-secondary text-body border-0" style="min-width: 17rem; min-height: 20rem;">
         <div class="card-header bg-transparent text-center border-0 pt-3">
           <p class="mb-2">
-            <small class="badge rounded-pill text-bg-secondary bg-gradient text-capitalize">{{ match.team }}</small>
-            <small class="badge rounded-pill text-bg-secondary bg-gradient text-capitalize">{{ match.team-classification }}</small>
+            <small class="badge rounded-pill bg-secondary-subtle text-secondary-emphasis text-capitalize">{{ match.team }}</small>
+            <small class="badge rounded-pill bg-secondary-subtle text-secondary-emphasis text-capitalize">{{ match.team-classification }}</small>
           </p>
           <p class="card-text text-body-emphasis text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
           <p class="card-text text-body-emphasis text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
@@ -146,7 +146,7 @@ description: tesa fc official website
     </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% for achievement in achievements %}
-      <div class="card h-100 bg-body-secondary text-body border-0" style="min-width: 13rem; min-height: 17rem;">
+      <div class="card h-100 bg-body-secondary text-body border-0 shadow-sm" style="min-width: 13rem; min-height: 17rem;">
         <div class="card-header bg-transparent text-center border-0">
           <!--<p class="card-text text-uppercase fw-bolder mb-0 pt-2">{{ achievement.competition }}</p>-->
           <p class="mb-0 pt-2"><small class="badge rounded-pill bg-info-subtle text-info-emphasis text-capitalize">{{ achievement.team }}</small></p>
