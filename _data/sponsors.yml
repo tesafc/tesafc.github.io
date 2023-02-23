@@ -1,4 +1,4 @@
-# partner list
+# sponsor list
 - name: pt. cipta agung
   img: /assets/img/logo/cipta-agung.png
   type: Jersey sponsor
@@ -19,7 +19,7 @@
   type: Jersey sponsor
 - name: pok
   img: /assets/img/logo/POK.png
-  type: jersey-sponsor
+  type: Jersey sponsor
 - name: yeni sembako
   img: /assets/img/logo/yeni-sembako.png
   type: Jersey sponsor
