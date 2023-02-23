@@ -10,7 +10,11 @@ contact-us:
     url:
   - name: Home base
     value: "Lapangan sepakbola Kutaraja"
+    address: "Desa Kutaraja, Kec.Maleber, Kab.Kuningan, Jawa Barat, Indonesia, 45574/45575"
     url:
+  - name: Basecamp
+    value: "Saung TESA FC"
+    address: "RT06, RW02, Dusun Manis, Desa Kutaraja, Kec.Maleber, Kab.Kuningan, Jawa Barat, Indonesia, 45574/45575"
 ---
 
 <div class="container pt-5">
@@ -19,9 +23,12 @@ contact-us:
     {% for contact in contact-list %}
     <div class="col">
       <div class="card bg-body-tertiary">
-        <div class="card-body d-flex flex-column justify-content-center">
-          <p class="card-text fw-bolder text-body">{{ contact.name }}</p>
-          <p class="card-text text-body-emphasis">{{ contact.value }}</p>
+        <div class="card-body h-100 d-flex flex-column justify-content-center align-items-center" style="min-height: 8rem;">
+          <p class="card-text fw-bolder text-body-secondary mb-1">{{ contact.name }}</p>
+          <p class="card-text text-body-emphasis mb-1">{{ contact.value }}</p>
+          {% if contact.address %}
+          <p class="card-text text-body mb-0">{{ contact.address }}</p>
+          {% endif %}
         </div>
       </div>
     </div>
