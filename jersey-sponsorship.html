@@ -67,13 +67,13 @@ offering:
         <div class="card-body">
           <h5 class="card-title text-capitalize text-body-emphasis mb-0">{{ item.team }}, {{ item.jersey-name }}</h5>
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-            <li class="list-group-item bg-transparent text-body fw-bolder px-0 border-opacity-75">Details</li>
+            <li class="list-group-item bg-transparent text-body fw-bolder px-0 border-secondary border-opacity-75">Details</li>
             {% for i in item.details %}
             <li class="list-group-item px-0 border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price }}</strong></small></li>
             {% endfor %}
           </ul>
           <ul class="list-group list-group-flush pt-3 {{ item.custom-style }}">
-            <li class="list-group-item bg-transparent text-body fw-bolder px-0 border-opacity-75">Price list & logo placement</li>
+            <li class="list-group-item bg-transparent text-body fw-bolder px-0 border-secondary border-opacity-75">Price list & logo placement</li>
             {% for i in item.price-list %}
             <li class="list-group-item px-0 border-opacity-25 {{ item.custom-style }}"><small>{{ i.name | append: ":" }} <strong>{{ i.price | prepend: "Rp" }}</strong></small>{% if i.recommendation %}<small class="badge rounded-pill text-bg-warning ms-2"><i class="bi bi-patch-check-fill"></i> {{ i.recommendation }}</small>{% endif %}</li>
             {% endfor %}
