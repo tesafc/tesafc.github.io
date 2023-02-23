@@ -30,8 +30,8 @@
 - name: yeni sembako
   img: /assets/img/logo/yeni-sembako.png
   type: Jersey sponsor
-  style: "bg-white"
+  style: "bg-white bg-gradient"
 - name: redline
   img: /assets/img/logo/redline.png
   type: Apparel partner
-  style: "bg-danger bg-gradient"
+  style: "bg-danger-subtle"
