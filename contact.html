@@ -4,22 +4,22 @@ title: Contact us
 contact-us:
   - name: Phone/WhatsApp
     value: "+6285162957422"
-    url:
-    url-name:
+    url: "https://wa.me/6281296827422"
+    url-name: "WhatsApp us"
   - name: Email
     value: "tesafc@hotmail.com"
-    url:
-    url-name:
+    url: "mailto:tesafc@hotmail.com"
+    url-name: "Email us"
   - name: Home base
     value: "Lapangan sepakbola Kutaraja"
     address: "Desa Kutaraja, Kec.Maleber, Kab.Kuningan, Jawa Barat, Indonesia, 45574/45575"
-    url:
-    url-name:
+    url: "#"
+    url-name: "View on map"
   - name: Basecamp
     value: "Saung TESA FC"
     address: "RT06, RW02, Dusun Manis, Desa Kutaraja, Kec.Maleber, Kab.Kuningan, Jawa Barat, Indonesia, 45574/45575"
-    url:
-    url-name:
+    url: "#"
+    url-name: "View on map"
 ---
 
 <div class="container pt-5">
@@ -32,8 +32,9 @@ contact-us:
           <p class="card-text fw-bolder text-body-secondary mb-1">{{ contact.name }}</p>
           <p class="card-text text-body-emphasis mb-1">{{ contact.value }}</p>
           {% if contact.address %}
-          <p class="card-text text-body mb-0"><small>{{ contact.address }}</small></p>
+          <p class="card-text text-center text-body mb-2"><small>{{ contact.address }}</small></p>
           {% endif %}
+          <a href="{{ contact.url }}" alt="" class="card-link">{{ contact.url-name }}</a>
         </div>
       </div>
     </div>
