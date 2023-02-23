@@ -6,8 +6,8 @@ updated: "22/02/2023"
 ---
 
 <div class="container pt-5">
-<table class="table table-dark table-striped-columns">
-  <caption class="text-secondary"><small>Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</small></caption>
+<table class="table bg-body-secondary text-body table-striped-columns">
+  <caption class="text-body-secondary"><small>Jadwal Latihan Sepakbola TESA FC Kutaraja 2023</small></caption>
   <thead>
     <!--<tr>
       <th scope="row" colspan="5" class="text-center">Jadwal Latihan TESA FC Kutaraja 2023</th>
