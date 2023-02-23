@@ -111,8 +111,8 @@ description: tesa fc official website
             <small class="badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ match.team }}</small>
             <small class="badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ match.team-classification }}</small>
           </p>
-          <p class="card-text text-body-emphasis text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
-          <p class="card-text text-body-emphasis text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
+          <p class="card-text text-body text-capitalize fw-bolder mb-0 lh-sm"><small>{{ match.time }}</small></p>
+          <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.competition }} • {{ match.matchday }}</small></p>
         </div>
         <div class="card-body d-flex flex-column justify-content-center">
           <!--<div class="d-flex justify-content-center align-items-end mb-0"><small class="text-uppercase text-secondary fw-bolder lh-1">{{ match.result.status }}</small></div>-->
@@ -134,7 +134,7 @@ description: tesa fc official website
           </div>
         </div>
         <div class="card-footer bg-transparent text-center border-0 pb-3">
-          <p class="card-text text-body text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
+          <p class="card-text text-body-secondary text-capitalize mb-0 lh-sm"><small>{{ match.stadium }}</small></p>
           <p class="mb-0"><a href="{{ match.url | relative_url }}" class="stretched-link text-decoration-none"><small>Match report</small></a></p>
         </div>
       </div>
