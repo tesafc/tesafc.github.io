@@ -6,7 +6,7 @@
 - name: montel
   img: /assets/img/logo/montel-forever.png
   type: Jersey sponsor
-  style: "bg-dark-subtle bg-gradient"
+  style: "bg-danger-subtle bg-gradient"
 - name: mie ayam mekarwangi kuningan
   img: /assets/img/logo/mie-mekarwangi.png
   type: Jersey sponsor
