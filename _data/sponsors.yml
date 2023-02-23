@@ -6,7 +6,7 @@
 - name: montel
   img: /assets/img/logo/montel-forever.png
   type: Jersey sponsor
-  style: "bg-black"
+  style: "bg-black bg-gradient"
 - name: mie ayam mekarwangi kuningan
   img: /assets/img/logo/mie-mekarwangi.png
   type: Jersey sponsor
@@ -30,7 +30,7 @@
 - name: yeni sembako
   img: /assets/img/logo/yeni-sembako.png
   type: Jersey sponsor
-  style: "bg-black"
+  style: "bg-black bg-gradient"
 - name: redline
   img: /assets/img/logo/redline.png
   type: Apparel partner
