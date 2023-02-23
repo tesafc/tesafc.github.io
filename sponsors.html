@@ -7,9 +7,9 @@ description:
 <div>
   <div class="container pt-5">
     {% assign sponsor-list = site.data.sponsors | group_by: "type" %}
-    {% for sponsor-type in sponsor-list %}
-    <h2 class="w-100 text-body-emphasis text-capitalize mb-3">{{ sponsor-type.name }}</h2>
     <div class="row row-cols-1 row-cols-md-2 g-3">
+      {% for sponsor-type in sponsor-list %}
+      <h2 class="w-100 text-body-emphasis text-capitalize mb-3">{{ sponsor-type.name }}</h2>
       {% for sponsor in sponsor-type.items %}
       <div class="col">
         <div class="card h-100 bg-transparent text-body border">
