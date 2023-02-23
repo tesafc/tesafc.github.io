@@ -10,7 +10,7 @@
 - name: mie ayam mekarwangi kuningan
   img: /assets/img/logo/mie-mekarwangi.png
   type: Jersey sponsor
-  style: "bg-warning bg-gradient"
+  style: "bg-warning-subtle"
 - name: rumah mawar kuningan
   img: /assets/img/logo/rumah-mawar-kuningan.png
   type: Jersey sponsor
@@ -18,7 +18,7 @@
 - name: ropita
   img: /assets/img/logo/ropita.png
   type: Jersey sponsor
-  style: "bg-dark"
+  style: "bg-dark-subtle bg-gradient"
 - name: apotek berkah maleber
   img: /assets/img/logo/apotek-berkah.png
   type: Jersey sponsor
