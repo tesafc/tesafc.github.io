@@ -2,7 +2,7 @@
 - name: pt. cipta agung
   img: /assets/img/logo/cipta-agung.png
   type: Jersey sponsor
-  style: "bg-primary-subtle"
+  style: "bg-primary-subtle bg-gradient"
 - name: montel
   img: /assets/img/logo/montel-forever.png
   type: Jersey sponsor
@@ -10,11 +10,11 @@
 - name: mie ayam mekarwangi kuningan
   img: /assets/img/logo/mie-mekarwangi.png
   type: Jersey sponsor
-  style: "bg-warning-subtle"
+  style: "bg-warning-subtle bg-gradient"
 - name: rumah mawar kuningan
   img: /assets/img/logo/rumah-mawar-kuningan.png
   type: Jersey sponsor
-  style: "bg-success-subtle"
+  style: "bg-success-subtle bg-gradient"
 - name: ropita
   img: /assets/img/logo/ropita.png
   type: Jersey sponsor
