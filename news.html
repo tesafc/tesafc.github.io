@@ -15,7 +15,7 @@ title: News
           {% endif %}
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-capitalize text-body-emphasis"><a href="{{ post.url | relative_url }}" class="stretched-link text-decoration-none text-body-emphasis">{{ post.title }}</a></h4>
-            <p class="card-text text-body"><small>{{ post.date | date: '%b %d, %Y' }}</small></p>
+            <p class="card-text text-body-secondary"><small>{{ post.date | date: '%b %d, %Y' }}</small></p>
           </div>
         </div>
       </div>
