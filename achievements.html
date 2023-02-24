@@ -5,7 +5,7 @@ description: Club achievements
 ---
 
 <div class="container pt-5">
-  {% assign achievements_by_year = site.achievements | group_by_exp: "date", "date:'%Y'" | reverse %}
+  {% assign achievements_by_year = site.achievements | group_by: "team" %}
   {% for achievement_year in achievements_by_year %}
   <h2 class="w-100 mb-0">{{ achievement_year.name }}</h2>
   <div class="row row-cols-2 row-cols-md-3 g-3">
