@@ -7,7 +7,7 @@
  */
 
 .nav-masthead .nav-link {
-  color: var(--bs-primary-rgb);
+  color: rgba(var(--bs-primary-rgb), .5);
   border-bottom: .25rem solid transparent;
 }
 
