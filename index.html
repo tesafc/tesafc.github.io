@@ -6,7 +6,7 @@ description: tesa fc official website
 
 <div class="pt-5">
   <div class="container-fluid">
-    <div class="w-100 d-flex justify-content-between align-items-center fw-bolder mb-3">
+    <div class="container w-100 d-flex justify-content-between align-items-center fw-bolder mb-3 px-2 px-md-0">
       <h2 class="mb-0">News</h2>
       <a href="{{ 'news' | relative_url }}" alt="go to news page" class="text-decoration-none">View all</a>
     </div>
@@ -25,7 +25,7 @@ description: tesa fc official website
       </div>
       {% endfor %}
     </div>
-    <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
+    <div class="container w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3 px-2 px-md-0">
       <h2 class="mb-0">Teams</h2>
       <a href="{{ 'teams' | relative_url }}" alt="go to news page" class="text-decoration-none">View all</a>
     </div>
@@ -51,7 +51,7 @@ description: tesa fc official website
     </div>
     {% assign match-schedule = site.matches-2023 | where: "status", "match schedule" %}
     {% assign match-count = match-schedule | size %}
-    <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
+    <div class="container w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3 px-2 px-md-0">
       <h2 class="mb-0">Match schedule</h2>
       <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="text-decoration-none">View all</a>
     </div>
@@ -99,7 +99,7 @@ description: tesa fc official website
       {% endif %}
     </div>
     {% assign match-result = site.matches-2023 | where: "status", "match result" | reverse %}
-    <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
+    <div class="container w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3 px-2 px-md-0">
       <h2 class="mb-0">Match results</h2>
       <a href="{{ 'matches' | relative_url }}" alt="go to match page" class="text-decoration-none">View all</a>
     </div>
@@ -141,7 +141,7 @@ description: tesa fc official website
       {% endfor %}
     </div>
     {% assign achievements = site.achievements | reverse %}
-    <div class="w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3">
+    <div class="container w-100 d-flex justify-content-between align-items-center fw-bolder pt-5 mb-3 px-2 px-md-0">
       <h2 class="mb-0">Achievements</h2>
     </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
