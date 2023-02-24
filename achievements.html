@@ -4,11 +4,11 @@ title: Achievements
 description: Club achievements
 ---
 
-<div class="container pt-5">
-  {% assign achievements_by_year = site.achievements | group_by_exp: "date", "%Y" | reverse %}
+<div class="container">
+  {% assign achievements_by_year = site.achievements | group_by: "%Y" | reverse %}
   <div class="row row-cols-2 row-cols-md-3 g-3">
   {% for achievement_year in achievements_by_year %}
-  <h2 class="w-100 mb-0">{{ achievement_year.name }}</h2>
+  <h2 class="w-100 mb-0 pt-5">{{ achievement_year.name }}</h2>
     {% for achievement in achievement_year.items reversed %}
     <div class="col">
       <div class="card h-100 d-flex justify-content-center align-items-center bg-body-secondary border-0" style="min-height: 16rem;">
