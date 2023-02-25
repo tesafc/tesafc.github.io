@@ -40,9 +40,9 @@
         </a>
         <nav class="nav nav-masthead">
           {% assign currentPage = page.url %}
-          <a class="nav-link fw-bolder px-0 {% if currentPage == '/news/' %}active{% endif %}" href="{{ 'news' | relative_url }}">News</a>
-          <a class="nav-link fw-bolder px-0 {% if currentPage == '/teams/' %}active{% endif %}" href="{{ 'teams' | relative_url }}">Teams</a>
-          <a class="nav-link fw-bolder px-0 {% if currentPage == '/matches/' %}active{% endif %}" href="{{ 'matches' | relative_url }}">Matches</a>
+          <a class="nav-link fw-bolder px-0 py-3 {% if currentPage == '/news/' %}active{% endif %}" href="{{ 'news' | relative_url }}">News</a>
+          <a class="nav-link fw-bolder px-0 py-3 {% if currentPage == '/teams/' %}active{% endif %}" href="{{ 'teams' | relative_url }}">Teams</a>
+          <a class="nav-link fw-bolder px-0 py-3 {% if currentPage == '/matches/' %}active{% endif %}" href="{{ 'matches' | relative_url }}">Matches</a>
         </nav>
       </header>
     </div>
