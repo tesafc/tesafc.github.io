@@ -5,7 +5,7 @@ jersey-name: angga nugraha
 jersey-number: 13
 position: defender
 team: first-team
-profile-picture: https://source.unsplash.com/iFgRcqHznqg
+profile-picture: 
 details:
   - name: height
     value: "-"
