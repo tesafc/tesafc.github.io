@@ -14,7 +14,7 @@
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   color: rgba(var(--bs-emphasis-color-rgb), .25);
-  background-color: var(--bs-primary-bg-subtle);
+  background-color: var(--bs-tertiary-bg);
   border-bottom-color: rgba(var(--bs-emphasis-color-rgb), .25);
 }
 
