@@ -35,7 +35,7 @@ description: tesa fc official website
       <div class="card h-100 bg-body-secondary border-0" style="min-width: 18rem; min-height: 10rem;">
         {% if team.image %}
         <div class="ratio ratio-16x9">
-          <img src="{{ team.image }}" alt="{{ team.title }}" class="card-img border-0 object-fit-cover">
+          <img src="{% if team.image %}{{ team.image }}{% else %}{{ /assets/img/bg-2-4x3-min.jpg | relative_url }}{% endif %}" alt="{{ team.title }}" class="card-img border-0 object-fit-cover">
         </div>
         {% endif %}
         <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
