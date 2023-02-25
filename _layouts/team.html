@@ -14,7 +14,7 @@ layout: default
       {% for player in position.items %}
       <div class="col">
         <div class="card h-100 bg-body-secondary bg-gradient border-0">
-          <div class="ratio" style="--bs-aspect-ratio: 38.3%">
+          <div class="ratio" style="--bs-aspect-ratio: 75%">
             <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/bg-2-1x1-min.jpg' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-cover">
           </div>
           <div class="card-img-overlay bg-gradient d-flex flex-column justify-content-between">
