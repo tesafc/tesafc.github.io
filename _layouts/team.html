@@ -18,8 +18,8 @@ layout: default
             <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/bg-2-1x1-min.jpg' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-cover">
           </div>
           <div class="card-img-overlay bg-gradient d-flex flex-column justify-content-between">
-            <h3 class="card-title fw-bolder text-light mb-0">{{ player.jersey-number }}</h3>
-            <h5 class="card-text text-capitalize text-light mb-0 lh-1"><a href="{{ player.url | relative_url }}" class="stretched-link text-decoration-none text-light">{{ player.jersey-name }}</a></h5>
+            <h3 class="card-title fw-bolder text-body-emphasis mb-0">{{ player.jersey-number }}</h3>
+            <h5 class="card-text text-capitalize text-body-emphasis mb-0 lh-1"><a href="{{ player.url | relative_url }}" class="stretched-link text-decoration-none text-light">{{ player.jersey-name }}</a></h5>
           </div>
         </div>
       </div>
