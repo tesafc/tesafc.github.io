@@ -7,13 +7,13 @@
  */
 
 .nav-masthead .nav-link {
-  color: rgba(var(--bs-emphasis-color-rgb), .2);
+  color: rgba(var(--bs-emphasis-color-rgb), .5);
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  color: rgba(var(--bs-emphasis-color-rgb), .15);
+  color: rgba(var(--bs-emphasis-color-rgb), .25);
   background-color: var(--bs-tertiary-bg);
 }
 
