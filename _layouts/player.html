@@ -5,7 +5,7 @@ layout: default
 <div class="pt-5">
   <div class="container">
     <div class="card bg-transparent rounded-0 border-0 mb-5">
-      <img src="{{ page.profile-picture | relative_url }}" alt="" class="card-img rounded-0 pb-5 mb-5 object-fit-cover">
+      <img src="{% if page.profile-picture %}{{ page.profile-picture | relative_url }}{% else %}{{ '/assets/img/bg-2-1x1-min.jpg' | relative_url }}{% endif %}" alt="" class="card-img rounded-0 pb-5 mb-5 object-fit-cover">
       <div class="card-img-overlay d-flex flex-column justify-content-between p-0">
         <div>
           <h1 class="card-title text-start text-uppercase fw-bolder text-body-emphasis mb-0 ps-1 ps-md-5" style="font-size: 3rem;">{{ page.jersey-number }}</h1>
