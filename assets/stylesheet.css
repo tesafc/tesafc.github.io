@@ -19,7 +19,7 @@
 }
 
 .nav-masthead .nav-link + .nav-link {
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .nav-masthead .active {
