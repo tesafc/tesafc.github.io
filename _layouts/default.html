@@ -36,7 +36,7 @@
     <div class="container-fluid">
       <header class="navbar mx-auto py-0">
         <a class="navbar-brand" href="{{ site.url | relative_url }}">
-          <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" width="35" height="35" alt="logo TESA FC">
+          <img src="{{ site.author.img | relative_url }}" width="35" height="35" alt="logo TESA FC">
         </a>
         <nav class="nav nav-masthead">
           {% assign currentPage = page.url %}
@@ -67,7 +67,7 @@
         </div>
         <div class="pt-5">
           <div class="d-flex justify-content-start align-items-center">
-            <img src="{{ '/assets/img/logo/logo-1.jpg' | relative_url }}" alt="logo TESA FC" class="border-0" width="40" height="40">
+            <img src="{{ site.author.img | relative_url }}" alt="logo TESA FC" class="border-0" width="40" height="40">
             <h5 class="mb-0 text-body-secondary ps-2">TESA Football Club</h5>
           </div>
           <p class="mb-0 pt-1 pb-1 text-body-secondary" style="max-width: 380px;">
