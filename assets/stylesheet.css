@@ -17,11 +17,11 @@
   background-color: var(--bs-tertiary-bg);
   border-top-color: rgba(var(--bs-emphasis-color-rgb), .25);
 }
-/*
+
 .nav-masthead .nav-link + .nav-link {
   padding-left: 1rem;
 }
-*/
+
 .nav-masthead .active {
   color: var(--bs-emphasis-color);
   border-top-color: var(--bs-emphasis-color);
