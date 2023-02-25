@@ -13,7 +13,7 @@ default-img: https://source.unsplash.com/IoJFOvbqF3c
           <div class="ratio ratio-16x9">
             <img src="{% if team.image %}{{ team.image }}{% else %}{{ '/assets/img/bg-2-4x3-min.jpg' | relative_url }}{% endif %}" alt="{{ team.name }}" class="card-img border-0 object-fit-cover">
           </div>
-          <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <div class="card-img-overlay bg-gradient d-flex flex-column justify-content-end">
             <div class="d-flex column-gap-2 mb-2">
             {% for item in team.sub-team %}
               <small class="d-inline-flex badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-uppercase">{{ item }}</small>
