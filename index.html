@@ -32,11 +32,11 @@ description: tesa fc official website
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
       {% assign teams = site.teams | sort: "order" %}
       {% for team in teams %}
-      <div class="card h-100 bg-body-secondary border-0" style="min-width: 20rem; min-height: 13rem;">
+      <div class="card h-100 bg-body-secondary border-0" style="min-height: 13rem;">
         <div class="ratio ratio-16x9">
           <img src="{% if team.image %}{{ team.image }}{% else %}{{ '/assets/img/bg-2-4x3-min.jpg' | relative_url }}{% endif %}" alt="{{ team.title }}" class="card-img img-fluid border-0 object-fit-cover">
         </div>
-        <div class="card-img-overlay bg-gradient-bottom d-flex flex-column justify-content-end">
+        <div class="card-img-overlay bg-gradient d-flex flex-column justify-content-end">
           <div class="d-flex column-gap-2 mb-2">
           {% for item in team.sub-team %}
             <small class="d-inline-flex badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis text-capitalize">{{ item }}</small>
