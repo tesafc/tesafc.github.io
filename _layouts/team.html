@@ -15,7 +15,7 @@ layout: default
       <div class="col">
         <div class="card h-100 bg-body-secondary bg-gradient border-0" style="min-height: 10rem;">
           <div class="ratio ratio-1x1">
-            <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/bg-2-1x1-min.jpg' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-cover" style="height: 16rem;">
+            <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/bg-2-1x1-min.jpg' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-cover">
           </div>
           <div class="card-img-overlay bg-gradient d-flex flex-column justify-content-between">
             <h3 class="card-title fw-bolder text-light mb-0">{{ player.jersey-number }}</h3>
