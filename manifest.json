@@ -32,11 +32,17 @@
     {
       "src": "/favicon.ico",
       "type": "image/x-icon"
-    }
+    },
     {
       "src": "/android-launchericon-512-512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "/android-launchericon-512-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+      "purpose: "any"
     },
   ],
   "shortcuts": []
