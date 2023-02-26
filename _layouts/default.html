@@ -115,9 +115,16 @@ layout: none
       </footer>
     </div>
     <!-- service workers -->
-    <script>
+    <!--<script>
       if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
+      }
+    </script>-->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js');
+        });
       }
     </script>
     <!-- Bootstrap JS -->
