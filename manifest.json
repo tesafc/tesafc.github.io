@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "https://tesafc.xyz/",
   "short_name": "TESA FC",
-  "start_url": "https://tesafc.xyz/",
+  "start_url": "",
   "theme_color": "#ffffff",
   "categories": [
     "sports"
