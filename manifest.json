@@ -12,7 +12,14 @@
   "categories": [
     "sports"
   ],
-  "screenshots": [],
+  "screenshots" : [
+    {
+      "src": "screenshot.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "platform": "wide",
+    }
+  ],
   "icons": [
     {
       "src": "/favicon-32x32.png",
@@ -42,7 +49,7 @@
       "src": "/android-launchericon-512-512.png",
       "type": "image/png",
       "sizes": "512x512"
-      "purpose: "any"
+      "purpose": "any"
     },
   ],
   "shortcuts": []
