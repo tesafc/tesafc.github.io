@@ -1,13 +1,14 @@
-{
+{ 
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "background_color": "#121212",
   "description": "Situs TESA Football Club",
   "dir": "ltr",
   "display": "standalone",
   "name": "TESA FC WebApp",
   "orientation": "any",
-  "scope": "https://tesafc.xyz/",
+  "scope": "/",
   "short_name": "TESA FC",
-  "start_url": "https://tesafc.xyz/",
+  "start_url": "/",
   "theme_color": "#ffffff",
   "categories": [
     "sports"
