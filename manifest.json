@@ -1,0 +1,38 @@
+{
+  "background_color": "#121212",
+  "description": "Situs TESA Football Club",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "TESA FC WebApp",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "TESA FC",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "sports"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}
