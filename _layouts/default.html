@@ -115,7 +115,10 @@
     <script type="text/javascript" src="sw.js"></script>
     <script>
       if (typeof navigator.serviceWorker !== 'undefined') {
-        navigator.serviceWorker.register('sw.js')
+        navigator.serviceWorker.register('/sw.js')
+      }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
       }
     </script>
     <!-- Bootstrap JS -->
