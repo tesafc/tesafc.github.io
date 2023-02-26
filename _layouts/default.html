@@ -112,6 +112,7 @@
       </footer>
     </div>
     <!-- service workers -->
+    <script async type="text/javascript" src="{{ 'sw.js' | relative_url }}"></script>
     <script>
       if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
