@@ -6,7 +6,7 @@ const CACHE = "pwabuilder-offline-page";
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-const offlineFallbackPage = "/offline.html";
+const offlineFallbackPage = "offline.html";
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
@@ -58,8 +58,8 @@ const CACHE_NAME = 'cool-cache';
 
 // Add whichever assets you want to precache here:
 const PRECACHE_ASSETS = [
-    '/assets',
-    '/logo-1-v2.1.jpg'
+    'assets',
+    'logo-1-v2.1.jpg'
 ]
 
 // Listener for the install event - precaches our assets list on service worker install.
