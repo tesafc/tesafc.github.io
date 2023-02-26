@@ -5,9 +5,9 @@
   "display": "standalone",
   "name": "TESA FC WebApp",
   "orientation": "any",
-  "scope": "https://tesafc.xyz",
+  "scope": "https://tesafc.xyz/",
   "short_name": "TESA FC",
-  "start_url": "https://tesafc.xyz",
+  "start_url": "https://tesafc.xyz/",
   "theme_color": "#ffffff",
   "categories": [
     "sports"
