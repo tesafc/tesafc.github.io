@@ -12,6 +12,16 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+    {
+      "src": "/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ],
   "theme_color": "#ffffff",
   "background_color": "#121212",
