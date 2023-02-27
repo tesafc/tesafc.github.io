@@ -7,9 +7,9 @@
   "display": "standalone",
   "name": "TESA FC WebApp",
   "orientation": "any",
-  "scope": "https://tesafc.xyz/",
+  "scope": "https://tesafc.xyz",
   "short_name": "TESA FC",
-  "start_url": "https://tesafc.xyz/",
+  "start_url": "https://tesafc.xyz",
   "theme_color": "#ffffff",
   "prefer_related_applications": false,
   "display_override": [
@@ -22,7 +22,7 @@
   ],
   "screenshots" : [
     {
-      "src": "screenshot.jpeg",
+      "src": "/screenshot.jpeg",
       "sizes": "1280x720",
       "type": "image/jpg",
       "platform": "wide",
@@ -30,33 +30,33 @@
   ],
   "icons": [
     {
-      "src": "android-chrome-512x512.png",
+      "src": "/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose":  "any",
     },
     {
-      "src": "android-chrome-192x192.png",
+      "src": "/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
     },
     {
-      "src": "favicon-32x32.png",
+      "src": "/favicon-32x32.png",
       "type": "image/png",
       "sizes": "32x32",
     },
     {
-      "src": "favicon-16x16.png",
+      "src": "/favicon-16x16.png",
       "type": "image/png",
       "sizes": "16x16",
     },
     {
-      "src": "apple-touch-icon.png",
+      "src": "/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "180x180",
     },
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "type": "image/x-icon",
     },
   ],
