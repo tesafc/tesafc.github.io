@@ -1,42 +1,20 @@
 {
-  "name": "TESA Football Club",
+  "name": "TESA FOOTBALL CLUB",
   "short_name": "TESA FC",
-  "description": "Official WebApp of TESA Football Club",
+  "description": "Official site of TESA Football Club",
   "lang": "en",
-  "dir": "ltr",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#121212",
-  "background_color": "#121212",
-  "prefer_related_applications": false,
-  "categories": [
-    "sports"
-  ],
-  "screenshots" : [
-    {
-      "src": "/screenshot.jpeg",
-      "sizes": "1280x720",
-      "type": "image/jpg",
-      "platform": "wide"
-    }
-  ],
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
+      "src": "android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    },
+      "type": "image/png"
+    }
   ]
 }
