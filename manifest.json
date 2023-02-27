@@ -1,5 +1,6 @@
 { 
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "lang": "en",
   "background_color": "#121212",
   "description": "Situs TESA Football Club",
   "dir": "ltr",
