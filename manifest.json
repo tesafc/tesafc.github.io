@@ -10,7 +10,7 @@
   "short_name": "TESA FC",
   "start_url": "/",
   "theme_color": "#ffffff",
-  "prefer_related_applications": false
+  "prefer_related_applications": "false",
   "categories": [
     "sports"
   ],
