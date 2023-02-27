@@ -1,11 +1,27 @@
 {
-  "name": "TESA FC WebApp",
+  "name": "TESA Football Club",
   "short_name": "TESA FC",
   "description": "Official WebApp of TESA Football Club",
   "lang": "en",
+  "dir": "ltr",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "any",
   "theme_color": "#121212",
+  "background_color": "#121212",
+  "prefer_related_applications": false,
+  "categories": [
+    "sports"
+  ],
+  "screenshots" : [
+    {
+      "src": "/screenshot.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "platform": "wide"
+    }
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -19,7 +35,8 @@
     {
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
-    }
+      "type": "image/png",
+      "purpose": "any"
+    },
   ]
 }
