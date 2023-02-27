@@ -11,6 +11,11 @@
   "start_url": "/",
   "theme_color": "#ffffff",
   "prefer_related_applications": false,
+  "display_override": [
+    "window-control-overlay",
+    "standalone",
+    "browser",
+  ],
   "categories": [
     "sports"
   ],
