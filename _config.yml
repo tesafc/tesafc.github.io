@@ -32,12 +32,6 @@ defaults:
       type: "matches-2023"
     values:
       layout: "match"
-  - scope:
-      path: ""
-      type: "matches-2023"
-    values:
-      home-team:
-        logo: "/logo-1-v2.1.jpg"
 author:
   name: tesa fc
   phone: +6285162957422
