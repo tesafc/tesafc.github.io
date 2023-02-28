@@ -56,9 +56,10 @@ const PRECACHE_ASSETS = [
     '/site/*.html',
     'logo-1-v2.1.jpg',
     '/assets/',
-    '/news.html',
-    '/teams.html',
-    '/matches.html'
+    '/data/*.yml',
+    '/news',
+    '/teams',
+    '/matches'
 ]
 
 // Listener for the install event - precaches our assets list on service worker install.
