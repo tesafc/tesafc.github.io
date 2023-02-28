@@ -52,9 +52,9 @@ const CACHE_NAME = 'cool-cache';
 
 // Add whichever assets you want to precache here:
 const PRECACHE_ASSETS = [
-    '/,
+    '/',
     'logo-1-v2.1.jpg',
-    'data/',
+    'site/',
     'news.html',
     'posts/',
     'teams.html',
