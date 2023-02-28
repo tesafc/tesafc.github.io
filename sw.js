@@ -55,10 +55,10 @@ const PRECACHE_ASSETS = [
     '/',
     'logo-1-v2.1.jpg',
     'site/',
-    'news.html',
+    '/news.html',
     'posts/',
-    'teams.html',
-    'matches.html',
+    '/teams.html',
+    '/matches.html',
     'matches-23/*.html'
 ]
 
