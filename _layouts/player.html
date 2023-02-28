@@ -11,8 +11,11 @@ layout: default
         </div>
       </div>
       <div class="col">
-        <p class="fs-1 mb-0 text-center text-md-start fw-bolder text-body">{{ page.jersey-number }}</p>
-        <p class="fs-2 mb-0 text-center text-md-start text-capitalize fw-bolder text-body-emphasis">{{ page.jersey-name }}</p>
+        <div class="d-flex justify-content-center justify-content-md-start">
+        <span class="d-inline-block text-capitalize badge rounded-pill bg-secondary-subtle bg-gradient text-secondary-emphasis">{{ page.position }}</span>
+        <p class="fs-1 mb-0 fw-bolder text-body">{{ page.jersey-number }}</p>
+        <p class="fs-2 mb-0 text-capitalize fw-bolder text-body-emphasis">{{ page.jersey-name }}</p>
+        </div>
       </div>
     </div>
   </div>
