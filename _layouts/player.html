@@ -7,11 +7,11 @@ layout: default
     <div class="row row-cols-1 row-cols-md-2 g-3">
       <div class="col">
         <div class="ratio" style="--bs-aspect-ratio: 135%;">
-          <img src="{% if page.profile-picture %}{{ page.profile-picture }}{% else %}{{ '/assets/img/logo/player-img-placeholder.jpg' | relative_url }}{% endif %}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain">
+          <img src="{% if page.profile-picture %}{{ page.profile-picture }}{% else %}{{ '/assets/img/logo/player-img-placeholder.jpg' | relative_url }}{% endif %}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-cover">
         </div>
       </div>
       <div class="col">
-        <div>
+        <div class="d-flex flex-column justify-content-center justify-content-md-start align-items-md-center">
           <p class="text-center text-md-start text-uppercase mb-1 text-secondary-emphasis"><small>{{ page.position }}</small></p>
           <p class="fs-1 text-center text-md-start mb-0 fw-bolder text-body">{{ page.jersey-number }}</p>
           <p class="fs-2 text-center text-md-start mb-0 text-capitalize fw-bolder text-body-emphasis">{{ page.jersey-name }}</p>
