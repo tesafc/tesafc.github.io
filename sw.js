@@ -53,16 +53,16 @@ const CACHE_NAME = 'cool-cache';
 // Add whichever assets you want to precache here:
 const PRECACHE_ASSETS = [
     '/',
-    '/site/',
+    '/_site/',
     'logo-1-v2.1.jpg',
     '/assets/',
-    '/data/',
+    '/_data/',
     '/news.html',
-    '/posts/',
+    '/_posts/',
     '/teams.html',
-    '/teams/',
+    '/_teams/',
     '/matches.html',
-    '/matches-23/*.html'
+    '/_matches-23/*.html'
 ]
 
 // Listener for the install event - precaches our assets list on service worker install.
