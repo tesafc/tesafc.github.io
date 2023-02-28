@@ -7,14 +7,14 @@ layout: default
     <div class="row row-cols-1 row-cols-md-2 g-3">
       <div class="col">
         <div class="ratio" style="--bs-aspect-ratio: 135%;">
-          <img src="{% if page.profile-picture %}{{ page.profile-picture | relative_url }}{% else %}{{ '/assets/img/logo/player-img-placeholder.jpg' | relative_url }}{% endif %}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain">
+          <img src="{% if page.profile-picture %}{{ page.profile-picture | relative_url }}{% else %}{{ '/assets/img/logo/player-img-placeholder.jpg' | relative_url }}{% endif %}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain pt-5">
         </div>
       </div>
       <div class="col">
         <div class="pt-md-5">
-          <p class="text-center text-md-start text-uppercase mb-1 text-secondary-emphasis"><small>{{ page.position }}</small></p>
-          <p class="text-center text-md-start mb-0 fw-bolder text-body" style="font-size: 2.5rem;">{{ page.jersey-number }}</p>
-          <p class="text-center text-md-start mb-0 text-capitalize fw-bolder text-body-emphasis" style="font-size: 2.5rem;">{{ page.jersey-name }}</p>
+          <p class="text-center text-md-start text-uppercase fw-bolder mb-1 text-secondary-emphasis"><small>{{ page.position }}</small></p>
+          <p class="text-center text-md-start mb-0 fw-bolder lh-sm text-body" style="font-size: 2.5rem;">{{ page.jersey-number }}</p>
+          <p class="text-center text-md-start mb-0 text-capitalize fw-bolder lh-sm text-body-emphasis" style="font-size: 2.5rem;">{{ page.jersey-name }}</p>
         </div>
       </div>
     </div>
