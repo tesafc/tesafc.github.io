@@ -13,7 +13,7 @@ layout: default
       <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name }}</h4>
       {% for player in position.items %}
       <div class="col">
-        <div class="card h-100 bg-body-secondary bg-gradient border-0">
+        <div class="card h-100 bg-body-secondary border-0">
           <div class="ratio" style="--bs-aspect-ratio: 135%">
             <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/player-img-placeholder.webp' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-contain pt-2">
           </div>
