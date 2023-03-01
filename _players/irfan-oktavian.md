@@ -2,9 +2,8 @@
 title: irfan oktavian
 jersey-name: irfan oktavian
 jersey-number: 6
-position: 
-  name: midfielder
-  order: 3
+position: midfielder
+position-order: 3
 team: first-team
 profile-picture:
 details:
