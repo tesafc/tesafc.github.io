@@ -4,7 +4,7 @@ jersey-name: bizmamy
 jersey-number: 78
 position: goalkeeper
 team: first-team
-profile-picture:
+profile-picture: false
 details:
   - name: height
     value: "164"
