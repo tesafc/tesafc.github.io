@@ -1,9 +1,10 @@
 ---
-permalink: /players/irfan-oktavian
 title: irfan oktavian
 jersey-name: irfan oktavian
 jersey-number: 6
-position: midfielder
+position: 
+  name: midfielder
+  order: 3
 team: first-team
 profile-picture:
 details:
