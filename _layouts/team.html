@@ -24,14 +24,14 @@ layout: default
       {% for player in sorted-player %}
       <div class="col">
         <div class="card h-100 bg-body-secondary border-0">
-          <div class="ratio" style="--bs-aspect-ratio: 135%">
+          <div class="ratio" style="--bs-aspect-ratio: 133.3%">
             <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/player-img-placeholder.webp' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-contain pt-2">
           </div>
           <div class="card-img-overlay d-flex flex-column justify-content-between">
             <h3 class="card-title fw-bolder text-body-emphasis mb-0">{{ player.jersey-number }}</h3>
             <!--<h5 class="card-text text-capitalize text-body-emphasis mb-0 lh-1"><a href="{{ player.url | relative_url }}" class="stretched-link text-decoration-none text-body-emphasis">{{ player.jersey-name }}</a></h5>-->
           </div>
-          <div class="card-footer bg-secondary border-0">
+          <div class="card-footer bg-transparent border-0">
             <h5 class="card-text text-capitalize text-body-emphasis mb-0 lh-1"><a href="{{ player.url | relative_url }}" class="stretched-link text-decoration-none text-body-emphasis">{{ player.jersey-name }}</a></h5>
           </div>
         </div>
