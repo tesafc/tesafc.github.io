@@ -17,10 +17,11 @@ layout: default
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
     {% assign positions = teams | group_by: "position-order" %}
-    <div class="row row-cols-2 row-cols-md-4 g-3">
+    <div class="row row-cols-2 row-cols-md-4 g-3"> 
       {% for position in positions %}
       <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name }}</h4>
-      {% for player in position.items %}
+      {% assign sorted-player = position.items | sort: "jersey-number" %}
+      {% for player in sorted-player %}
       <div class="col">
         <div class="card h-100 bg-body-secondary border-0">
           <div class="ratio" style="--bs-aspect-ratio: 135%">
