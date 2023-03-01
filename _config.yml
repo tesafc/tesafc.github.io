@@ -11,6 +11,7 @@ collections:
     permalink: /matches/:title
   players:
     output: true
+    permalink: /:title
   teams:
     output: true
   achievements:
