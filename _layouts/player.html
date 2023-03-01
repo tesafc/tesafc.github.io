@@ -8,7 +8,7 @@ layout: default
       <div class="col">
         <div class="ratio" style="--bs-aspect-ratio: 135%;">
           {% assign player-img-placeholder = '/assets/img/icon/player-img-placeholder.svg' | relative_url %}
-          <img src="{% if page.profile-picture %}{{ page.profile-picture | relative_url }}{% else %}{{ player-img-placeholder }}{% endif %}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain pt-5">
+          <img src="{% if page.profile-picture %}{{ page.profile-picture | relative_url }}{% else %}{{ player-img-placeholder }}{% endif %}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain pt-5 svg-fill-default">
         </div>
       </div>
       <div class="col">
