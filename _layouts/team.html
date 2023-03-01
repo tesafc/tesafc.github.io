@@ -24,7 +24,7 @@ layout: default
       {% for player in sorted-player %}
       <div class="col">
         <div class="card h-100 bg-body-secondary border-0">
-          <div class="ratio" style="--bs-aspect-ratio: 100%">
+          <div class="ratio" style="--bs-aspect-ratio: 125%">
             <img src="{% if player.profile-picture %}{{ player.profile-picture | relative_url }}{% else %}{{ '/assets/img/player-img-placeholder.webp' | relative_url }}{% endif %}" alt="" class="card-img border-0 object-fit-contain pt-2">
           </div>
           <div class="card-img-overlay d-flex flex-column justify-content-between">
