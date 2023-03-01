@@ -44,6 +44,10 @@
         color: var(--bs-emphasis-color);
         border-bottom-color: var(--bs-emphasis-color);
       }
+      
+      .svg-color-default {
+        filter: grayscale(50%);
+      }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9E8EWFPDX"></script>
@@ -82,7 +86,7 @@
               <div class="card h-100 border bg-dark bg-gradient" style="min-height: 3rem;">
                 <div class="card-body d-flex justify-content-center align-items-center p-2">
                   <div class="ratio ratio-16x9">
-                    <img src="{{ sponsor.img | relative_url }}" alt="" class="img-fluid object-fit-contain" style="filter: invert(.5);">
+                    <img src="{{ sponsor.img | relative_url }}" alt="" class="img-fluid object-fit-contain">
                   </div>
                 </div>
               </div>
