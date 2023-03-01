@@ -2,7 +2,8 @@
 title: m. aji pangestu
 jersey-name: m. aji pangestu
 jersey-number: 19
-position: attacker
+position: forward
+position-order: 4-forward
 team: first-team
 profile-picture:
 details:
