@@ -1,9 +1,10 @@
 ---
-permalink: /players/a-mansur
 title: a. mansur
 jersey-name: a. mansur
 jersey-number: 7
-position: attacker
+position:
+  name: forward
+  order: 4
 team: reserve-team
 profile-picture:
 details:
