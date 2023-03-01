@@ -3,6 +3,7 @@ title: faisal yusup
 jersey-name: faisal yusup
 jersey-number: 9
 position: defender
+position-order: 2-defender
 team: first-team
 profile-picture:
 details:
