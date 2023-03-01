@@ -3,7 +3,7 @@ title: aldo
 jersey-name: aldo
 jersey-number: 1
 position: goalkeeper
-position-order: 1
+position-order: 1-goalkeeper
 team: first-team
 profile-picture: 
 details:
