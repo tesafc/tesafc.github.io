@@ -5,7 +5,7 @@ jersey-name: aldo
 jersey-number: 1
 position: goalkeeper
 team: first-team
-profile-picture: https://www.mancity.com/meta/media/taqm11p3/max-alleyne.png?width=564&quality=100
+profile-picture: 
 details:
   - name: height
     value: "-"
