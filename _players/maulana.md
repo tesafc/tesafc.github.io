@@ -3,6 +3,7 @@ title: maulana
 jersey-name: maulana
 jersey-number: 15
 position: midfielder
+position-order: 3-midfielder
 team: first-team
 profile-picture:
 details:
