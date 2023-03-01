@@ -8,10 +8,10 @@ layout: default
       <div class="col">
         <div class="ratio" style="--bs-aspect-ratio: 135%;">
           {% assign player-img-placeholder = '/assets/img/icon/player-img-placeholder.svg' | relative_url %}
-          {% if page.profile-picture %}
+          {% if page.profile-picture != ""  %}
           <img src="{{ page.profile-picture | relative_url }}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain pt-5">
           {% else %}
-          <img src="{{ player-img-placeholder }}" style="filter: grayscale(100%);">
+          <img src="{{ player-img-placeholder }}" class="svg-color-default">
           {% endif %}
         </div>
       </div>
