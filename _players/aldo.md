@@ -1,9 +1,10 @@
 ---
-permalink: /players/aldo
 title: aldo
 jersey-name: aldo
 jersey-number: 1
-position: goalkeeper
+position:
+  name: goalkeeper
+  order: 1
 team: first-team
 profile-picture: 
 details:
