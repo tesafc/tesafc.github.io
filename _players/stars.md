@@ -2,7 +2,8 @@
 title: stars
 jersey-name: stars
 jersey-number: 50
-position: attacker
+position: forward
+position-order: 4-forward
 team: first-team
 profile-picture:
 details:
