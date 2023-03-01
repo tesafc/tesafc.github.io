@@ -4,6 +4,22 @@ layout: default
 
 <div class="pt-5">
   <div class="container-fluid">
+    <div>
+      <h1>{{ page.title }}</h1>
+    </div>
+    {% if page.secondary-nav %}
+    <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!--
+<div class="pt-5">
+  <div class="container-fluid">
     <h1 class="mb-0 text-capitalize fw-bolder text-body-emphasis">{{ page.title }}</h1>
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
@@ -28,3 +44,4 @@ layout: default
     </div>
   </div>
 </div>
+-->
