@@ -2,9 +2,8 @@
 title: a. mansur
 jersey-name: a. mansur
 jersey-number: 7
-position:
-  name: forward
-  order: 4
+position: forward
+position-order: 4
 team: reserve-team
 profile-picture:
 details:
