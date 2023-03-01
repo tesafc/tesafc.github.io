@@ -3,6 +3,7 @@ title: danil ardiansyah
 jersey-name: danil ardiansyah
 jersey-number: 20
 position: defender
+position-order: 2-defender
 team: first-team
 profile-picture: 
 details:
