@@ -11,7 +11,7 @@ layout: default
           {% if page.profile-picture != null or page.profile-picture == "" %}
           <img src="{{ page.profile-picture | relative_url }}" alt="foto {{ page.jersey-name }}" class="img-fluid object-fit-contain pt-5">
           {% else %}
-          <img src="{{ player-img-placeholder }}" class="svg-color-default">
+          <img src="{{ player-img-placeholder }}">
           {% endif %}
         </div>
       </div>
