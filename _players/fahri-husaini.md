@@ -1,9 +1,9 @@
 ---
-permalink: /players/fahri-husaini
 title: fahri husaini
 jersey-name: fahri husaini
 jersey-number: 3
 position: defender
+position-order: 2-defender
 team: first-team
 profile-picture:
 details:
