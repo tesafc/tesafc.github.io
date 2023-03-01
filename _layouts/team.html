@@ -16,7 +16,7 @@ layout: default
     <h1 class="mb-0 text-capitalize fw-bolder text-body-emphasis">{{ page.title }}</h1>
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
-    {% assign positions = teams | group_by: "position" %}
+    {% assign positions = teams | group_by_exp: "position", "position.name" %}
     <div class="row row-cols-2 row-cols-md-4 g-3">
       {% for position in positions %}
       <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name }}</h4>
