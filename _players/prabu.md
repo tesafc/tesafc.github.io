@@ -3,6 +3,7 @@ title: prabu
 jersey-name: prabu
 jersey-number: 32
 position: midfielder
+position-order: 3-midfielder
 team: development-team
 profile-picture:
 details:
