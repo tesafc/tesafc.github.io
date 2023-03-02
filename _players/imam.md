@@ -2,7 +2,8 @@
 title: imam
 jersey-name: imam
 jersey-number: 39
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
