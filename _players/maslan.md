@@ -2,7 +2,8 @@
 title: maslan
 jersey-name: maslan
 jersey-number: 14
-position: attacker
+position: forward
+position-order: 4-forward
 team: reserve-team
 profile-picture:
 details:
