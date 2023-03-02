@@ -2,7 +2,8 @@
 title: angga feb.
 jersey-name: angga feb.
 jersey-number: 18
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
