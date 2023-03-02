@@ -20,7 +20,6 @@ layout: default
     <div class="row row-cols-2 row-cols-md-4 g-3"> 
       {% for position in positions %}
       <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name }}</h4>
-      {% assign sorted-player = position.items | sort: "jersey-name" %}
       {% for player in sorted-player %}
       <div class="col">
         <div class="card h-100 bg-body-secondary border-0">
