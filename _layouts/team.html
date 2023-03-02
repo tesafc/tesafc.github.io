@@ -17,8 +17,9 @@ layout: default
     {% assign selected-team = page.team %}
     {% assign teams = site.players | where: "team", selected-team %}
     {% assign positions = teams | group_by: "position" %}
+    {% assign positions-order = positions | sort: "position-order" %}
     <div class="row row-cols-2 row-cols-md-4 g-3"> 
-      {% for position in positions %}
+      {% for position in positions-order %}
       <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name }}</h4>
       {% for player in position.items %}
       <div class="col">
@@ -30,7 +31,7 @@ layout: default
             <h3 class="card-title fw-bolder text-body-emphasis mb-0">{{ player.jersey-number }}</h3>
           </div>
           <div class="card-footer bg-transparent border-top">
-            <h5 class="card-text text-capitalize text-body-emphasis mb-0 py-2"><a href="{{ player.url | relative_url }}" class="stretched-link text-decoration-none text-body-emphasis">{{ player.jersey-name }}</a></h5>
+            <h5 class="card-text text-capitalize text-body-emphasis mb-0 pb-2"><a href="{{ player.url | relative_url }}" class="stretched-link text-decoration-none text-body-emphasis">{{ player.jersey-name }}</a></h5>
           </div>
         </div>
       </div>
