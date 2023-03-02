@@ -1,9 +1,9 @@
 ---
-permalink: /players/ikhsan
 title: ikhsan
 jersey-name: ikhsan
 jersey-number: 4
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
