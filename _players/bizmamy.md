@@ -3,7 +3,7 @@ title: bizmamy
 jersey-name: bizmamy
 jersey-number: 78
 position: goalkeeper
-position-order: 00-goalkeeper
+position-order: 4-goalkeeper
 team: first-team
 disable-profile-picture:
 details:
