@@ -1,9 +1,9 @@
 ---
-permalink: /players/rizky-syahputra
 title: rizky syahputra
 jersey-name: rizky syahputra
 jersey-number: 5
 position: defender
+position-order: 2-defender
 team: development-team
 profile-picture:
 details:
