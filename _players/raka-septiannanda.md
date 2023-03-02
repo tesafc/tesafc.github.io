@@ -3,7 +3,7 @@ title: raka septiannanda
 jersey-name: raka septiannanda
 jersey-number: 21
 position: midfielder
-position-order: 3-midfielder
+position-order: 2-midfielder
 team: first-team
 profile-picture:
 details:
