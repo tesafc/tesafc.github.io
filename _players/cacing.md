@@ -3,6 +3,7 @@ title: cacing
 jersey-name: cacing
 jersey-number: 69
 position: defender
+position-order: 2-defender
 team: reserve-team
 profile-picture:
 details:
