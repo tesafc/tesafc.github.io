@@ -2,7 +2,8 @@
 title: akmal
 jersey-name: akmal
 jersey-number: 12
-position: midfielder
+position: midfielder 
+position-order: 4-midfielder
 team: reserve-team
 profile-picture:
 details:
