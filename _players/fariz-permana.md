@@ -2,7 +2,8 @@
 title: fariz permana
 jersey-name: fariz permana
 jersey-number: 12
-position: defender
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
