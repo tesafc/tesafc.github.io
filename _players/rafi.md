@@ -2,7 +2,8 @@
 title: rafi
 jersey-name: rafi
 jersey-number: 39
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
