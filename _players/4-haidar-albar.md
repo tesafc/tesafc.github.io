@@ -1,9 +1,9 @@
 ---
-permalink: /players/haidar-albar
 title: haidar albar
 jersey-name: haidar albar
 jersey-number: 18
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
