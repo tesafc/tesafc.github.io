@@ -3,6 +3,7 @@ title: s.e.f
 jersey-name: s.e.f
 jersey-number: 29
 position: defender
+position-order: 2-defender
 team: reserve-team
 profile-picture:
 details:
