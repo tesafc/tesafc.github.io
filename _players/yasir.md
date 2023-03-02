@@ -1,9 +1,9 @@
 ---
-permalink: /players/yasir
 title: yasir
 jersey-name: yasir
 jersey-number: 11
 position: defender
+position-order: 2-defender
 team: development-team
 profile-picture:
 details:
