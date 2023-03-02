@@ -3,6 +3,7 @@ title: r. fauzan
 jersey-name: r. fauzan
 jersey-number: 18
 position: midfielder
+position-order: 3-midfielder
 team: reserve-team
 profile-picture:
 details:
