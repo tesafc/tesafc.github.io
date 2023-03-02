@@ -3,6 +3,7 @@ title: ditya
 jersey-name: ditya
 jersey-number: 16
 position: defender
+position-order: 2-defender
 team: reserve-team
 profile-picture:
 details:
