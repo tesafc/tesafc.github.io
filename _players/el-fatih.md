@@ -2,7 +2,8 @@
 title: el-fatih
 jersey-name: el-fatih
 jersey-number: 14
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
