@@ -1,9 +1,9 @@
 ---
-permalink: /players/ki
 title: ki
 jersey-name: ki
 jersey-number: 2
 position: midfielder
+position-order: 3-midfielder
 team: reserve-team
 profile-picture:
 details:
