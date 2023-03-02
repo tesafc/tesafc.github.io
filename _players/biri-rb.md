@@ -1,9 +1,9 @@
 ---
-permalink: /players/biri-rb
 title: biri r.b.
 jersey-name: biri r.b.
 jersey-number: 8
 position: defender
+position-order: 2-defender
 team: development-team
 profile-picture:
 details:
