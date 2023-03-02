@@ -3,6 +3,7 @@ title: m. ifan
 jersey-name: m. ifan
 jersey-number: 66
 position: defender
+position-order: 2-defender
 team: reserve-team
 profile-picture:
 details:
