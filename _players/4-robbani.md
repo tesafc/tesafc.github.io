@@ -1,9 +1,9 @@
 ---
-permalink: /players/robbani
 title: robbani
 jersey-name: robbani
 jersey-number: 17
-position: attacker
+position: forward
+position-order: 4-forward
 team: reserve-team
 profile-picture:
 details:
