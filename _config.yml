@@ -9,6 +9,8 @@ collections:
   matches-2023:
     output: true
     permalink: /matches/:title
+  fixtures:
+    output: true
   players:
     output: true
     permalink: /:title
