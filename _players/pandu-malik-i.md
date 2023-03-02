@@ -2,7 +2,8 @@
 title: pandu malik I.
 jersey-name: pandu malik I.
 jersey-number: 25
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
