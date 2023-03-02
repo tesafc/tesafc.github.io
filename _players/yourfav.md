@@ -2,7 +2,8 @@
 title: yourfav
 jersey-name: yourfav
 jersey-number: 23
-position: attacker
+position: forward
+position-order: 4-forward
 team: development-team
 profile-picture:
 details:
