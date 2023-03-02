@@ -1,9 +1,9 @@
 ---
-permalink: /players/bilasalsaan
 title: bilasalsaan
 jersey-name: bilasalsaan
 jersey-number: 2
 position: goalkeeper
+position-order: 1-goalkeeper
 team: reserve-team
 profile-picture:
 details:
