@@ -3,7 +3,7 @@ title: hagialfahri
 jersey-name: hagialfahri
 jersey-number: 10
 position: midfielder
-position-order: 2
+position-order: 2-midfielder
 team: first-team
 profile-picture:
 details:
