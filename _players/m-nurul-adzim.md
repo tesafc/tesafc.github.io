@@ -1,9 +1,9 @@
 ---
-permalink: /players/m-nurul-adzim
 title: m. nurul adzim
 jersey-name: m. nurul adzim
 jersey-number: 99
 position: goalkeeper
+position-order: 1-goalkeeper
 team: development-team
 profile-picture:
 details:
