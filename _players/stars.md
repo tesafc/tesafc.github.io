@@ -3,7 +3,7 @@ title: stars
 jersey-name: stars
 jersey-number: 50
 position: forward
-position-order: 03-forward
+position-order: 0-forward
 team: first-team
 profile-picture:
 details:
