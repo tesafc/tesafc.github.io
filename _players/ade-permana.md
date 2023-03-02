@@ -1,9 +1,9 @@
 ---
-permalink: /players/ade-permana
 title: ade permana
 jersey-name: ade permana
 jersey-number: 11
 position: defender
+position-order: 2-defender
 team: reserve-team
 profile-picture:
 details:
