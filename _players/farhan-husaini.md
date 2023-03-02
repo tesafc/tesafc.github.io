@@ -3,7 +3,7 @@ title: farhan husaini
 jersey-name: farhan husaini
 jersey-number: 4
 position: defender
-position-order: 1-defender
+position-order: 2-defender
 team: first-team
 profile-picture:
 details:
