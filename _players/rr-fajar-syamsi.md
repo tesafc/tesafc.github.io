@@ -3,6 +3,7 @@ title: r.r. fajar syamsi
 jersey-name: r.r. fajar syamsi
 jersey-number: 28
 position: goalkeeper
+position-order: 1-goalkeeper
 team: reserve-team
 profile-picture:
 details:
