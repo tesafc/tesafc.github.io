@@ -19,7 +19,7 @@ layout: default
     {% assign positions = teams | group_by: "position-order" %}
     <div class="row row-cols-2 row-cols-md-4 g-3"> 
       {% for position in positions %}
-      <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name | sort: "title" }}</h4>
+      <h4 class="d-block w-100 text-uppercase pt-5 mb-0 text-body-emphasis">{{ position.name | so }}</h4>
       {% for player in position.items %}
       <div class="col">
         <div class="card h-100 bg-body-secondary border-0">
