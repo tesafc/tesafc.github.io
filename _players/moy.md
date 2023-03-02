@@ -3,6 +3,7 @@ title: moy
 jersey-name: moy
 jersey-number: 100
 position: defender
+position-order: 2-defender
 team: reserve-team
 profile-picture:
 details:
