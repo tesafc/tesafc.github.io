@@ -3,7 +3,7 @@ title: g. pratama
 jersey-name: g. pratama
 jersey-number: 41
 position: defender
-position-order: 2-defender
+position-order: 1-defender
 team: first-team
 profile-picture:
 details:
