@@ -2,7 +2,8 @@
 title: habiel
 jersey-name: habiel
 jersey-number: 11
-position: attacker
+position: forward
+position-order: 4-forward
 team: reserve-team
 profile-picture:
 details:
