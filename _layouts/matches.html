@@ -12,12 +12,10 @@ layout: default
       {% assign grouped-match = matches-season | group_by: "date | date: '%B'" %}
       <ul>
       {% for sorted-match in grouped-match reversed %}
-        <li>{{ sorted-match.name | date: "%B" }}</li>
+        <li>{{ sorted-match.name }}</li>
         {% for match in sorted-match.items %}
-        <ul>
           <li>{{ match.title }}</li>
         {% endfor %}
-        </ul>
       {% endfor %}
       </ul>
     </div>
