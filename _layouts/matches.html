@@ -9,7 +9,7 @@ layout: default
     </div>
     <div>
       {% assign matches-season = site.fixtures | where: "season", page.season %}
-      {% assign grouped-match = matches-season | group_by: "date" | date: "B%" %}
+      {% assign grouped-match = matches-season | group_by: "date" | date: "%B" %}
       {% for sorted-match in grouped-match reversed %}
         {{ sorted-match.name }}
         {% for match in sorted-match.items %}
