@@ -11,11 +11,15 @@ layout: default
       {% assign matches-season = site.fixtures | where: "season", page.season %}
       {% assign grouped-match = matches-season | group_by: "date" %}
       {% for sorted-match in grouped-match reversed %}
-        {{ sorted-match.name | date: "%B" }}
+      <ul>
+        <li>{{ sorted-match.name | date: "%B" }}</li>
         {% for match in sorted-match.items %}
-          {{ match.title }}
+        <ul>
+          <li>{{ match.title }}</li>
         {% endfor %}
+        </ul>
       {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
