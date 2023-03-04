@@ -9,11 +9,11 @@ layout: default
     </div>
     <div>
       {% assign matches-season = site.fixtures | where: "season", page.season %}
-      {% assign grouped-match = matches-season | group_by_exp: "item", "item.date | date: '%B'" %}
+      {% assign grouped-match = matches-season | group_by_exp: "item", "item.date | date: '%B %Y'" %}
       <ul>
       {% for sorted-match in grouped-match reversed %}
         {% unless sorted-match.name == null %}
-        <li>{{ sorted-match.name | date: "%B %Y" }}</li>
+        <li>{{ sorted-match.name }}</li>
         {% endunless %}
         <ul>
         {% for match in sorted-match.items reversed %}
