@@ -13,9 +13,11 @@ layout: default
       <ul>
       {% for sorted-match in grouped-match reversed %}
         <li>{{ sorted-match.name }}</li>
+        <ul>
         {% for match in sorted-match.items %}
           <li>{{ match.title }}</li>
         {% endfor %}
+        </ul>
       {% endfor %}
       </ul>
     </div>
