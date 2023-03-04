@@ -15,7 +15,9 @@ layout: default
         <li>{{ sorted-match.name }}</li>
         <ul>
         {% for match in sorted-match.items reversed %}
+          {% unless match.output == false %}
           <li>{{ match.title }}</li>
+          {% endunless %}
         {% endfor %}
         </ul>
       {% endfor %}
