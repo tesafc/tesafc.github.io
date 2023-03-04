@@ -12,7 +12,7 @@ layout: default
       {% assign grouped-match = matches-season | group_by_exp: "item", "item.date | date: '%B'" %}
       <ul>
       {% for sorted-match in grouped-match reversed %}
-        {% unless sorted-match.name == null or '' %}
+        {% unless sorted-match.name == null %}
         <li>{{ sorted-match.name }}</li>
         {% endunless %}
         <ul>
