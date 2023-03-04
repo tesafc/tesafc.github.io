@@ -13,7 +13,7 @@ layout: default
       <ul>
       {% for sorted-match in grouped-match reversed %}
         {% unless sorted-match.name == null %}
-        <li>{{ sorted-match.name }}</li>
+        <li>{{ sorted-match.name | date: "%B %Y" }}</li>
         {% endunless %}
         <ul>
         {% for match in sorted-match.items reversed %}
