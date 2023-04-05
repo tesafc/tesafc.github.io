@@ -61,12 +61,14 @@
         <a class="navbar-brand" href="{{ site.url | relative_url }}">
           <img src="{{ site.author.img | relative_url }}" width="35" height="35" alt="logo TESA FC">
         </a>
+        <!-- disabled
         <nav class="nav nav-masthead">
           {% assign currentPage = page.url %}
           <a class="nav-link fw-bolder px-0 py-3 {% if currentPage == '/news/' %}active{% endif %}" href="{{ 'news' | relative_url }}">News</a>
           <a class="nav-link fw-bolder px-0 py-3 {% if currentPage == '/teams/' %}active{% endif %}" href="{{ 'teams' | relative_url }}">Teams</a>
           <a class="nav-link fw-bolder px-0 py-3 {% if currentPage == '/matches/' %}active{% endif %}" href="{{ 'matches' | relative_url }}">Matches</a>
         </nav>
+        disabled -->
       </header>
     </div>
     <main style="min-height: 60vh;">
@@ -74,6 +76,7 @@
     </main>
     <div class="container-fluid pb-5" style="min-height: 25vh;">
       <footer>
+        <!-- disabled
         <div class="container pt-5">
           <h6 class="w-100 mb-3 text-center text-body-secondary pt-5">SPONSORS</h6>
           <div class="row row-cols-4 row-cols-md-5 g-2 d-flex justify-content-center pb-3">
@@ -90,6 +93,7 @@
            {% endfor %}
           </div>
         </div>
+        disabled -->
         <div class="pt-5">
           <div class="d-flex justify-content-start align-items-center">
             <img src="{{ site.author.img | relative_url }}" alt="logo TESA FC" class="border-0" width="40" height="40">
